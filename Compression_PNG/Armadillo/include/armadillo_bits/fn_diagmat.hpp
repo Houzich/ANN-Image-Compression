@@ -89,3 +89,4 @@ diagmat(const SpBase<typename T1::elem_type,T1>& X, const sword k)
 
 
 //! @}
+

@@ -163,3 +163,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_custom_op_sycl) {
     CALL_SUBTEST(custom_op_perDevice<float>(device));
   }
 }
+

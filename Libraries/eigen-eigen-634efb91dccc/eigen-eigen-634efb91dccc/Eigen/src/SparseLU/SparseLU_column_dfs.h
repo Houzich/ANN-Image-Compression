@@ -177,3 +177,4 @@ Index SparseLUImpl<Scalar,StorageIndex>::column_dfs(const Index m, const Index j
 } // end namespace Eigen
 
 #endif
+

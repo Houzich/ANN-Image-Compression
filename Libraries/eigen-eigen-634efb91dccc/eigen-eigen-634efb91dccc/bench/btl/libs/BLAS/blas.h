@@ -673,3 +673,4 @@ int BLASFUNC(zpotri)(char *, int *, double *, int *, int *);
 int BLASFUNC(xpotri)(char *, int *, double *, int *, int *);
 
 #endif
+

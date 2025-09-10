@@ -368,3 +368,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_assign)
   CALL_SUBTEST(test_compound_assign());
   CALL_SUBTEST(test_std_initializers_tensor());
 }
+

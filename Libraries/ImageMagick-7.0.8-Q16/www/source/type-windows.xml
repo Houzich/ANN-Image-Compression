@@ -103,3 +103,4 @@
   <type name="Wingdings-2" fullname="Wingdings 2" family="Wingdings 2" weight="400" style="normal" stretch="normal" glyphs="/usr/share/fonts/msttcore/wingdng2.ttf" encoding="AppleRoman"/>
   <type name="Wingdings-3" fullname="Wingdings 3" family="Wingdings 3" weight="400" style="normal" stretch="normal" glyphs="/usr/share/fonts/msttcore/wingdng3.ttf" encoding="AppleRoman"/>
 </typemap>
+

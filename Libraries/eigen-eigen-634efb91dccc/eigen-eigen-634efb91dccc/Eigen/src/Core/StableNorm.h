@@ -262,3 +262,4 @@ MatrixBase<Derived>::hypotNorm() const
 } // end namespace Eigen
 
 #endif // EIGEN_STABLENORM_H
+

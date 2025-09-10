@@ -279,3 +279,4 @@ EIGEN_DECLARE_TEST(splines)
     CALL_SUBTEST( check_global_interpolation_with_derivatives2d() );
   }
 }
+

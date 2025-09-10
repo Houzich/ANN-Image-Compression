@@ -13,3 +13,4 @@ int main()
   v << 1, 2, 3;
   cout << "m * v =" << endl << m * v << endl;
 }
+

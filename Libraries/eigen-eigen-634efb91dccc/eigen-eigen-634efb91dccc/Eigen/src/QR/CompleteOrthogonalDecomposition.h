@@ -557,3 +557,4 @@ MatrixBase<Derived>::completeOrthogonalDecomposition() const {
 }  // end namespace Eigen
 
 #endif  // EIGEN_COMPLETEORTHOGONALDECOMPOSITION_H
+

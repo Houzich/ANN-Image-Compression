@@ -93,3 +93,4 @@ void printBenchStyle(std::ofstream& out)
 }
 
 #endif
+

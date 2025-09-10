@@ -96,3 +96,4 @@ SparseMatrixBase<Derived>::blueNorm() const
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_DOT_H
+

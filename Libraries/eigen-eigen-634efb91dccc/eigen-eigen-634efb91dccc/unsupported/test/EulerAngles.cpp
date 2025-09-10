@@ -293,3 +293,4 @@ EIGEN_DECLARE_TEST(EulerAngles)
   // TODO: Add tests for auto diff
   // TODO: Add tests for complex numbers
 }
+

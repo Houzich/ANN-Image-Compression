@@ -301,3 +301,4 @@ struct stem_function
 } // end namespace Eigen
 
 #endif // EIGEN_FORWARDDECLARATIONS_H
+

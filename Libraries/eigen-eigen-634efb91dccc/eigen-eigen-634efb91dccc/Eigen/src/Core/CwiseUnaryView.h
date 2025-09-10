@@ -126,3 +126,4 @@ class CwiseUnaryViewImpl<ViewOp,MatrixType,Dense>
 } // end namespace Eigen
 
 #endif // EIGEN_CWISE_UNARY_VIEW_H
+

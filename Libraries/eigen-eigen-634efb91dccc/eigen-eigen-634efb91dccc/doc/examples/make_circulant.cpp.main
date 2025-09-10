@@ -6,3 +6,4 @@ int main()
   mat = makeCirculant(vec);
   std::cout << mat << std::endl;
 }
+

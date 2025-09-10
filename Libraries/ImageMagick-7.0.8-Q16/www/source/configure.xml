@@ -48,3 +48,4 @@
   <configure name="VERSION" value="7.0.7"/>
   <configure name="WEBSITE" value="http://www.imagemagick.org"/>
 </configuremap>
+

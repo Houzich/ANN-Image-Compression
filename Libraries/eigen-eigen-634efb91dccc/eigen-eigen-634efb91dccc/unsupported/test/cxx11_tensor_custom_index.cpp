@@ -98,3 +98,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_custom_index) {
   test_sizes_as_index<ColMajor>();
   test_sizes_as_index<RowMajor>();
 }
+

@@ -134,3 +134,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_inflation_sycl)
     CALL_SUBTEST(sycl_inflation_test_per_device<float>(device));
   }
 }
+

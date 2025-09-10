@@ -18,3 +18,4 @@ int main()
   // like the scalar functions.
   std::cout << "cosh^2(A) - sinh^2(A) = \n" << coshA*coshA - sinhA*sinhA << "\n\n";
 }
+

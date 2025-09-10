@@ -16,3 +16,4 @@ int main()
   std::cout << "As a matrix, v is of size "
             << v.rows() << "x" << v.cols() << std::endl;
 }
+

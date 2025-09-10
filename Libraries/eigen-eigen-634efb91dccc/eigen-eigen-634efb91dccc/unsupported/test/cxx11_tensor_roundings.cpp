@@ -60,3 +60,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_roundings)
    CALL_SUBTEST(test_float_ceiling());
    CALL_SUBTEST(test_float_flooring());
 }
+

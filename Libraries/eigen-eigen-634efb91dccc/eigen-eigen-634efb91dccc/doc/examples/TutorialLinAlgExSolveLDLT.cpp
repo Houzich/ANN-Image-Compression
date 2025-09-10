@@ -14,3 +14,4 @@ int main()
    Matrix2f x = A.ldlt().solve(b);
    cout << "The solution is:\n" << x << endl;
 }
+

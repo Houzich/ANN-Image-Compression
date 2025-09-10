@@ -109,3 +109,4 @@ EIGEN_DECLARE_TEST(product_symm)
     CALL_SUBTEST_8(( symm<std::complex<double>,Dynamic,1>(internal::random<int>(1,EIGEN_TEST_MAX_SIZE)) ));
   }
 }
+

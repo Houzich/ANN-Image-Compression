@@ -356,3 +356,4 @@ bool KLU<MatrixType>::_solve_impl(const MatrixBase<BDerived> &b, MatrixBase<XDer
 } // end namespace Eigen
 
 #endif // EIGEN_KLUSUPPORT_H
+

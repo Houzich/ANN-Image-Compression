@@ -320,3 +320,4 @@ Packet2d pexp<Packet2d>(const Packet2d& _x)
 }  // end namespace Eigen
 
 #endif  // EIGEN_MATH_FUNCTIONS_ALTIVEC_H
+

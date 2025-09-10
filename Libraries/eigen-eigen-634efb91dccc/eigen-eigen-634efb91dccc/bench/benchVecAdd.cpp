@@ -133,3 +133,4 @@ void benchVec(Scalar* a, Scalar* b, Scalar* c, int size)
             internal::pstore(&a[i+7*PacketSize], internal::padd(internal::ploadu(&a[i+7*PacketSize]), internal::ploadu(&b[i+7*PacketSize])));
         }
 }
+

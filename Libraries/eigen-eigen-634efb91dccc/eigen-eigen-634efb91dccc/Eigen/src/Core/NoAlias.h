@@ -107,3 +107,4 @@ NoAlias<Derived,MatrixBase> EIGEN_DEVICE_FUNC MatrixBase<Derived>::noalias()
 } // end namespace Eigen
 
 #endif // EIGEN_NOALIAS_H
+

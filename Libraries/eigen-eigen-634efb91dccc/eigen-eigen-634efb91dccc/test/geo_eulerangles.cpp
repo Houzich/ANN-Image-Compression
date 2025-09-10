@@ -110,3 +110,4 @@ EIGEN_DECLARE_TEST(geo_eulerangles)
     CALL_SUBTEST_2( eulerangles<double>() );
   }
 }
+

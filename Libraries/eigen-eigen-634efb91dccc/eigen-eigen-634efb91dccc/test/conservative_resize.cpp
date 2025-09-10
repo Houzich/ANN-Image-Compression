@@ -160,3 +160,4 @@ EIGEN_DECLARE_TEST(conservative_resize)
     CALL_SUBTEST_6(( noncopyable<0>() ));
   }
 }
+

@@ -152,3 +152,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_ifft) {
   CALL_SUBTEST(test_sub_fft_ifft_invariant<ColMajor>(16,4,8,12));
   CALL_SUBTEST(test_sub_fft_ifft_invariant<ColMajor>(64,64,64,64));
 }
+

@@ -171,3 +171,4 @@ EIGEN_DECLARE_TEST(mapstaticmethods)
   internal::aligned_delete(ptr, 1000);
 }
 
+

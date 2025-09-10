@@ -271,3 +271,4 @@ DenseBase<Derived>::maxCoeff(IndexType* index) const
 } // end namespace Eigen
 
 #endif // EIGEN_VISITOR_H
+

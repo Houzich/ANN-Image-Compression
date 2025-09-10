@@ -50,3 +50,4 @@ class eGlueCube : public BaseCube<typename T1::elem_type, eGlueCube<T1, T2, eglu
 
 
 //! @}
+

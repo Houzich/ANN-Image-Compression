@@ -563,3 +563,4 @@ template<typename Solver> void check_sparse_leastsquare_solving(Solver& solver)
     }
   }
 }
+

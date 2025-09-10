@@ -237,3 +237,4 @@ EIGEN_DECLARE_TEST(stable_norm)
     CALL_SUBTEST_6( stable_norm(VectorXcf(internal::random<int>(10,2000))) );
   }
 }
+

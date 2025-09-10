@@ -115,3 +115,4 @@ Scalar stem_function_sinh(Scalar x, int n)
 } // end namespace Eigen
 
 #endif // EIGEN_STEM_FUNCTION
+

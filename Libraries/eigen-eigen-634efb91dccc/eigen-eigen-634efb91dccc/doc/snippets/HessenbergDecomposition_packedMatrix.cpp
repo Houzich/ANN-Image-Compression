@@ -7,3 +7,4 @@ cout << "The upper Hessenberg part corresponds to the matrix H, which is:"
      << endl << hessOfA.matrixH() << endl;
 Vector3d hc = hessOfA.householderCoefficients();
 cout << "The vector of Householder coefficients is:" << endl << hc << endl;
+

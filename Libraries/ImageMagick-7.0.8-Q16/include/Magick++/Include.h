@@ -1554,3 +1554,4 @@ namespace Magick
   (void) MagickCore::DestroyExceptionInfo(exceptionInfo)
 
 #endif // Magick_Include_header
+

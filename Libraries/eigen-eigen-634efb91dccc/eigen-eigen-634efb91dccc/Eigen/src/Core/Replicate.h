@@ -140,3 +140,4 @@ VectorwiseOp<ExpressionType,Direction>::replicate(Index factor) const
 } // end namespace Eigen
 
 #endif // EIGEN_REPLICATE_H
+

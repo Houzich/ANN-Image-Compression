@@ -311,3 +311,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_broadcasting)
   CALL_SUBTEST(test_simple_broadcasting_one_by_n_by_one_1d<RowMajor>());
   CALL_SUBTEST(test_simple_broadcasting_one_by_n_by_one_2d<RowMajor>());
 }
+

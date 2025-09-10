@@ -67,3 +67,4 @@ EIGEN_DECLARE_TEST(ctorleak)
     VERIFY_IS_EQUAL(Index(0), Foo::object_count);
   }
 }
+

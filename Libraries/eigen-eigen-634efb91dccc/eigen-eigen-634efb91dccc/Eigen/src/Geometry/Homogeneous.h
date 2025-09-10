@@ -495,3 +495,4 @@ struct permutation_matrix_product<ExpressionType, Side, Transposed, HomogeneousS
 } // end namespace Eigen
 
 #endif // EIGEN_HOMOGENEOUS_H
+

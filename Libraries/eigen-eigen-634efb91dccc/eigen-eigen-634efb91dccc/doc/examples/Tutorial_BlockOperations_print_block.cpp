@@ -18,3 +18,4 @@ int main()
     cout << m.block(0,0,i,i) << endl << endl;
   }
 }
+

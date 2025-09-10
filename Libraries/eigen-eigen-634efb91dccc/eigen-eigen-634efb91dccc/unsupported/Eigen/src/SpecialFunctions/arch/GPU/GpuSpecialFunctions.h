@@ -224,3 +224,4 @@ pi1e<double2>(const double2& x) {
 } // end namespace Eigen
 
 #endif // EIGEN_GPU_SPECIALFUNCTIONS_H
+

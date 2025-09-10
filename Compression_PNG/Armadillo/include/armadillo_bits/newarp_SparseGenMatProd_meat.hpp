@@ -47,3 +47,4 @@ SparseGenMatProd<eT>::perform_op(eT* x_in, eT* y_out) const
 
 
 }  // namespace newarp
+

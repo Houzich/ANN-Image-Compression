@@ -4,3 +4,4 @@ cout << "Here is m.bottomLeftCorner(2, 2):" << endl;
 cout << m.bottomLeftCorner(2, 2) << endl;
 m.bottomLeftCorner(2, 2).setZero();
 cout << "Now the matrix m is:" << endl << m << endl;
+

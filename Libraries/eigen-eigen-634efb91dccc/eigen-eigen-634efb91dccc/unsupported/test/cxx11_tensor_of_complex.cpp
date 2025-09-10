@@ -101,3 +101,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_of_complex)
   CALL_SUBTEST(test_conjugate());
   CALL_SUBTEST(test_contractions());
 }
+

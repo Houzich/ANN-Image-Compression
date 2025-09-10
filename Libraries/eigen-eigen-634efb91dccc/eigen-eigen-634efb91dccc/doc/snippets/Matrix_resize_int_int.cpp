@@ -7,3 +7,4 @@ cout << "here's the 3x2 matrix m:" << endl << m << endl;
 cout << "now let's resize m to size 2x2. This is NOT a conservative resizing, so it becomes uninitialized:" << endl;
 m.resize(2,2);
 cout << m << endl;
+

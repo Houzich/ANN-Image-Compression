@@ -1063,3 +1063,4 @@ template<> EIGEN_STRONG_INLINE Packet2d pblend(const Selector<2>& ifPacket, cons
 } // end namespace Eigen
 
 #endif // EIGEN_PACKET_MATH_ALTIVEC_H
+

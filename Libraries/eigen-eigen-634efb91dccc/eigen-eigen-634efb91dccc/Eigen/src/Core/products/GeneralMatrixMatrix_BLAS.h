@@ -120,3 +120,4 @@ GEMM_SPECIALIZATION(scomplex, cf, float,  cgemm_)
 } // end namespace Eigen
 
 #endif // EIGEN_GENERAL_MATRIX_MATRIX_BLAS_H
+

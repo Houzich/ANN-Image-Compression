@@ -149,3 +149,4 @@ inline bool test_isMuchSmallerThan(const AnnoyingScalar &a, const AnnoyingScalar
 { return test_isMuchSmallerThan(*a.v, *b.v); }
 
 #endif // EIGEN_TEST_ANNOYING_SCALAR_H
+

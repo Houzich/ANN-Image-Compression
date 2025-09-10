@@ -195,3 +195,4 @@ spglue_minus2::apply(SpMat<typename T1::elem_type>& out, const SpGlue<T1,T2,spgl
 
 
 //! @}
+

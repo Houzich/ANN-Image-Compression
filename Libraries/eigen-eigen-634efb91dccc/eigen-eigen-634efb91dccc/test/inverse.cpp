@@ -129,3 +129,4 @@ EIGEN_DECLARE_TEST(inverse)
     CALL_SUBTEST_8( inverse(Matrix4cd()) );
   }
 }
+

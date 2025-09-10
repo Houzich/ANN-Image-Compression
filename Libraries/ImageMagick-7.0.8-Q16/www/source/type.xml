@@ -15,3 +15,4 @@
 <typemap>
    <include file="type-dejavu.xml" /> <include file="type-ghostscript.xml" /> <include file="type-windows.xml" />
 </typemap>
+

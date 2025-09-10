@@ -65,3 +65,4 @@ struct evaluator<MappedSparseMatrix<_Scalar,_Options,_StorageIndex> >
 } // end namespace Eigen
 
 #endif // EIGEN_MAPPED_SPARSEMATRIX_H
+

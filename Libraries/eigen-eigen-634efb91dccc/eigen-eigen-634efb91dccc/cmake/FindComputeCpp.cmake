@@ -264,3 +264,4 @@ function(add_sycl_to_target targetName binaryDir sourceFiles)
                         PUBLIC ${OpenCL_LIBRARIES})
 
 endfunction(add_sycl_to_target)
+

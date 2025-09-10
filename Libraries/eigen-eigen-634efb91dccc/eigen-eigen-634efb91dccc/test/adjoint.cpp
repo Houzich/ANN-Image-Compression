@@ -199,3 +199,4 @@ EIGEN_DECLARE_TEST(adjoint)
   CALL_SUBTEST_13( adjoint_extra<0>() );
 }
 
+

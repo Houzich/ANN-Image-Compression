@@ -13,3 +13,4 @@ int main()
   cout << "Dot product via a matrix product: " << dp << endl;
   cout << "Cross product:\n" << v.cross(w) << endl;
 }
+

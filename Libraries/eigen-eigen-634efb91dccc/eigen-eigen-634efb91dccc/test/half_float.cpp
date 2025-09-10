@@ -285,3 +285,4 @@ EIGEN_DECLARE_TEST(half_float)
     CALL_SUBTEST(test_product());
   }
 }
+

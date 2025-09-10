@@ -126,3 +126,4 @@ op_find_unique::apply(Mat<uword>& out, const mtOp<uword,T1,op_find_unique>& in)
 
 
 //! @}
+

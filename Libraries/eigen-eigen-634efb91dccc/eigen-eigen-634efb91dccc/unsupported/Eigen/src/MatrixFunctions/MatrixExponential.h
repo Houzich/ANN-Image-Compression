@@ -439,3 +439,4 @@ const MatrixExponentialReturnValue<Derived> MatrixBase<Derived>::exp() const
 } // end namespace Eigen
 
 #endif // EIGEN_MATRIX_EXPONENTIAL
+

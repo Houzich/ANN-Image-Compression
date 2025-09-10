@@ -31,3 +31,4 @@ class op_resize
 
 
 //! @}
+

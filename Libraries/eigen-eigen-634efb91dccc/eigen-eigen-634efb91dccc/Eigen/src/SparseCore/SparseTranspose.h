@@ -90,3 +90,4 @@ struct unary_evaluator<Transpose<ArgType>, IteratorBased>
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSETRANSPOSE_H
+

@@ -12,3 +12,4 @@ int main()
    double relative_error = (A*x - b).norm() / b.norm(); // norm() is L2 norm
    cout << "The relative error is:\n" << relative_error << endl;
 }
+

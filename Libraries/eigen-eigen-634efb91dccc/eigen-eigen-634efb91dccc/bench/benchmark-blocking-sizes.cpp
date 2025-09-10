@@ -675,3 +675,4 @@ int main(int argc, char* argv[])
   double time_end = timer.getRealTime();
   cerr << "Finished in " << human_duration_t(time_end - time_start) << endl;
 }
+

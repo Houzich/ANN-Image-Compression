@@ -68,3 +68,4 @@ echo zoom -filter sinc -geometry 600x600 model.miff zoom_sinc_out.miff
 %bindir%zoom.exe -filter sinc -geometry 600x600 %srcdir%\model.miff %outdir%zoom_sinc_out.miff
 
 
+

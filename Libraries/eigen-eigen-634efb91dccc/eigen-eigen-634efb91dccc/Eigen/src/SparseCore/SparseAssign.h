@@ -214,3 +214,4 @@ struct Assignment<DstXprType, SrcXprType, Functor, Diagonal2Sparse>
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSEASSIGN_H
+

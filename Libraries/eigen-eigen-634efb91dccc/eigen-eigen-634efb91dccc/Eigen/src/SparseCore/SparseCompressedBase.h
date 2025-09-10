@@ -355,3 +355,4 @@ protected:
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_COMPRESSED_BASE_H
+

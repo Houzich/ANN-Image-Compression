@@ -72,3 +72,4 @@ static inline void *AcquireCriticalMemory(const size_t size)
 #endif
 
 #endif
+

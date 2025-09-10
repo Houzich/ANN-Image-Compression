@@ -266,3 +266,4 @@ struct functor_traits<NormalRandomGenerator<Scalar> > {
 } // end namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_RANDOM_H
+

@@ -16,3 +16,4 @@ for (int i = 0; i < Arowmajor.size(); i++)
   cout << *(Arowmajor.data() + i) << "  ";
 cout << endl;
 
+

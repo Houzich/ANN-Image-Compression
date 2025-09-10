@@ -144,3 +144,4 @@ glue_intersect::apply(Mat<typename T1::elem_type>& out, uvec& iA, uvec& iB, cons
 
 
 //! @}
+

@@ -12,3 +12,4 @@ int main() {
   RowVectorXi v = RowVectorXi::NullaryExpr(10, poisson );
   std::cout << v << "\n";
 }
+

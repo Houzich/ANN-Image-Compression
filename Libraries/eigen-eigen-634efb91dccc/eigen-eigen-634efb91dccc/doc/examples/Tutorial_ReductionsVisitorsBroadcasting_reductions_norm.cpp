@@ -26,3 +26,4 @@ int main()
   cout << "m.lpNorm<1>() = " << m.lpNorm<1>() << endl;
   cout << "m.lpNorm<Infinity>() = " << m.lpNorm<Infinity>() << endl;
 }
+

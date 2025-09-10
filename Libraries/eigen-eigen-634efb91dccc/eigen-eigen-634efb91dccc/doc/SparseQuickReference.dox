@@ -270,3 +270,4 @@ Map<const SparseMatrix<double> > sm2(...);                  // read-only
 </table>
 */
 }
+

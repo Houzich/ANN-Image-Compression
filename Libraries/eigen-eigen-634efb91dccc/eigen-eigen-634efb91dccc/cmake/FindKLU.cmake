@@ -46,3 +46,4 @@ find_package_handle_standard_args(KLU DEFAULT_MSG
                                   KLU_INCLUDES KLU_LIBRARIES)
 
 mark_as_advanced(KLU_INCLUDES KLU_LIBRARIES AMD_LIBRARY COLAMD_LIBRARY BTF_LIBRARY)
+

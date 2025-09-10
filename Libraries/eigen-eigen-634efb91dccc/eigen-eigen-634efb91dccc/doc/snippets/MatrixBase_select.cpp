@@ -4,3 +4,4 @@ m << 1, 2, 3,
      7, 8, 9;
 m = (m.array() >= 5).select(-m, m);
 cout << m << endl;
+

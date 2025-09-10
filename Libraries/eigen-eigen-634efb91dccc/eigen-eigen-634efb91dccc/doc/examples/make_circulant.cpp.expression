@@ -18,3 +18,4 @@ public:
   typedef typename Eigen::internal::ref_selector<ArgType>::type ArgTypeNested;
   ArgTypeNested m_arg;
 };
+

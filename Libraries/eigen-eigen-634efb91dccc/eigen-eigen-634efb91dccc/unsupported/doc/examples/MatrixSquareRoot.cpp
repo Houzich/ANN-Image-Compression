@@ -14,3 +14,4 @@ int main()
   std::cout << "The matrix square root of A is:\n" << A.sqrt() << "\n\n";
   std::cout << "The square of the last matrix is:\n" << A.sqrt() * A.sqrt() << "\n";
 }
+

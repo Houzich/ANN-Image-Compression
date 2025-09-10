@@ -46,3 +46,4 @@ namespace Magick
 } // Magick namespace
 
 #endif // Magick_SecurityPolicy_header
+

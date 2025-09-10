@@ -342,3 +342,4 @@ struct functor_traits<scalar_i1e_op<Scalar> > {
 } // end namespace Eigen
 
 #endif // EIGEN_SPECIALFUNCTIONS_FUNCTORS_H
+

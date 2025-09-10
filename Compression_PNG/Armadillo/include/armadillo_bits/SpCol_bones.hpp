@@ -73,3 +73,4 @@ class SpCol : public SpMat<eT>
     #include ARMA_INCFILE_WRAP(ARMA_EXTRA_SPCOL_PROTO)
   #endif
   };
+

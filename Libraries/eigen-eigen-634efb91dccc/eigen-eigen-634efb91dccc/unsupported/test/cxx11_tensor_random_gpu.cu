@@ -84,3 +84,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_random_gpu)
   CALL_SUBTEST(test_gpu_random_normal());
   CALL_SUBTEST(test_complex());
 }
+

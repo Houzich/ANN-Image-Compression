@@ -78,3 +78,4 @@ mark_as_advanced(EIGEN2_INCLUDE_DIR)
 
 endif(EIGEN2_INCLUDE_DIR)
 
+

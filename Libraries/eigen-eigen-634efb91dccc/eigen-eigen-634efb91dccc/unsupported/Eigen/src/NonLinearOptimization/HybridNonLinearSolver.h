@@ -599,3 +599,4 @@ HybridNonLinearSolver<FunctorType,Scalar>::solveNumericalDiff(FVectorType  &x)
 #endif // EIGEN_HYBRIDNONLINEARSOLVER_H
 
 //vim: ai ts=4 sts=4 et sw=4
+

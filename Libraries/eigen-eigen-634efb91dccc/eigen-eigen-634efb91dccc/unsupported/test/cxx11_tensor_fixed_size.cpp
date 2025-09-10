@@ -259,3 +259,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_fixed_size)
   CALL_SUBTEST(test_3d());
   CALL_SUBTEST(test_array());
 }
+

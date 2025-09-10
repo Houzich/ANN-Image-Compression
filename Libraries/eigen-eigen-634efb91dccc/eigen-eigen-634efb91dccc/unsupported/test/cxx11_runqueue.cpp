@@ -233,3 +233,4 @@ EIGEN_DECLARE_TEST(cxx11_runqueue)
   CALL_SUBTEST_2(test_empty_runqueue());
   CALL_SUBTEST_3(test_stress_runqueue());
 }
+

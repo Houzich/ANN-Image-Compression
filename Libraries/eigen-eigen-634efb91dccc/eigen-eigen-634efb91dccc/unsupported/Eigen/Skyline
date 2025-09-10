@@ -37,3 +37,4 @@
 #include "Eigen/src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_SKYLINE_MODULE_H
+

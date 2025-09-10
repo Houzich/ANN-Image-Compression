@@ -176,3 +176,4 @@ EIGEN_DECLARE_TEST(redux)
     CALL_SUBTEST_8( vectorRedux(ArrayXf(internal::random<int>(1,maxsize))) );
   }
 }
+

@@ -88,3 +88,4 @@ op_stddev::apply(Mat<typename T1::pod_type>& out, const mtOp<typename T1::pod_ty
 
 //! @}
 
+

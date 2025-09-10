@@ -182,3 +182,4 @@ op_expmat_sym::apply_direct(Mat<typename T1::elem_type>& out, const Base<typenam
 
 
 //! @}
+

@@ -77,3 +77,4 @@ struct packed_triangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsS
 } // end namespace internal
 
 #endif // EIGEN_PACKED_TRIANGULAR_MATRIX_VECTOR_H
+

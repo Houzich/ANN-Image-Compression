@@ -21,3 +21,4 @@ EIGEN_DECLARE_TEST(superlu_support)
   CALL_SUBTEST_1( check_sparse_square_determinant(superlu_double_colmajor)      );
   CALL_SUBTEST_2( check_sparse_square_determinant(superlu_cplxdouble_colmajor)  );
 }
+

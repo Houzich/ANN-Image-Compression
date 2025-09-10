@@ -75,3 +75,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_device_sycl) {
     CALL_SUBTEST(sycl_device_test_per_device<float>(device));
   }
 }
+

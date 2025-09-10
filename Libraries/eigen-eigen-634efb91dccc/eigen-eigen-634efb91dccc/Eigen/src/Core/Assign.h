@@ -88,3 +88,4 @@ EIGEN_STRONG_INLINE Derived& MatrixBase<Derived>::operator=(const ReturnByValue<
 } // end namespace Eigen
 
 #endif // EIGEN_ASSIGN_H
+

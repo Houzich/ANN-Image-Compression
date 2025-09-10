@@ -131,3 +131,4 @@ EIGEN_DECLARE_TEST(visitor)
     CALL_SUBTEST_10( vectorVisitor(VectorXf(33)) );
   }
 }
+

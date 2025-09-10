@@ -220,3 +220,4 @@ for (const auto& device :Eigen::get_sycl_supported_devices()) {
   CALL_SUBTEST(sycl_tensor_volume_patch_test_per_device<float>(device));
 }
 }
+

@@ -618,3 +618,4 @@ template<typename Derived> class DenseBase
 } // end namespace Eigen
 
 #endif // EIGEN_DENSEBASE_H
+

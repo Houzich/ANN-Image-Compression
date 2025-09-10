@@ -15,3 +15,4 @@ int main()
   m.topLeftCorner(1,3) = m.bottomRightCorner(3,1).transpose();
   cout << "After assignment, m = " << endl << m << endl;
 }
+

@@ -333,3 +333,4 @@ EIGEN_DONT_INLINE void triangular_solve_matrix<Scalar,Index,OnTheRight,Mode,Conj
 } // end namespace Eigen
 
 #endif // EIGEN_TRIANGULAR_SOLVER_MATRIX_H
+

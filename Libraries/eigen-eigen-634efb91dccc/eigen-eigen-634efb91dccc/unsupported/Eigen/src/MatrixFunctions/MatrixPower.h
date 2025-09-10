@@ -707,3 +707,4 @@ const MatrixComplexPowerReturnValue<Derived> MatrixBase<Derived>::pow(const std:
 } // namespace Eigen
 
 #endif // EIGEN_MATRIX_POWER
+

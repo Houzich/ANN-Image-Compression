@@ -157,3 +157,4 @@ Derived& DenseBase<Derived>::operator-=(const EigenBase<OtherDerived> &other)
 } // end namespace Eigen
 
 #endif // EIGEN_EIGENBASE_H
+

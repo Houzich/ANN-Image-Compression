@@ -18,3 +18,4 @@ int main(int, char**)
   cout << m1 << endl << "becomes: " << endl << m1.unaryExpr(ptr_fun(ramp)) << endl;
   return 0;
 }
+

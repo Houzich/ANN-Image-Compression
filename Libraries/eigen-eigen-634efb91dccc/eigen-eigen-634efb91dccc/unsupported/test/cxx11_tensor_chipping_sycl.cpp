@@ -620,3 +620,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_chipping_sycl)
     CALL_SUBTEST(sycl_chipping_test_per_device<float>(device));
   }
 }
+

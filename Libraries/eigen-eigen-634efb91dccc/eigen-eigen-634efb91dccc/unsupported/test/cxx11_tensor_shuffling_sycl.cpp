@@ -117,3 +117,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_shuffling_sycl)
     CALL_SUBTEST(sycl_shuffling_test_per_device<float>(device));
   }
 }
+

@@ -97,3 +97,4 @@ EIGEN_LAPACKE_LLT(scomplex, lapack_complex_float, c)
 } // end namespace Eigen
 
 #endif // EIGEN_LLT_LAPACKE_H
+

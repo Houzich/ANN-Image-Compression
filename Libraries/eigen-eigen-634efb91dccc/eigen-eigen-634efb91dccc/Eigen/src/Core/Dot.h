@@ -316,3 +316,4 @@ bool MatrixBase<Derived>::isUnitary(const RealScalar& prec) const
 } // end namespace Eigen
 
 #endif // EIGEN_DOT_H
+

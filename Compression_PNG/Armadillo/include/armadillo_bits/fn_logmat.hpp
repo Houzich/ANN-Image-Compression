@@ -123,3 +123,4 @@ logmat_sympd(Mat<typename T1::elem_type>& Y, const Base<typename T1::elem_type,T
 
 
 //! @}
+

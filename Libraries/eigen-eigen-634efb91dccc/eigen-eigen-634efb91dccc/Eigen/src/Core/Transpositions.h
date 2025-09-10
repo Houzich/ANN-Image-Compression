@@ -405,3 +405,4 @@ class Transpose<TranspositionsBase<TranspositionsDerived> >
 } // end namespace Eigen
 
 #endif // EIGEN_TRANSPOSITIONS_H
+

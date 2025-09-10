@@ -427,3 +427,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_thread_pool)
   CALL_SUBTEST_6(test_multithread_shuffle<ColMajor>());
   CALL_SUBTEST_6(test_multithread_shuffle<RowMajor>());
 }
+

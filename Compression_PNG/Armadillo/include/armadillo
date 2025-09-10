@@ -751,3 +751,4 @@ namespace arma
 #include "armadillo_bits/compiler_setup_post.hpp"
 
 #endif
+

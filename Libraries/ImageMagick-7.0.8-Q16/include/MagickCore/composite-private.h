@@ -216,3 +216,4 @@ static inline MagickBooleanType GetCompositeClipToSelf(
 #endif
 
 #endif
+

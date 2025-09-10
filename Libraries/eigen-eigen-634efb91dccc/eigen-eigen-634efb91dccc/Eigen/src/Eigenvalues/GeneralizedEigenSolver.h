@@ -416,3 +416,4 @@ GeneralizedEigenSolver<MatrixType>::compute(const MatrixType& A, const MatrixTyp
 } // end namespace Eigen
 
 #endif // EIGEN_GENERALIZEDEIGENSOLVER_H
+

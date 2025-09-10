@@ -240,3 +240,4 @@ protected:
   BtlConfig BtlConfig::Instance
 
 #endif // BTL_HH
+

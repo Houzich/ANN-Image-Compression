@@ -17,3 +17,4 @@ int main()
   cout << "a.min(a.abs().sqrt()) =" << endl 
        << a.min(a.abs().sqrt()) << endl;
 }
+

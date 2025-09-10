@@ -415,3 +415,4 @@ inline void MatrixBase<Derived>::computeInverseWithCheck(
 } // end namespace Eigen
 
 #endif // EIGEN_INVERSE_IMPL_H
+

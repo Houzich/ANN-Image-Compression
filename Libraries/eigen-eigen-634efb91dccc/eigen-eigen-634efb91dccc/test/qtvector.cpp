@@ -154,3 +154,4 @@ EIGEN_DECLARE_TEST(qtvector)
   CALL_SUBTEST(check_qtvector_quaternion(Quaternionf()));
   CALL_SUBTEST(check_qtvector_quaternion(Quaternionf()));
 }
+

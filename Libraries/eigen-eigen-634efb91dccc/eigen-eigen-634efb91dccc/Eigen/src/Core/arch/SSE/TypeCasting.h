@@ -75,3 +75,4 @@ template<> EIGEN_STRONG_INLINE Packet2d pcast<Packet4f, Packet2d>(const Packet4f
 } // end namespace Eigen
 
 #endif // EIGEN_TYPE_CASTING_SSE_H
+

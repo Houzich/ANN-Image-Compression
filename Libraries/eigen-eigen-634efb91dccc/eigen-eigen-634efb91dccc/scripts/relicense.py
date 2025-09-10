@@ -67,3 +67,4 @@ for root, sub_folders, files in os.walk(rootdir):
           print 'UPDATED', filename
         else:
           print '       ', filename
+

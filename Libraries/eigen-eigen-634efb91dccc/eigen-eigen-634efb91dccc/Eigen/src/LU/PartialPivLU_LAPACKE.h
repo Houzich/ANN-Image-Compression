@@ -81,3 +81,4 @@ EIGEN_LAPACKE_LU_PARTPIV(scomplex, lapack_complex_float,  c)
 } // end namespace Eigen
 
 #endif // EIGEN_PARTIALLU_LAPACK_H
+

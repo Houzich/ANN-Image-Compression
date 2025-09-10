@@ -873,3 +873,4 @@ static void tridiagonal_qr_step(RealScalar* diag, RealScalar* subdiag, Index sta
 } // end namespace Eigen
 
 #endif // EIGEN_SELFADJOINTEIGENSOLVER_H
+

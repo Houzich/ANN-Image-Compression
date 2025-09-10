@@ -60,3 +60,4 @@ EIGEN_DECLARE_TEST(hessenberg)
   // Test problem size constructors
   CALL_SUBTEST_6(HessenbergDecomposition<MatrixXf>(10));
 }
+

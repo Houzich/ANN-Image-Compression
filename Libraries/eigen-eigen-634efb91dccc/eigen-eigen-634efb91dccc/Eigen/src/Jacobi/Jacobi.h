@@ -481,3 +481,4 @@ void /*EIGEN_DONT_INLINE*/ apply_rotation_in_the_plane(DenseBase<VectorX>& xpr_x
 } // end namespace Eigen
 
 #endif // EIGEN_JACOBI_H
+

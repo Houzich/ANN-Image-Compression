@@ -483,3 +483,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_morphing)
   CALL_SUBTEST_7(test_composition<ColMajor>());
   CALL_SUBTEST_7(test_composition<RowMajor>());
 }
+

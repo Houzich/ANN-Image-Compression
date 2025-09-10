@@ -88,3 +88,4 @@ class IncompleteLU : public SparseSolverBase<IncompleteLU<_Scalar> >
 } // end namespace Eigen
 
 #endif // EIGEN_INCOMPLETE_LU_H
+

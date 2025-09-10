@@ -442,3 +442,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_Color_header
+

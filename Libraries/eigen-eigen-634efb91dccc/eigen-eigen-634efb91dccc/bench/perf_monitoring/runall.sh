@@ -61,3 +61,4 @@ print_tr trmv_lot   'L &middot; L<sup>T<sup> = A &nbsp;  (Cholesky,potrf)'
 cat resources/footer.html >> $htmlfile
 
 fi
+

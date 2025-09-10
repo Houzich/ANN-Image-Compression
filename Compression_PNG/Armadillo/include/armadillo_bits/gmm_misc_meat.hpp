@@ -192,3 +192,4 @@ distance<eT, uword(2)>::eval(const uword N, const eT* A, const eT* B, const eT* 
 
 
 //! @}
+

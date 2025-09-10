@@ -488,3 +488,4 @@ EIGEN_STRONG_INLINE void ptranspose(PacketBlock<Packet1cd,2>& kernel)
 } // end namespace Eigen
 
 #endif // EIGEN_COMPLEX_NEON_H
+

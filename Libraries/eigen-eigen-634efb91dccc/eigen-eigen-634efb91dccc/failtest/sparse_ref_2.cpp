@@ -13,3 +13,4 @@ int main()
   call_ref(A.col(3));
 #endif
 }
+

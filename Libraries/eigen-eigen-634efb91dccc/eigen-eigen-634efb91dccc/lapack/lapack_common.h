@@ -27,3 +27,4 @@ typedef Eigen::Map<Eigen::Transpositions<Eigen::Dynamic,Eigen::Dynamic,int> > Pi
 
 
 #endif // EIGEN_LAPACK_COMMON_H
+

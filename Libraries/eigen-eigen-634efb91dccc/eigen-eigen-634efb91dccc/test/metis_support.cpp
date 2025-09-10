@@ -23,3 +23,4 @@ EIGEN_DECLARE_TEST(metis_support)
 {
   CALL_SUBTEST_1(test_metis_T<double>());
 }
+

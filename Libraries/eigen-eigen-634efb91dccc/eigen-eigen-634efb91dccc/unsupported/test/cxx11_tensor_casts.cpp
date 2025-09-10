@@ -113,3 +113,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_casts)
    CALL_SUBTEST(test_big_to_small_type_cast());
    CALL_SUBTEST(test_small_to_big_type_cast());
 }
+

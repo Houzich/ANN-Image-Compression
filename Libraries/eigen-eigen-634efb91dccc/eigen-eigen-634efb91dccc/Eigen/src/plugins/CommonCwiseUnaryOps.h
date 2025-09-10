@@ -161,3 +161,4 @@ EIGEN_DOC_UNARY_ADDONS(imag,imaginary part function)
 EIGEN_DEVICE_FUNC
 inline NonConstImagReturnType
 imag() { return NonConstImagReturnType(derived()); }
+

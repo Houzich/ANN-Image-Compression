@@ -1410,3 +1410,4 @@ struct TensorEvaluator<const TensorContractionOp<Indices, LeftArgType, RightArgT
 
 #endif // EIGEN_USE_GPU and EIGEN_GPUCC
 #endif // EIGEN_CXX11_TENSOR_TENSOR_CONTRACTION_GPU_H
+

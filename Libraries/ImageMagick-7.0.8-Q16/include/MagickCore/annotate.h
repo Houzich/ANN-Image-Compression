@@ -39,3 +39,4 @@ extern MagickExport ssize_t
 #endif
 
 #endif
+

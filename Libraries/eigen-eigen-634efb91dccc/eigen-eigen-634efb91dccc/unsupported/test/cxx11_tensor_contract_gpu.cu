@@ -216,3 +216,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_contract_gpu)
   CALL_SUBTEST_9(test_gpu_contraction_sizes<RowMajor>());
 #endif	
 }
+

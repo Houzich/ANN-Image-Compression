@@ -212,3 +212,4 @@ EIGEN_DECLARE_TEST(gpu_basic)
   CALL_SUBTEST( run_and_compare_to_gpu(eigenvalues<Matrix6f>(), nthreads, in, out) );
 #endif
 }
+

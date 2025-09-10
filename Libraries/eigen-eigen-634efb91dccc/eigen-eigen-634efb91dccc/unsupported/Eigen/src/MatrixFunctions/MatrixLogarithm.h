@@ -371,3 +371,4 @@ const MatrixLogarithmReturnValue<Derived> MatrixBase<Derived>::log() const
 } // end namespace Eigen
 
 #endif // EIGEN_MATRIX_LOGARITHM
+

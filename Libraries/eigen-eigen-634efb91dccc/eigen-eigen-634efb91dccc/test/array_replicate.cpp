@@ -79,3 +79,4 @@ EIGEN_DECLARE_TEST(array_replicate)
     CALL_SUBTEST_6( replicate(VectorXcd(10)) );
   }
 }
+

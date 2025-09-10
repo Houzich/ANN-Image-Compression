@@ -230,3 +230,4 @@ template<int Side, typename TriangularType, typename Rhs> struct triangular_solv
 } // end namespace Eigen
 
 #endif // EIGEN_SOLVETRIANGULAR_H
+

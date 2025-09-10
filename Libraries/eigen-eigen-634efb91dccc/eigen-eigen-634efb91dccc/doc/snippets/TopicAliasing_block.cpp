@@ -5,3 +5,4 @@ cout << "Here is the matrix mat:\n" << mat << endl;
 // This assignment shows the aliasing problem
 mat.bottomRightCorner(2,2) = mat.topLeftCorner(2,2);
 cout << "After the assignment, mat = \n" << mat << endl;
+

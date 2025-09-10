@@ -200,3 +200,4 @@ sum(const SpOp<T1, spop_sum>& in, const uword dim)
 
 
 //! @}
+

@@ -62,3 +62,4 @@ namespace Eigen { struct SluMatrix; }
 #include "src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_SUPERLUSUPPORT_MODULE_H
+

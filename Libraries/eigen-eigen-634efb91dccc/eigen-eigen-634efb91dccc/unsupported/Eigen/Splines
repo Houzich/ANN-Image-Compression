@@ -29,3 +29,4 @@ namespace Eigen
 #include "src/Splines/SplineFitting.h"
 
 #endif // EIGEN_SPLINES_MODULE_H
+

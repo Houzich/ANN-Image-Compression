@@ -47,3 +47,4 @@ void StartBenchmarkTiming();
 #define BENCHMARK(f) \
     static ::testing::Benchmark* _benchmark_##f __attribute__((unused)) = \
         (new ::testing::Benchmark(#f, f))
+

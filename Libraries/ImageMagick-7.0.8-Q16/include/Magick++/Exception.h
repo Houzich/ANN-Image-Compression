@@ -423,3 +423,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_Exception_header
+

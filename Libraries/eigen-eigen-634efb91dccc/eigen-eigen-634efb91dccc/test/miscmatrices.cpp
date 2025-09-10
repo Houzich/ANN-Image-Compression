@@ -44,3 +44,4 @@ EIGEN_DECLARE_TEST(miscmatrices)
     CALL_SUBTEST_5( miscMatrices(MatrixXcd(20, 20)) );
   }
 }
+

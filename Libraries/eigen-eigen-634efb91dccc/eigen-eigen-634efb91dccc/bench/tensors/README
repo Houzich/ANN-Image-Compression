@@ -23,3 +23,4 @@ clang++ -O3 tensor_benchmarks_sycl_include_headers.cc -pthread -I ../../ -I  {Co
 export LD_LIBRARY_PATH={ComputeCpp_ROOT}/lib
 3. Run the benchmark
 ./tensor_benchmark_sycl
+

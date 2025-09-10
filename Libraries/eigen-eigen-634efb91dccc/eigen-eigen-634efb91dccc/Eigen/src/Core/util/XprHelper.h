@@ -856,3 +856,4 @@ struct ScalarBinaryOpTraits<void,void,BinaryOp>
 } // end namespace Eigen
 
 #endif // EIGEN_XPRHELPER_H
+

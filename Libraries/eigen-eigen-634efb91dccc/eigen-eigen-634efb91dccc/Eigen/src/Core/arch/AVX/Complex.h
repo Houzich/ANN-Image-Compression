@@ -449,3 +449,4 @@ template<> EIGEN_STRONG_INLINE Packet2cd pinsertlast(const Packet2cd& a, std::co
 } // end namespace Eigen
 
 #endif // EIGEN_COMPLEX_AVX_H
+

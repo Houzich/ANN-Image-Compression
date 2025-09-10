@@ -40,3 +40,4 @@ GlueCube<T1,T2,glue_type>::~GlueCube()
 
 
 //! @}
+

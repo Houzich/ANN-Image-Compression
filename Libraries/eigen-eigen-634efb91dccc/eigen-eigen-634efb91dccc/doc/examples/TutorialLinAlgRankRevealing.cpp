@@ -18,3 +18,4 @@ int main()
    cout << "Here is a matrix whose columns form a basis of the column-space of A:\n"
         << lu_decomp.image(A) << endl; // yes, have to pass the original A
 }
+

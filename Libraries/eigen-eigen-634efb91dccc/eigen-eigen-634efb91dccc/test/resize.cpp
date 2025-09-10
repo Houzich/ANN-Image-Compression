@@ -39,3 +39,4 @@ EIGEN_DECLARE_TEST(resize)
   CALL_SUBTEST(resizeLikeTest1020() );
   CALL_SUBTEST(resizeLikeTest31() );
 }
+

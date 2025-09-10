@@ -21,3 +21,4 @@
 #endif
 #define MagickPlusPlus_Header
 #endif // MagickPlusPlus_Header
+

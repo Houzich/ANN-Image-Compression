@@ -479,3 +479,4 @@ struct TensorEvaluator<const TensorConvolutionOp<Indices, InputArgType, KernelAr
 } // end namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_CONVOLUTION_H
+

@@ -860,3 +860,4 @@ protected:
 } // end namespace Eigen
 
 #endif // EIGEN_SkylineMatrix_H
+

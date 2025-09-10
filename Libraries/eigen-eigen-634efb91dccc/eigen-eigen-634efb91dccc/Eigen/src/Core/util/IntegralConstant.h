@@ -268,3 +268,4 @@ static const auto fix(int val);
 } // end namespace Eigen
 
 #endif // EIGEN_INTEGRAL_CONSTANT_H
+

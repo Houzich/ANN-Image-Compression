@@ -30,3 +30,4 @@ double BLASFUNC(dsdot)(int* n, float* x, int* incx, float* y, int* incy)
   else if(*incx<0 && *incy<0) return (make_vector(x,*n,-*incx).reverse().cast<double>().cwiseProduct(make_vector(y,*n,-*incy).reverse().cast<double>())).sum();
   else return 0;
 }
+

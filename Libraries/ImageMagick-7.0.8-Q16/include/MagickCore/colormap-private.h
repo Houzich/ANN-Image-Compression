@@ -58,3 +58,4 @@ static inline void ValidateColormapValue(Image *image,
 #endif
 
 #endif
+

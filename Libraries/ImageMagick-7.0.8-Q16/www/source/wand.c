@@ -53,3 +53,4 @@ int main(int argc,char **argv)
   MagickWandTerminus();
   return(0);
 }
+

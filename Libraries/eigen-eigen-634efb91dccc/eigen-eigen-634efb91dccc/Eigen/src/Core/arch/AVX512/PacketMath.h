@@ -1325,3 +1325,4 @@ template<> EIGEN_STRONG_INLINE Packet8d pinsertlast(const Packet8d& a, double b)
 } // end namespace Eigen
 
 #endif // EIGEN_PACKET_MATH_AVX512_H
+

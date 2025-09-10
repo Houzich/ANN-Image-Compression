@@ -224,3 +224,4 @@ ArrayBase<Derived>::operator/=(const ArrayBase<OtherDerived>& other)
 } // end namespace Eigen
 
 #endif // EIGEN_ARRAYBASE_H
+

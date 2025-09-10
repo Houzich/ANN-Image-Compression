@@ -527,3 +527,4 @@ struct arma_rng::randn< std::complex<T> >
 
 
 //! @}
+

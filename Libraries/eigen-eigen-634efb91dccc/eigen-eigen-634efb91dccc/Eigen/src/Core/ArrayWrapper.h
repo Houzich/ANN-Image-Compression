@@ -207,3 +207,4 @@ class MatrixWrapper : public MatrixBase<MatrixWrapper<ExpressionType> >
 } // end namespace Eigen
 
 #endif // EIGEN_ARRAYWRAPPER_H
+

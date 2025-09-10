@@ -65,3 +65,4 @@ namespace Eigen {
 #include "../../Eigen/src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_SPECIALFUNCTIONS_MODULE
+
