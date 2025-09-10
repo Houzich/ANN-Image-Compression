@@ -748,3 +748,4 @@ bool (isfinite)(const Eigen::half& h) {
 #endif
 
 #endif // EIGEN_HALF_GPU_H
+

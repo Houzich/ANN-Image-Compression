@@ -8,3 +8,4 @@ cout << "The quasi-triangular matrix T is:" << endl << schur.matrixT() << endl <
 MatrixXd U = schur.matrixU();
 MatrixXd T = schur.matrixT();
 cout << "U * T * U^T = " << endl << U * T * U.transpose() << endl;
+

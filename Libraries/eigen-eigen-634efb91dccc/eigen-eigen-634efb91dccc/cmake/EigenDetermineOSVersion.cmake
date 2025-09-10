@@ -44,3 +44,4 @@ function(DetermineOSVersion OS_VERSION)
     set(${OS_VERSION} ${CMAKE_SYSTEM} PARENT_SCOPE)
   endif()
 endfunction()
+

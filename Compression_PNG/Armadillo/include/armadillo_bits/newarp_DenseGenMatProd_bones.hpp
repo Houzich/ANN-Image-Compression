@@ -39,3 +39,4 @@ class DenseGenMatProd
 
 
 }  // namespace newarp
+

@@ -1143,3 +1143,4 @@
   <mime type="application/x-cisco-vpn-settings" description="Cisco VPN Settings" data-type="string" offset="0" magic="[main]" priority="50" />
   <mime type="application/x-cisco-vpn-settings" description="Cisco VPN Settings" priority="100" pattern="*.pcf" />
 </mimemap>
+

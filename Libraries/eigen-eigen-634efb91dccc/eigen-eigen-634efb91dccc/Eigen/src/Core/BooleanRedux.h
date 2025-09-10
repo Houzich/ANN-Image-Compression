@@ -160,3 +160,4 @@ inline bool DenseBase<Derived>::allFinite() const
 } // end namespace Eigen
 
 #endif // EIGEN_ALLANDANY_H
+

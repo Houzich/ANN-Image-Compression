@@ -164,3 +164,4 @@ EIGEN_DECLARE_TEST(diagonalmatrices)
   }
   CALL_SUBTEST_10( bug987<0>() );
 }
+

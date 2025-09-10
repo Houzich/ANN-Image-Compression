@@ -234,3 +234,4 @@ class subview_cube : public BaseCube<eT, subview_cube<eT> >
 
 
 //! @}
+

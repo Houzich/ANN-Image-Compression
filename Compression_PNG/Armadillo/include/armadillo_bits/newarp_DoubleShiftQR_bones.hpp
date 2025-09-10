@@ -72,3 +72,4 @@ class DoubleShiftQR
 
 
 }  // namespace newarp
+

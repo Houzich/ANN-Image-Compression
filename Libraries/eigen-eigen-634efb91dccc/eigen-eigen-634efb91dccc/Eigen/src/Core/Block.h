@@ -450,3 +450,4 @@ class BlockImpl_dense<XprType,BlockRows,BlockCols, InnerPanel,true>
 } // end namespace Eigen
 
 #endif // EIGEN_BLOCK_H
+

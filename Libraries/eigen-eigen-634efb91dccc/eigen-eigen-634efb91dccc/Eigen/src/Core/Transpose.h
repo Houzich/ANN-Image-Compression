@@ -402,3 +402,4 @@ void check_for_aliasing(const Dst &dst, const Src &src)
 } // end namespace Eigen
 
 #endif // EIGEN_TRANSPOSE_H
+

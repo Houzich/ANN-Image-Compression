@@ -14,3 +14,4 @@ Matrix5x3 u = lu.matrixLU().triangularView<Upper>();
 cout << u << endl;
 cout << "Let us now reconstruct the original matrix m:" << endl;
 cout << lu.permutationP().inverse() * l * u * lu.permutationQ().inverse() << endl;
+

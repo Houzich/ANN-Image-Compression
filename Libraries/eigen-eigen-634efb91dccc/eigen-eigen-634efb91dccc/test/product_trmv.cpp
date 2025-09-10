@@ -88,3 +88,4 @@ EIGEN_DECLARE_TEST(product_trmv)
     TEST_SET_BUT_UNUSED_VARIABLE(s)
   }
 }
+

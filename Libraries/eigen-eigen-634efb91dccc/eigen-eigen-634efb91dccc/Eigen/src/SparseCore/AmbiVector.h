@@ -375,3 +375,4 @@ class AmbiVector<_Scalar,_StorageIndex>::Iterator
 } // end namespace Eigen
 
 #endif // EIGEN_AMBIVECTOR_H
+

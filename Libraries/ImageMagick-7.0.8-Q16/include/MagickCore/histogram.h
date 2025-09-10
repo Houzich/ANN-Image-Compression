@@ -43,3 +43,4 @@ extern MagickExport size_t
 #endif
 
 #endif
+

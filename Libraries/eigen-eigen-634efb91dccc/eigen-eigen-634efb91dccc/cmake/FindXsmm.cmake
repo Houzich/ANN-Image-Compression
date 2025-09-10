@@ -23,3 +23,4 @@ find_package_handle_standard_args(XSMM DEFAULT_MSG
                                   LIBXSMM)
 
 mark_as_advanced(LIBXSMM)
+

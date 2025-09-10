@@ -92,3 +92,4 @@ EIGEN_DECLARE_TEST(swap)
   CALL_SUBTEST_4( swap(MatrixXf(s,s)) ); // dyn size, possible vectorization 
   TEST_SET_BUT_UNUSED_VARIABLE(s)
 }
+

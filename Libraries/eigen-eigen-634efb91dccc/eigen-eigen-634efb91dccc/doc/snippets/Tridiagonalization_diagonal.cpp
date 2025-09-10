@@ -11,3 +11,4 @@ VectorXd diag = triOfA.diagonal();
 cout << "The diagonal is:" << endl << diag << endl; 
 VectorXd subdiag = triOfA.subDiagonal();
 cout << "The subdiagonal is:" << endl << subdiag << endl;
+

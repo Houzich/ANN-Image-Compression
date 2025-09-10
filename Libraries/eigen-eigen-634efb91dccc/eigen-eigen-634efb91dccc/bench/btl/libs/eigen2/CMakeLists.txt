@@ -17,3 +17,4 @@ if(EIGEN2_FOUND)
   btl_add_bench(btl_tiny_eigen2 btl_tiny_eigen2.cpp OFF)
 
 endif() # EIGEN2_FOUND
+

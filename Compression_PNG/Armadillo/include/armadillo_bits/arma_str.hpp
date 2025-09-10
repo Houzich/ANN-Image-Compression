@@ -548,3 +548,4 @@ namespace arma_str
 
 
 //! @}
+

@@ -44,3 +44,4 @@
 #include "src/SparseLU/SparseLU.h"
 
 #endif // EIGEN_SPARSELU_MODULE_H
+

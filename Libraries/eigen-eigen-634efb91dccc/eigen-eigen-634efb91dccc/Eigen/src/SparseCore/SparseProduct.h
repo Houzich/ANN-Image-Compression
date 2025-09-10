@@ -167,3 +167,4 @@ protected:
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSEPRODUCT_H
+

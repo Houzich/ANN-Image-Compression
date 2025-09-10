@@ -807,3 +807,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_image_patch)
   CALL_SUBTEST_6(test_imagenet_patches());
   CALL_SUBTEST_7(test_patch_padding_same_negative_padding_clip_to_zero());
 }
+

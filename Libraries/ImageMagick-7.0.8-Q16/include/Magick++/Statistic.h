@@ -305,3 +305,4 @@ namespace Magick
 }
 
 #endif // Magick_ChannelMoments_header
+

@@ -771,3 +771,4 @@ struct SparseLUMatrixUReturnType : internal::no_assignment_operator
 } // End namespace Eigen 
 
 #endif
+

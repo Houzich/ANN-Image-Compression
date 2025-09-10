@@ -320,3 +320,4 @@ EIGEN_DECLARE_TEST(sparse_block)
     CALL_SUBTEST_5((  sparse_block(SparseMatrix<AnnoyingScalar>(r,c)) ));
   }
 }
+

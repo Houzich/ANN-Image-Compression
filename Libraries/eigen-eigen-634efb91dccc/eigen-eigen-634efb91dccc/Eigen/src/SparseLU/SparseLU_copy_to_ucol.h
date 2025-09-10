@@ -105,3 +105,4 @@ Index SparseLUImpl<Scalar,StorageIndex>::copy_to_ucol(const Index jcol, const In
 } // end namespace Eigen
 
 #endif // SPARSELU_COPY_TO_UCOL_H
+

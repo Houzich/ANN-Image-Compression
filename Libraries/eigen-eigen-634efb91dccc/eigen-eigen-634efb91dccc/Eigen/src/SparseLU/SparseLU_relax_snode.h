@@ -81,3 +81,4 @@ void SparseLUImpl<Scalar,StorageIndex>::relax_snode (const Index n, IndexVector&
 
 } // end namespace Eigen
 #endif
+

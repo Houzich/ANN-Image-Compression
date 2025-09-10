@@ -228,3 +228,4 @@ find_nonfinite(const BaseCube<typename T1::elem_type,T1>& X)
 
 
 //! @}
+

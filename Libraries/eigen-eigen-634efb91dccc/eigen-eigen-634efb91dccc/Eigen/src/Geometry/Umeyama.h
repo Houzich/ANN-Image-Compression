@@ -164,3 +164,4 @@ umeyama(const MatrixBase<Derived>& src, const MatrixBase<OtherDerived>& dst, boo
 } // end namespace Eigen
 
 #endif // EIGEN_UMEYAMA_H
+

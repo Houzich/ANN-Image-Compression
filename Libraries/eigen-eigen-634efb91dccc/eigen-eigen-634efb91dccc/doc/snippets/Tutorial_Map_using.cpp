@@ -19,3 +19,4 @@ m2map(3) = 7;   // this will change m2, since they share the same array
 cout << "Updated m2: " << m2 << endl;
 cout << "m2 coefficient 2, constant accessor: " << m2mapconst(2) << endl;
 /* m2mapconst(2) = 5; */   // this yields a compile-time error
+

@@ -671,3 +671,4 @@ class SpMat_aux
 
 
 //! @}
+

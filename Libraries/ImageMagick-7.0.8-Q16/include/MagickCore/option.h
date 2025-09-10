@@ -212,3 +212,4 @@ extern MagickExport const OptionInfo
 #endif
 
 #endif
+

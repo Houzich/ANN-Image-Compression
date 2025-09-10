@@ -1812,3 +1812,4 @@ product of 2 1d tensors (through contractions) returns a 0d tensor.
     EIGEN_STATIC_ASSERT(packetSize > 1, YOU_MADE_A_PROGRAMMING_MISTAKE)
 
 
+

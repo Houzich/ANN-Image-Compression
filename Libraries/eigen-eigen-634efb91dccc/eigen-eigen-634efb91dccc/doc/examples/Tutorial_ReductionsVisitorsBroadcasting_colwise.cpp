@@ -11,3 +11,4 @@ int main()
   std::cout << "Column's maximum: " << std::endl
    << mat.colwise().maxCoeff() << std::endl;
 }
+

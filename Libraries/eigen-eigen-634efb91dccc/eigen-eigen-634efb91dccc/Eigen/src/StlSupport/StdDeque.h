@@ -124,3 +124,4 @@ namespace std {
 #endif // check whether specialization is actually required
 
 #endif // EIGEN_STDDEQUE_H
+

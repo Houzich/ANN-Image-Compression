@@ -105,3 +105,4 @@ EIGEN_DECLARE_TEST(nesting_ops)
   CALL_SUBTEST_4( run_nesting_ops_2(Matrix2d()) );
   TEST_SET_BUT_UNUSED_VARIABLE(s)
 }
+

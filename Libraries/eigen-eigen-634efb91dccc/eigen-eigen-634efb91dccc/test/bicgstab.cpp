@@ -32,3 +32,4 @@ EIGEN_DECLARE_TEST(bicgstab)
   CALL_SUBTEST_2((test_bicgstab_T<std::complex<double>, int>()));
   CALL_SUBTEST_3((test_bicgstab_T<double,long int>()));
 }
+

@@ -116,3 +116,4 @@ EIGEN_DECLARE_TEST(rand)
   CALL_SUBTEST(check_histogram<int>(-RAND_MAX+10,-RAND_MAX+10+bins*(RAND_MAX/bins)-1,bins));
   CALL_SUBTEST(check_histogram<int>(-RAND_MAX+10,-int64(RAND_MAX)+10+bins*(2*int64(RAND_MAX)/bins)-1,bins));
 }
+

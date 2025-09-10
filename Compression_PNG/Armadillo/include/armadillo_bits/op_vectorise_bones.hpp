@@ -67,3 +67,4 @@ class op_vectorise_cube_col
 
 
 //! @}
+

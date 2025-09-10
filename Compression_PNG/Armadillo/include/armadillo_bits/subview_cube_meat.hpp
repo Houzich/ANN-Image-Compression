@@ -2652,3 +2652,4 @@ subview_cube<eT>::const_iterator::operator!=(const const_iterator& rhs) const
 
 
 //! @}
+

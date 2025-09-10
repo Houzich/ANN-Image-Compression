@@ -43,3 +43,4 @@ else
   fi
   echo -e $green Test $1 passed$black
 fi
+

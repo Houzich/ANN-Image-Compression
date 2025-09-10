@@ -69,3 +69,4 @@ class MandelbrotWidget : public QWidget
 };
 
 #endif // MANDELBROT_H
+

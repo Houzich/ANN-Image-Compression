@@ -39,3 +39,4 @@ extern "C" {
 #include <Eigen/src/Core/util/ReenableStupidWarnings.h>
 
 #endif // EIGEN_KLUSUPPORT_MODULE_H
+

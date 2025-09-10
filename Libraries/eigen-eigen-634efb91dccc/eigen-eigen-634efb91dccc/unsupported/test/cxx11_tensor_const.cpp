@@ -60,3 +60,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_const)
   CALL_SUBTEST(test_simple_assign());
   CALL_SUBTEST(test_assign_of_const_tensor());
 }
+

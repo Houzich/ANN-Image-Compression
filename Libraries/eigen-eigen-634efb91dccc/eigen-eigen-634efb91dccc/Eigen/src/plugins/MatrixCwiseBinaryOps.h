@@ -150,3 +150,4 @@ cwiseEqual(const Scalar& s) const
 {
   return CwiseScalarEqualReturnType(derived(), Derived::Constant(rows(), cols(), s), internal::scalar_cmp_op<Scalar,Scalar,internal::cmp_EQ>());
 }
+

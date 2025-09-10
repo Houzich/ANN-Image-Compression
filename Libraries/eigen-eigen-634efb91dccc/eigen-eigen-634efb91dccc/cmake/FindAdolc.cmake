@@ -18,3 +18,4 @@ find_package_handle_standard_args(ADOLC DEFAULT_MSG
                                   ADOLC_INCLUDES ADOLC_LIBRARIES)
 
 mark_as_advanced(ADOLC_INCLUDES ADOLC_LIBRARIES)
+

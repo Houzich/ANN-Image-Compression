@@ -304,3 +304,4 @@ int EIGEN_BLAS_FUNC(ger)(int *m, int *n, Scalar *palpha, Scalar *px, int *incx, 
 
   return 1;
 }
+

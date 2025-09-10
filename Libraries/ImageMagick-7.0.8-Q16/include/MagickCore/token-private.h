@@ -189,3 +189,4 @@ static inline MagickBooleanType IsUTFAscii(int code)
 #endif
 
 #endif
+

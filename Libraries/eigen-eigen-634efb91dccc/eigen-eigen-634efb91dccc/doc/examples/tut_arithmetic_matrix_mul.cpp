@@ -17,3 +17,4 @@ int main()
   mat = mat*mat;
   std::cout << "Now mat is mat:\n" << mat << std::endl;
 }
+

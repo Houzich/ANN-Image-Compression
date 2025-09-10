@@ -60,3 +60,4 @@ EIGEN_DECLARE_TEST(dontalign)
   dontalign(MatrixXcf(32, 32));
 #endif
 }
+

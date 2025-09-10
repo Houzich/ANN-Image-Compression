@@ -260,3 +260,4 @@ EIGEN_DECLARE_TEST(FFTW)
   CALL_SUBTEST( test_scalar<long double>(2*3*4*5*7) );
   #endif
 }
+

@@ -73,3 +73,4 @@
   <!-- <policy domain="path" rights="none" pattern="@*" /> -->
   <policy domain="cache" name="shared-secret" value="passphrase" stealth="true"/>
 </policymap>
+

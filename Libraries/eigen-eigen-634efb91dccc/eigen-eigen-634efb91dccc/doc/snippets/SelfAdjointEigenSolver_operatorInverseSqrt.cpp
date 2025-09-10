@@ -7,3 +7,4 @@ cout << "The inverse square root of A is: " << endl;
 cout << es.operatorInverseSqrt() << endl;
 cout << "We can also compute it with operatorSqrt() and inverse(). That yields: " << endl;
 cout << es.operatorSqrt().inverse() << endl;
+

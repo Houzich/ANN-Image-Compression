@@ -20,3 +20,4 @@ int main()
   result = (m.array() * n.array()).matrix() * m;
   cout << "-- Combination 2: --" << endl << result << endl << endl;
 }
+

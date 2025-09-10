@@ -1475,3 +1475,4 @@ EIGEN_DECLARE_TEST(levenberg_marquardt)
     CALL_SUBTEST(testNistRat43());
     CALL_SUBTEST(testNistEckerle4());
 }
+

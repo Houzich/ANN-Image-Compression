@@ -86,3 +86,4 @@ struct packed_triangular_solve_vector<LhsScalar, RhsScalar, Index, OnTheRight, M
 } // end namespace internal
 
 #endif // EIGEN_PACKED_TRIANGULAR_SOLVER_VECTOR_H
+

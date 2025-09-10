@@ -67,3 +67,4 @@ EIGEN_DECLARE_TEST(incomplete_cholesky)
 
   CALL_SUBTEST_1(( bug1150<0>() ));
 }
+

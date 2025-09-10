@@ -7,3 +7,4 @@ Requires:
 Version: @EIGEN_VERSION_NUMBER@
 Libs:
 Cflags: -I${prefix}/@INCLUDE_INSTALL_DIR@
+

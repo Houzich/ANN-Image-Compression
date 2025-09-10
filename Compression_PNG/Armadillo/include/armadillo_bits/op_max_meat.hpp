@@ -1321,3 +1321,4 @@ op_max::max_with_index(const ProxyCube<T1>& P, uword& index_of_max_val)
 
 
 //! @}
+

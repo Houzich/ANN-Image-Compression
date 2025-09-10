@@ -5565,3 +5565,4 @@ Cube_aux::set_imag(Cube< std::complex<T> >& out, const BaseCube<T,T1>& X)
 
 
 //! @}
+

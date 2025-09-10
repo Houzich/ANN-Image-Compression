@@ -13,3 +13,4 @@ int main()
   call_ref(A);
 #endif
 }
+

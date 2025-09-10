@@ -30,3 +30,4 @@ extern MagickExport double
 #endif
 
 #endif
+

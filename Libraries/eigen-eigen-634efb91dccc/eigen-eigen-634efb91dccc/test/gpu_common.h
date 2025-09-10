@@ -155,3 +155,4 @@ void ei_test_init_gpu()
 }
 
 #endif // EIGEN_TEST_GPU_COMMON_H
+

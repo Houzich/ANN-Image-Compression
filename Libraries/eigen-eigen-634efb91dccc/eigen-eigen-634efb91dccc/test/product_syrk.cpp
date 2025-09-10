@@ -133,3 +133,4 @@ EIGEN_DECLARE_TEST(product_syrk)
     TEST_SET_BUT_UNUSED_VARIABLE(s)
   }
 }
+

@@ -828,3 +828,4 @@ struct functor_traits<scalar_sign_op<Scalar> >
 } // end namespace Eigen
 
 #endif // EIGEN_FUNCTORS_H
+

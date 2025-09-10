@@ -214,3 +214,4 @@ template<> EIGEN_STRONG_INLINE Packet4h pcast<Packet4f, Packet4h>(const Packet4f
 } // end namespace Eigen
 
 #endif // EIGEN_TYPE_CASTING_GPU_H
+

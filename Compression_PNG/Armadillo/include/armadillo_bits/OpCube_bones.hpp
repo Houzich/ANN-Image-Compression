@@ -49,3 +49,4 @@ class OpCube : public BaseCube<typename T1::elem_type, OpCube<T1, op_type> >
 
 
 //! @}
+

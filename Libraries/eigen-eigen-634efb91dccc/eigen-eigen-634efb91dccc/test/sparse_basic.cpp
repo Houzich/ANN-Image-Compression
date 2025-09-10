@@ -687,3 +687,4 @@ EIGEN_DECLARE_TEST(sparse_basic)
 
   CALL_SUBTEST_7( bug1105<0>() );
 }
+

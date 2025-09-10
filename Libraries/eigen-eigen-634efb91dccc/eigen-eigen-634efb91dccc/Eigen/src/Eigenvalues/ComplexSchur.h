@@ -457,3 +457,4 @@ void ComplexSchur<MatrixType>::reduceToTriangularForm(bool computeU)
 } // end namespace Eigen
 
 #endif // EIGEN_COMPLEX_SCHUR_H
+

@@ -1,4 +1,4 @@
-п»ї#include "stdafx.h"
+#include "stdafx.h"
 
 
 using namespace Multilayer_Neural_Network;
@@ -13,7 +13,7 @@ namespace Compression_Plugin
 	ImageModel::~ImageModel()
 	{
 	}
-	//С‡РёС‚Р°РµРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ РІ РјР°С‚СЂРёС†С‹
+	//читаем изображение в матрицы
 	void ImageModel::raedImageToMatrix(char const * patch, int blockrows, int blockcols) {
 		try {
 			try
@@ -54,7 +54,7 @@ namespace Compression_Plugin
 			state.setError(Error::Open_Image);
 			return;
 		}
-		//РћС‚РєСЂС‹Р»Рё С„Р°Р№Р»
+		//Открыли файл
 		imageWidth = (int)image.columns();
 		imageHeight = (int)image.rows();
 		imageNumChannel = (int)image.channels();
@@ -84,13 +84,13 @@ namespace Compression_Plugin
 	void ImageModel::init(char const * patch, int blockrows, int blockcols, int numberofneurons, double acceptableerror, double learningcoefficient, int maxiteration) {
 		double err = acceptableerror;
 		double coeff = learningcoefficient;
-		//С‡РёС‚Р°РµРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ
+		//читаем изображение
 		raedImageToMatrix(patch, blockrows, blockcols); 
 		if (state.getError() != Error::OK) { return; }
 
 		err = acceptableerror / CORRECT_ERR;
 		coeff = learningcoefficient / CORRECT_COEFF;
-		//РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј РЅРµР№СЂРѕРЅРЅСѓСЋ СЃРµС‚СЊ
+		//инициализируем нейронную сеть
 		ANN Compress(blockrows, blockcols, numberofneurons, err, coeff, maxiteration);
 
 		if (imageFormat == "GIF") {
@@ -104,9 +104,9 @@ namespace Compression_Plugin
 		else {
 			Compress.initialData(imageHeight, imageWidth, imageNumChannel, imagePixels);
 		}
-		//РґРµР»РёРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ РЅР° Р±Р»РѕРєРё Рё РёРЅРёС†РёР°Р»Р·РёСЂСѓРµРј РјР°С‚СЂРёС†С‹ РІРµСЃРѕРІ
+		//делим изображение на блоки и инициалзируем матрицы весов
 		Compress.divideIntoBlocks();
-		//РѕР±СѓС‡Р°РµРј РЅРµР№СЂРѕРЅРЅСѓСЋ СЃРµС‚СЊ
+		//обучаем нейронную сеть
 		Compress.training();
 		if (imageFormat == "GIF") {
 			createOutputImageGIF(&Compress, 5, 1);
@@ -124,15 +124,15 @@ namespace Compression_Plugin
 
 	void ImageModel::createOutputImage(ANN *compress) {
 		string path = "";
-		//Р”Р»СЏ РєР°Р¶РґРѕРіРѕ РєР°РЅРЅР°Р»Р° 
+		//Для каждого каннала 
 		//MatrixPxls Test_MatrixOut;
 		std::vector<MatrixColor> arrayImagesChannelCompress;
 
-		std::ofstream out_file("Images\\РЎompressed.bin", std::ios::binary | std::ios::out);
+		std::ofstream out_file("Images\\Сompressed.bin", std::ios::binary | std::ios::out);
 		for (int chn = 0; chn < imageNumChannel; chn++) {
 			arrayImagesChannelCompress.push_back(compress->createOutputImageChann(chn, out_file));
 		}
-		out_file.close(); // Р·Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»
+		out_file.close(); // закрываем файл
 
 		for (int chn = 0; chn < imageNumChannel; chn++) {
 			DEEP_DEBUG_CREATE_OUTPUT_IMAGE("SOURCE");
@@ -166,15 +166,15 @@ namespace Compression_Plugin
 
 	void ImageModel::createOutputImageGIF(ANN *compress, int src_channels, int channels) {
 		string path = "";
-		//Р”Р»СЏ РєР°Р¶РґРѕРіРѕ РєР°РЅРЅР°Р»Р° 
+		//Для каждого каннала 
 		//MatrixPxls Test_MatrixOut;
 		std::vector<MatrixColor> arrayImagesChannelCompress;
 
-		std::ofstream out_file("Images\\РЎompressed.bin", std::ios::binary | std::ios::out);
+		std::ofstream out_file("Images\\Сompressed.bin", std::ios::binary | std::ios::out);
 		for (int chn = 0; chn < imageNumChannel; chn++) {
 			arrayImagesChannelCompress.push_back(compress->createOutputImageChann(chn, out_file));
 		}
-		out_file.close(); // Р·Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»
+		out_file.close(); // закрываем файл
 
 		for (int chn = 0; chn < channels; chn++) {
 			DEEP_DEBUG_CREATE_OUTPUT_IMAGE("SOURCE");
@@ -206,9 +206,10 @@ namespace Compression_Plugin
 
 		image_out.syncPixels();
 		path = imagePath;
-		// СѓРјРµРЅСЊС€РёР»Рё СЌРЅС‚СЂРѕРїРёСЋ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ С‚РµРїРµСЂСЊ СЃР¶РёРјР°РµРј РєРѕРґРёСЂРѕРІР°РЅРёРµРј
+		// уменьшили энтропию изображения теперь сжимаем кодированием
 		image_out.compressType(MagickCore::CompressionType::LZWCompression);
 		path.insert(path.rfind("."), "_compress");
 		image_out.write(path);
 	}
 }
+

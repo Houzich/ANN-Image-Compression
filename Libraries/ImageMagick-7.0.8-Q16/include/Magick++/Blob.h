@@ -78,3 +78,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_BlobRef_header
+

@@ -80,3 +80,4 @@ glue_cross::apply(Mat<typename T1::elem_type>& out, const Glue<T1, T2, glue_cros
 
 
 //! @}
+

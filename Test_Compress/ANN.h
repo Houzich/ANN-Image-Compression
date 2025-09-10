@@ -1,4 +1,4 @@
-п»ї#pragma once
+#pragma once
 namespace Multilayer_Neural_Network
 {
 		struct Settings {
@@ -10,8 +10,8 @@ namespace Multilayer_Neural_Network
 				MatrixMaxMin = 3,
 			} NORMALIZE_WEIGHTS_MODE;
 
-			int MaxIteration; //РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ РєРѕР»-РІРѕ РёС‚РµСЂР°С†РёР№
-			bool WeightsNormalization; //РЅРѕСЂР°РјР»РёР·Р°С†РёСЏ РІРµСЃРѕРІС‹С… РєРѕРѕСЌС„. 
+			int MaxIteration; //максимальное кол-во итераций
+			bool WeightsNormalization; //норамлизация весовых кооэф. 
 			int BlockCols;
 			int BlockRows;
 			int BlockSize;
@@ -57,7 +57,7 @@ namespace Multilayer_Neural_Network
 		int ChannelRows;
 		int ChannelSize;
 		int Channels;
-		//С‚Р°Рє РєРѕР»-РІРѕ РєР°РЅРЅР°Р»РѕРІ Сѓ GIF РјРѕРіСѓС‚ Р±С‹С‚СЊ СЂР°Р·Р»РёС‡РЅРѕРµ, Р±СѓРґРµРј С…СЂР°РЅРёС‚СЊ РІРµРєС‚РѕСЂ РёР· РјР°С‚СЂРёС† РєР°РЅРЅР°Р»РѕРІ
+		//так кол-во канналов у GIF могут быть различное, будем хранить вектор из матриц канналов
 		std::vector<std::vector<Block>> totalBlokcs;
 
 

@@ -203,3 +203,4 @@ spop_normalise::apply_direct(SpMat<eT>& out, const SpMat<eT>& X, const uword p, 
 
 
 //! @}
+

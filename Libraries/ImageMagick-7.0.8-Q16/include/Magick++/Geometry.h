@@ -259,3 +259,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_Geometry_header
+

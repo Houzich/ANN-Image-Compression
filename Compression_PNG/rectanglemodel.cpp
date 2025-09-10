@@ -50,3 +50,4 @@ void RectangleModel::setX(ublas::matrix<double> X){
     this->X = X;
 }
 
+

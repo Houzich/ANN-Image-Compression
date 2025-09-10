@@ -3,3 +3,4 @@ v(1) *= 0.0/0.0;
 v(2) /= 0.0;
 cout << v << endl << endl;
 cout << isinf(v) << endl;
+

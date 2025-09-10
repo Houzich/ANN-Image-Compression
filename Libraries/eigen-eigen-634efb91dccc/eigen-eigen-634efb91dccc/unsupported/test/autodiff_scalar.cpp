@@ -99,3 +99,4 @@ EIGEN_DECLARE_TEST(autodiff_scalar)
     CALL_SUBTEST_5( check_limits_specialization<double>());
   }
 }
+

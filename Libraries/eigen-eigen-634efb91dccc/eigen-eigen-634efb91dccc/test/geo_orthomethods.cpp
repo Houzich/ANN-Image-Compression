@@ -131,3 +131,4 @@ EIGEN_DECLARE_TEST(geo_orthomethods)
     CALL_SUBTEST_6( (orthomethods<double,Dynamic>(35)) );
   }
 }
+

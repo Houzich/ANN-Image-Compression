@@ -40,3 +40,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_lvalue)
 {
   CALL_SUBTEST(test_compound_assignment());
 }
+

@@ -19,3 +19,4 @@ int main()
   std::cout << "Broadcasting result: " << std::endl;
   std::cout << mat << std::endl;
 }
+

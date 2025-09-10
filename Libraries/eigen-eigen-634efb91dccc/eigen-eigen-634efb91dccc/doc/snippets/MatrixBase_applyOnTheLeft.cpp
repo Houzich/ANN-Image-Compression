@@ -5,3 +5,4 @@ B << 0,1,0,
 cout << "At start, A = " << endl << A << endl;
 A.applyOnTheLeft(B); 
 cout << "After applyOnTheLeft, A = " << endl << A << endl;
+

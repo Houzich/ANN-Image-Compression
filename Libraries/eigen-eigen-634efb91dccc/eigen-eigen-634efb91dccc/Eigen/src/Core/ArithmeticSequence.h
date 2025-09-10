@@ -348,3 +348,4 @@ struct get_compile_time_incr<ArithmeticSequence<FirstType,SizeType,IncrType> > {
 } // end namespace Eigen
 
 #endif // EIGEN_ARITHMETIC_SEQUENCE_H
+

@@ -335,3 +335,4 @@ EIGEN_DECLARE_TEST(openglsupport)
   }
   
 }
+

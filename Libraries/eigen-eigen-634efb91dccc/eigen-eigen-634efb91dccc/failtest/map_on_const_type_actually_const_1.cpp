@@ -13,3 +13,4 @@ void foo(float *ptr){
 }
 
 int main() {}
+

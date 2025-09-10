@@ -16,3 +16,4 @@ int main()
   cout << "infty-norm(m) = " << m.cwiseAbs().rowwise().sum().maxCoeff()
        << " == "             << m.rowwise().lpNorm<1>().maxCoeff() << endl;
 }
+

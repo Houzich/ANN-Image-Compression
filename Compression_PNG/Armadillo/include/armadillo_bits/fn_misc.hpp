@@ -676,3 +676,4 @@ affmul(const T1& A, const T2& B)
 
 
 //! @}
+

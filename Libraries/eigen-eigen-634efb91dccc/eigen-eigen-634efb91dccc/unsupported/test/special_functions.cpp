@@ -477,3 +477,4 @@ EIGEN_DECLARE_TEST(special_functions)
   CALL_SUBTEST_1(array_special_functions<ArrayXf>());
   CALL_SUBTEST_2(array_special_functions<ArrayXd>());
 }
+

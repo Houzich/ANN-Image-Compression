@@ -718,3 +718,4 @@ spop_min::min_with_index(const SpProxy<T1>& P, uword& index_of_min_val)
 
 
 //! @}
+

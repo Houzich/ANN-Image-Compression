@@ -298,3 +298,4 @@ EIGEN_DECLARE_TEST(mixingtypes)
     CALL_SUBTEST_6(mixingtypes<Dynamic>(internal::random<int>(1,EIGEN_TEST_MAX_SIZE)));
   }
 }
+

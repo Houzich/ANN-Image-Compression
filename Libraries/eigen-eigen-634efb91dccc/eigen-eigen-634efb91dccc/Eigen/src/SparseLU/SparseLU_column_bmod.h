@@ -179,3 +179,4 @@ Index SparseLUImpl<Scalar,StorageIndex>::column_bmod(const Index jcol, const Ind
 } // end namespace Eigen
 
 #endif // SPARSELU_COLUMN_BMOD_H
+

@@ -654,3 +654,4 @@ struct Assignment<DstXprType, SparseSymmetricPermutationProduct<MatrixType,Mode>
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_SELFADJOINTVIEW_H
+

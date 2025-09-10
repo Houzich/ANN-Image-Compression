@@ -28,3 +28,4 @@ int main()
   v = 2 * v;
   std::cout << v.transpose() << std::endl;
 }
+

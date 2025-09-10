@@ -655,3 +655,4 @@ LevenbergMarquardt<FunctorType,Scalar>::lmdif1(
 #endif // EIGEN_LEVENBERGMARQUARDT__H
 
 //vim: ai ts=4 sts=4 et sw=4
+

@@ -251,3 +251,4 @@ SparseMatrixBase<Derived>::pruned(const Scalar& reference,
 } // end namespace Eigen
 
 #endif
+

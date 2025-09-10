@@ -260,3 +260,4 @@ MatrixBase<Derived>::diagonal() const
 } // end namespace Eigen
 
 #endif // EIGEN_DIAGONAL_H
+

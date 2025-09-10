@@ -175,3 +175,4 @@ struct InnerReducer<Self, Op, const Eigen::SyclDevice> {
 }  // namespace Eigen
 
 #endif  // UNSUPPORTED_EIGEN_CXX11_SRC_TENSOR_TENSOR_REDUCTION_SYCL_HPP
+

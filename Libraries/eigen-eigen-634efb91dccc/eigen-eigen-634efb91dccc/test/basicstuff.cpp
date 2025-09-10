@@ -291,3 +291,4 @@ EIGEN_DECLARE_TEST(basicstuff)
 
   CALL_SUBTEST_2(casting<0>());
 }
+

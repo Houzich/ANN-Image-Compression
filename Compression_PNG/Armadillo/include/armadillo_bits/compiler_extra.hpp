@@ -34,3 +34,4 @@
   #undef  ARMA_USE_OPENMP
   #define ARMA_USE_OPENMP
 #endif
+

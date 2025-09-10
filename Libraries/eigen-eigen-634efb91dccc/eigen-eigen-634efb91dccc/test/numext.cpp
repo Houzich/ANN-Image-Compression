@@ -51,3 +51,4 @@ EIGEN_DECLARE_TEST(numext) {
   CALL_SUBTEST( check_abs<std::complex<float> >() );
   CALL_SUBTEST( check_abs<std::complex<double> >() );
 }
+

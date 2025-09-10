@@ -17,3 +17,4 @@ int main(int, char**)
   cout << m1 << endl << "becomes: " << endl << m1.unaryExpr(CwiseClampOp<double>(-0.5,0.5)) << endl;
   return 0;
 }
+

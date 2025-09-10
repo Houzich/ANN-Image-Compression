@@ -21,3 +21,4 @@
 #define HIPRT_NAN          __hiloint2double(0xfff80000, 0x00000000)
 
 #endif
+

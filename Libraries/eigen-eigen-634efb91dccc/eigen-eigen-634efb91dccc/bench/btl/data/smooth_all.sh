@@ -66,3 +66,4 @@ do
     BASE=${FILE##*/}
     cp ${ORIG_DIR}/${BASE} ${SMOOTH_DIR}/${BASE}
 done
+

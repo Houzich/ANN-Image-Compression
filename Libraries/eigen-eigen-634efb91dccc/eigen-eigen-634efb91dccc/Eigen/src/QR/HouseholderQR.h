@@ -402,3 +402,4 @@ MatrixBase<Derived>::householderQr() const
 } // end namespace Eigen
 
 #endif // EIGEN_QR_H
+

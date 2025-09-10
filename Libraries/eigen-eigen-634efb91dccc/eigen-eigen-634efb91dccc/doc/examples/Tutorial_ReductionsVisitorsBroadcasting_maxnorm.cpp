@@ -18,3 +18,4 @@ int main()
   std::cout << mat.col( maxIndex ) << std::endl;
   std::cout << "And its sum is is: " << maxNorm << std::endl;
 }
+

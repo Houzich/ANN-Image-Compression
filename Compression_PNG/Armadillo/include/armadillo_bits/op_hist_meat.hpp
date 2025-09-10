@@ -106,3 +106,4 @@ op_hist::apply(Mat<uword>& out, const mtOp<uword, T1, op_hist>& X)
 
 
 //! @}
+

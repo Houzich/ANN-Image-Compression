@@ -286,3 +286,4 @@ template<> struct NumTraits<void> {};
 } // end namespace Eigen
 
 #endif // EIGEN_NUMTRAITS_H
+

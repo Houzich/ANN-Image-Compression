@@ -113,3 +113,4 @@ struct Assignment<DstXprType, SolveWithGuess<DecType,RhsType,GuessType>, interna
 } // end namespace Eigen
 
 #endif // EIGEN_SOLVEWITHGUESS_H
+

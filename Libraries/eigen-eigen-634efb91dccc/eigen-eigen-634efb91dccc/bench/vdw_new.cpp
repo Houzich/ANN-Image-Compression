@@ -54,3 +54,4 @@ int main()
   }
   cout << "energy = " << energy << endl;
 }
+

@@ -507,3 +507,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_reduction) {
   CALL_SUBTEST(test_reduce_middle_dims<ColMajor>());
   CALL_SUBTEST(test_reduce_middle_dims<RowMajor>());
 }
+

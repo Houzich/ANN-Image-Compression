@@ -32,3 +32,4 @@ extern MagickExport unsigned int
 #endif
 
 #endif
+

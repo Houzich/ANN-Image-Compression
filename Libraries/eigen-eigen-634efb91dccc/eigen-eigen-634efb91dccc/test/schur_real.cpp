@@ -108,3 +108,4 @@ EIGEN_DECLARE_TEST(schur_real)
   // Test problem size constructors
   CALL_SUBTEST_5(RealSchur<MatrixXf>(10));
 }
+

@@ -41,3 +41,4 @@ EIGEN_DECLARE_TEST(upperbidiagonalization)
    CALL_SUBTEST_7( upperbidiag(Matrix<double,4,3>()) );
   }
 }
+

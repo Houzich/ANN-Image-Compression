@@ -93,3 +93,4 @@ template<> EIGEN_DONT_INLINE Packet4f pasin(Packet4f x)
 } // end namespace Eigen
 
 #endif // EIGEN_MOREVECTORIZATION_MATHFUNCTIONS_H
+

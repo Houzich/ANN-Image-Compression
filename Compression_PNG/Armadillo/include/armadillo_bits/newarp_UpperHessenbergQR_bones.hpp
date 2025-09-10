@@ -82,3 +82,4 @@ class TridiagQR : public UpperHessenbergQR<eT>
 
 
 }  // namespace newarp
+

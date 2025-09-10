@@ -108,3 +108,4 @@ EIGEN_DECLARE_TEST(inplace_decomposition)
     CALL_SUBTEST_8(( inplace<CompleteOrthogonalDecomposition<Ref<Matrix43d> >, Matrix43d>(false,false) ));
   }
 }
+

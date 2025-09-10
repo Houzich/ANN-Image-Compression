@@ -282,3 +282,4 @@ namespace Eigen {
 } // end namespace Eigen
 
 #endif // EIGEN_MINRES_H
+

@@ -69,3 +69,4 @@ EIGEN_DECLARE_TEST(bandmatrix)
     CALL_SUBTEST(bandmatrix(BandMatrix<float>(rows,cols,sups,subs)) );
   }
 }
+

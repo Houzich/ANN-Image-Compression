@@ -303,3 +303,4 @@ KroneckerProductSparse<A,B> kroneckerProduct(const EigenBase<A>& a, const EigenB
 } // end namespace Eigen
 
 #endif // KRONECKER_TENSOR_PRODUCT_H
+

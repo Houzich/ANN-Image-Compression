@@ -342,3 +342,4 @@ typedef ThreadPoolTempl<StlThreadEnvironment> ThreadPool;
 }  // namespace Eigen
 
 #endif  // EIGEN_CXX11_THREADPOOL_NONBLOCKING_THREAD_POOL_H
+

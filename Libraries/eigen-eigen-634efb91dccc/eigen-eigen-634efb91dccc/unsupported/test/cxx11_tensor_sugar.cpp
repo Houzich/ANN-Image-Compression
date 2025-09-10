@@ -79,3 +79,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_sugar)
   CALL_SUBTEST(test_scalar_sugar_add_mul());
   CALL_SUBTEST(test_scalar_sugar_sub_div());
 }
+

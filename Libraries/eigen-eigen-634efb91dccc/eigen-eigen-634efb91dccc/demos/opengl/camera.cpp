@@ -262,3 +262,4 @@ Vector3f Camera::unProject(const Vector2f& uv, float depth, const Matrix4f& invM
     Vector4f b = invModelview * Vector4f(a.x(), a.y(), a.z(), 1.);
     return Vector3f(b.x(), b.y(), b.z());
 }
+

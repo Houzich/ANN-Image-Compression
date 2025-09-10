@@ -156,3 +156,4 @@ SelfAdjointView<MatrixType, UpLo>::operatorNorm() const
 } // end namespace Eigen
 
 #endif
+

@@ -181,3 +181,4 @@ EIGEN_DECLARE_TEST(umeyama)
   // umeyama(MatrixXcf(),MatrixXcf());
   // umeyama(MatrixXcd(),MatrixXcd());
 }
+

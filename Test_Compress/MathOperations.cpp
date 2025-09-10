@@ -1,4 +1,4 @@
-п»ї#include "stdafx.h"
+#include "stdafx.h"
 
 namespace Mathematical_Operations
 {
@@ -13,25 +13,25 @@ namespace Mathematical_Operations
 	}
 
 
-	//РјР°С‚СЂРёС†Р° РѕРєРЅР°
-	//brink_cols - РєРѕР»-РІРѕ РєРѕР»РѕРЅРѕРє РІС‹С…РѕРґСЏС‰РёС… Р·Р° РіСЂР°РЅРёС†С‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
-	//brink_rows - РєРѕР»-РІРѕ СЃС‚СЂРѕРє РІС‹С…РѕРґСЏС‰РёС… Р·Р° РіСЂР°РЅРёС†С‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
+	//матрица окна
+	//brink_cols - кол-во колонок выходящих за границы изображения
+	//brink_rows - кол-во строк выходящих за границы изображения
 	void MathOperations::fillBrinkBlock(MatrixColorFloat *mtx, int brink_rows, int brink_cols) {
 		int mtx_cols = (int)mtx->cols();
 		int mtx_rows = (int)mtx->rows();
 		if (brink_cols >= mtx_cols || brink_rows >= mtx_rows) {
-			//РћС€РёР±РєР°, РІС‹С…РѕРґРёРј. 
+			//Ошибка, выходим. 
 			cerr << "ERROR fillBrinkWindowMatrix()!" << endl;
 			return;
 		}
 
-		//Р—Р°РїРѕР»РЅСЏРµРј РєРѕР»РѕРЅРєРё
+		//Заполняем колонки
 		if (brink_cols > 0)
 		{
-			int idx = mtx_cols - brink_cols; //РёРЅРґРµРєСЃ РїРµСЂРІРѕР№ РєРѕР»РѕРЅРєРё РІС‹С…РѕРґСЏС‰РµР№ Р·Р° РіСЂР°РЅРёС†С‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
+			int idx = mtx_cols - brink_cols; //индекс первой колонки выходящей за границы изображения
 			for (int i = idx; i < mtx_cols; i++)
 			{
-				//РґР»СЏ С‚РѕРіРѕ С‡С‚РѕР± РЅРµ Р·Р°РїСѓС‚Р°С‚СЊСЃСЏ СЃ С„СѓРЅРєС†РёРµР№ .block() РІРІРµРґРµРј РїРµСЂРµРјРµРЅРЅС‹Рµ
+				//для того чтоб не запутаться с функцией .block() введем переменные
 				int startRow = 0;
 				//int startCol =
 				int numRows = mtx_rows;
@@ -39,13 +39,13 @@ namespace Mathematical_Operations
 				mtx->block(startRow, i, numRows, numCols) = mtx->block(startRow, (idx - 1), numRows, numCols);
 			}
 		}
-		//Р—Р°РїРѕР»РЅСЏРµРј СЃС‚СЂРѕРєРё
+		//Заполняем строки
 		if (brink_rows > 0)
 		{
-			int idx = mtx_rows - brink_rows; //РёРЅРґРµРєСЃ РїРµСЂРІРѕР№ СЃС‚СЂРѕРєРё РІС‹С…РѕРґСЏС‰РµР№ Р·Р° РіСЂР°РЅРёС†С‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
+			int idx = mtx_rows - brink_rows; //индекс первой строки выходящей за границы изображения
 			for (int i = idx; i < mtx_rows; i++)
 			{
-				//РґР»СЏ С‚РѕРіРѕ С‡С‚РѕР± РЅРµ Р·Р°РїСѓС‚Р°С‚СЊСЃСЏ СЃ С„СѓРЅРєС†РёРµР№ .block() РІРІРµРґРµРј РїРµСЂРµРјРµРЅРЅС‹Рµ
+				//для того чтоб не запутаться с функцией .block() введем переменные
 				//int startRow = 0;
 				int startCol = 0;
 				int numRows = 1;
@@ -55,14 +55,14 @@ namespace Mathematical_Operations
 		}
 	}
 
-	//РЅРѕСЂРјР°Р»РёР·СѓРµРј РјР°С‚СЂРёС†Сѓ РїРѕ РєРѕР»РѕРЅРєР°Рј (РїРµСЂРµРІРѕРґРёРј РІ РґРёР°РїР°Р·РѕРЅ 0.0 - 1.0)
+	//нормализуем матрицу по колонкам (переводим в диапазон 0.0 - 1.0)
 	void MathOperations::normalizeColsMatrix(MatrixColorFloat *matrix) {
 		if ((matrix->maxCoeff() > 1.0) || (matrix->minCoeff() < 0.0)) {
 			for (int col_idx = 0; col_idx < matrix->cols(); col_idx++)
 				matrix->col(col_idx) = matrix->col(col_idx).normalized();
 		}
 	}
-	//РЅРѕСЂРјР°Р»РёР·СѓРµРј РјР°С‚СЂРёС†Сѓ РїРѕ СЃС‚СЂРѕРєР°Рј (РїРµСЂРµРІРѕРґРёРј РІ РґРёР°РїР°Р·РѕРЅ 0.0 - 1.0)
+	//нормализуем матрицу по строкам (переводим в диапазон 0.0 - 1.0)
 	void MathOperations::normalizeRowsMatrix(MatrixColorFloat *matrix) {
 		if ((matrix->maxCoeff() > 1.0) || (matrix->minCoeff() < 0.0)) {
 			for (int row_idx = 0; row_idx < matrix->rows(); row_idx++)
@@ -83,7 +83,7 @@ namespace Mathematical_Operations
 		return (1.0 / (matrix->squaredNorm()+FACTOR));
 	}
 
-	//РєРѕРЅРІРµРЅС‚РёСЂСѓРµС‚ РјР°С‚СЂРёС†Сѓ РєР°РЅР°Р»Р° С†РІРµС‚Р° РІ РґРёР°РїР°Р·РѕРЅ РґР»СЏ Р°Р»РіРѕСЂРёС‚РјР° ANN
+	//конвентирует матрицу канала цвета в диапазон для алгоритма ANN
 	MatrixColorFloat MathOperations::convertColorMatrixToInputANN(MatrixColorFloat mtx) {
 #ifdef COLOR_FLOAT_RANGE_0_1
 		return mtx = (mtx * 1.0) / QuantumRange;
@@ -93,7 +93,7 @@ namespace Mathematical_Operations
 #endif	 // COLOR_FLOAT_RANGE_0_1	
 
 	}
-	//РєРѕРЅРІРµРЅС‚РёСЂСѓРµС‚ РјР°С‚СЂРёС†Сѓ РєР°РЅР°Р»Р° С†РІРµС‚Р° РІ РґРёР°РїР°Р·РѕРЅ РґР»СЏ Р°Р»РіРѕСЂРёС‚РјР° ANN
+	//конвентирует матрицу канала цвета в диапазон для алгоритма ANN
 	void MathOperations::convertColorMatrixToInputANN(MatrixColorFloat *mtx) {
 #ifdef COLOR_FLOAT_RANGE_0_1
 		*mtx = (*mtx * 1.0) / QuantumRange;

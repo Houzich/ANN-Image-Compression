@@ -124,3 +124,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_layout_swap_sycl)
     CALL_SUBTEST(sycl_tensor_layout_swap_test_per_device<float>(device));
   }
 }
+

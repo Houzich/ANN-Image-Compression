@@ -350,3 +350,4 @@ struct sparse_sparse_to_dense_product_selector<Lhs,Rhs,ResultType,RowMajor,RowMa
 } // end namespace Eigen
 
 #endif // EIGEN_CONSERVATIVESPARSESPARSEPRODUCT_H
+

@@ -206,3 +206,4 @@ Translation<Scalar,Dim>::operator* (const EigenBase<OtherDerived>& linear) const
 } // end namespace Eigen
 
 #endif // EIGEN_TRANSLATION_H
+

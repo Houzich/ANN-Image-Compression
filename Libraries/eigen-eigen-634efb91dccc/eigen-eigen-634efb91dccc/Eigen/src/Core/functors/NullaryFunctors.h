@@ -186,3 +186,4 @@ struct has_binary_operator<scalar_random_op<Scalar>,IndexType> { enum { value = 
 } // end namespace Eigen
 
 #endif // EIGEN_NULLARY_FUNCTORS_H
+

@@ -446,3 +446,4 @@ option(EIGEN_TEST_BUILD_DOCUMENTATION "Test building the doxygen documentation" 
 IF(EIGEN_TEST_BUILD_DOCUMENTATION)
   add_dependencies(buildtests doc)
 ENDIF()
+

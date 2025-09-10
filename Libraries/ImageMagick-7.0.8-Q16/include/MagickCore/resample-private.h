@@ -73,3 +73,4 @@ static inline ResampleFilter **AcquireResampleFilterThreadSet(
 #endif
 
 #endif
+

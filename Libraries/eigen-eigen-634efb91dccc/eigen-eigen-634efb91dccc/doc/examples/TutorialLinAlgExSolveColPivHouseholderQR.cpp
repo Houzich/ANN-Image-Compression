@@ -15,3 +15,4 @@ int main()
    Vector3f x = A.colPivHouseholderQr().solve(b);
    cout << "The solution is:\n" << x << endl;
 }
+

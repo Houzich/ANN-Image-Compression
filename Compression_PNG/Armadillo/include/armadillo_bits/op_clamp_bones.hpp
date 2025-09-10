@@ -44,3 +44,4 @@ class op_clamp
 
 
 //! @}
+

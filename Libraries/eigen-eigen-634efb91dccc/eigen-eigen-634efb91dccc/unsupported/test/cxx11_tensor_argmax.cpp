@@ -292,3 +292,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_argmax)
   CALL_SUBTEST(test_argmin_dim<RowMajor>());
   CALL_SUBTEST(test_argmin_dim<ColMajor>());
 }
+

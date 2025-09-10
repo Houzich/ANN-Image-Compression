@@ -372,3 +372,4 @@ EIGEN_DECLARE_TEST(product_extra)
   CALL_SUBTEST_8( aliasing_with_resize<void>() );
 
 }
+

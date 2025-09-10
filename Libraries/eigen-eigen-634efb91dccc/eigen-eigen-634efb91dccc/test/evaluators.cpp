@@ -497,3 +497,4 @@ EIGEN_DECLARE_TEST(evaluators)
     VERIFY_IS_EQUAL( get_cost(a.lazyProduct(a+b)), 15);
   }
 }
+

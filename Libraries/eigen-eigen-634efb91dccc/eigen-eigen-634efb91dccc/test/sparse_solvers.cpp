@@ -110,3 +110,4 @@ EIGEN_DECLARE_TEST(sparse_solvers)
     CALL_SUBTEST_1(sparse_solvers<double>(s,s) );
   }
 }
+

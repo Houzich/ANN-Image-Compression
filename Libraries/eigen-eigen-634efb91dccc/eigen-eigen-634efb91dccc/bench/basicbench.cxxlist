@@ -26,3 +26,4 @@ CLIST[((g++))]="g++-4.4.4 -O3 -DNDEBUG -DEIGEN_DONT_VECTORIZE -lrt"
 CLIST[((g++))]="g++-4.4.4 -O3 -DNDEBUG -lrt"
 CLIST[((g++))]="g++-4.5.0 -O3 -DNDEBUG -DEIGEN_DONT_VECTORIZE -lrt"
 CLIST[((g++))]="g++-4.5.0 -O3 -DNDEBUG -lrt"
+

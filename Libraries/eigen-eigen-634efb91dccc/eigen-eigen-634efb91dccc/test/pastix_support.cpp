@@ -52,3 +52,4 @@ EIGEN_DECLARE_TEST(pastix_support)
   CALL_SUBTEST_3( (test_pastix_T_LU<std::complex<float> >()) );
   CALL_SUBTEST_4(test_pastix_T_LU<std::complex<double> >());
 } 
+

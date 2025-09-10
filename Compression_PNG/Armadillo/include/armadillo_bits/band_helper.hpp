@@ -375,3 +375,4 @@ extract_tridiag(Mat<eT>& out, const Mat<eT>& A)
 
 
 //! @}
+

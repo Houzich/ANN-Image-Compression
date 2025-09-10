@@ -197,3 +197,4 @@ EIGEN_DEVICE_FUNC Rotation2D<Scalar>::toRotationMatrix(void) const
 } // end namespace Eigen
 
 #endif // EIGEN_ROTATION2D_H
+

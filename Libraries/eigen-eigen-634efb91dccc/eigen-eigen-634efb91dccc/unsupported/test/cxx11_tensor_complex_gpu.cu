@@ -184,3 +184,4 @@ void test_cxx11_tensor_complex()
   CALL_SUBTEST(test_cuda_mean_reductions());
   CALL_SUBTEST(test_cuda_product_reductions());
 }
+

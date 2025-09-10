@@ -66,3 +66,4 @@ EIGEN_LAPACKE_QR_NOPIV(scomplex, lapack_complex_float, c)
 } // end namespace Eigen
 
 #endif // EIGEN_QR_LAPACKE_H
+

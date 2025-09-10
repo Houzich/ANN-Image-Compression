@@ -43,3 +43,4 @@ EIGEN_DECLARE_TEST(sparselu)
   CALL_SUBTEST_3(test_sparselu_T<std::complex<float> >()); 
   CALL_SUBTEST_4(test_sparselu_T<std::complex<double> >());
 }
+

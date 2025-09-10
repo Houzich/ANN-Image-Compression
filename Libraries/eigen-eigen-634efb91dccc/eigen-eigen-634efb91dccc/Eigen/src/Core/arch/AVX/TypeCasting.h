@@ -49,3 +49,4 @@ template<> EIGEN_STRONG_INLINE Packet8f pcast<Packet8i, Packet8f>(const Packet8i
 } // end namespace Eigen
 
 #endif // EIGEN_TYPE_CASTING_AVX_H
+

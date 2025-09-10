@@ -232,3 +232,4 @@ EIGEN_DECLARE_TEST(mapstride)
     TEST_SET_BUT_UNUSED_VARIABLE(maxn);
   }
 }
+

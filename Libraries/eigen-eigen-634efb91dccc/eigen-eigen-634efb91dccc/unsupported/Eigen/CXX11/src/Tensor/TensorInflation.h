@@ -233,3 +233,4 @@ struct TensorEvaluator<const TensorInflationOp<Strides, ArgType>, Device>
 } // end namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_INFLATION_H
+

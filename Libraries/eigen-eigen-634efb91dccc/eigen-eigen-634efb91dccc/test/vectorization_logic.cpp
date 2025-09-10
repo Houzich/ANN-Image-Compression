@@ -423,3 +423,4 @@ EIGEN_DECLARE_TEST(vectorization_logic)
 #endif // EIGEN_VECTORIZE
 
 }
+

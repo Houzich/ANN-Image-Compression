@@ -280,3 +280,4 @@ protected:
 } // end namespace Eigen
 
 #endif // EIGEN_HYPERPLANE_H
+

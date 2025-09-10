@@ -7,3 +7,4 @@
   <print output="Image sized from %[base-width]x%[base-height] to %[width]x%[height].\n" />
   <write filename="image.png" />
 </image>
+

@@ -42,3 +42,4 @@ EIGEN_DECLARE_TEST(minres)
 //  CALL_SUBTEST_2(test_minres_T<std::compex<double> >());
 
 }
+

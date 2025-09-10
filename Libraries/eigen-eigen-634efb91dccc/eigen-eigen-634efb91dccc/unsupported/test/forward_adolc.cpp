@@ -139,3 +139,4 @@ EIGEN_DECLARE_TEST(forward_adolc)
     A.selfadjointView<Lower>().eigenvalues();
   }
 }
+

@@ -14,3 +14,4 @@ int main()
        7,8;
   cout << "a * b = " << endl << a * b << endl;
 }
+

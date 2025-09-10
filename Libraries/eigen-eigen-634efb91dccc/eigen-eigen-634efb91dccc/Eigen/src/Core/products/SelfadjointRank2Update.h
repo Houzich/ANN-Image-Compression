@@ -92,3 +92,4 @@ EIGEN_DEVICE_FUNC SelfAdjointView<MatrixType,UpLo>& SelfAdjointView<MatrixType,U
 } // end namespace Eigen
 
 #endif // EIGEN_SELFADJOINTRANK2UPTADE_H
+

@@ -1137,3 +1137,4 @@ struct generic_product_impl<Lhs, Transpose<Rhs>, MatrixShape, TranspositionsShap
 } // end namespace Eigen
 
 #endif // EIGEN_PRODUCT_EVALUATORS_H
+

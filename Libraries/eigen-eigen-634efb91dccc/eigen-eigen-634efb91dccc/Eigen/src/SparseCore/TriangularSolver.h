@@ -313,3 +313,4 @@ void TriangularViewImpl<ExpressionType,Mode,Sparse>::solveInPlace(SparseMatrixBa
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSETRIANGULARSOLVER_H
+

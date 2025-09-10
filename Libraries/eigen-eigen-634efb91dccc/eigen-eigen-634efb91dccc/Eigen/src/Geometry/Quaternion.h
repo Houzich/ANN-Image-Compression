@@ -833,3 +833,4 @@ struct quaternionbase_assign_impl<Other,4,1>
 } // end namespace Eigen
 
 #endif // EIGEN_QUATERNION_H
+

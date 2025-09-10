@@ -17,3 +17,4 @@ int main()
   cout << "inv_cond(m(1:3,1:3)): " << inv_cond(m.topLeftCorner(3,3))   << endl;
   cout << "inv_cond(m+I):        " << inv_cond(m+Matrix4f::Identity()) << endl;
 }
+

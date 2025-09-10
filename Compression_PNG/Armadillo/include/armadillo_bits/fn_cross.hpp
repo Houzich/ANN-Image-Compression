@@ -34,3 +34,4 @@ cross(const Base<typename T1::elem_type,T1>& X, const Base<typename T1::elem_typ
 
 
 //! @}
+

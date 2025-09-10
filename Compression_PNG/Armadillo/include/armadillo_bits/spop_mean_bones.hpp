@@ -54,3 +54,4 @@ class spop_mean
 
 
 //! @}
+
