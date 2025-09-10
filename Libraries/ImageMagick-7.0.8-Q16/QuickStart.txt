@@ -134,3 +134,4 @@ VMS Install:
       set default [.imagemagick]
       @make
       identify -verbose logo:
+

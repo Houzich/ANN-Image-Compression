@@ -134,3 +134,4 @@ op_roots::apply_noalias(Mat< std::complex<typename get_pod_type<eT>::result> >& 
 
 
 //! @}
+

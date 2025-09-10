@@ -47,3 +47,4 @@ foreach(subproject ${CTEST_PROJECT_SUBPROJECTS})
   ctest_submit(PARTS Test)
   
 endforeach()
+

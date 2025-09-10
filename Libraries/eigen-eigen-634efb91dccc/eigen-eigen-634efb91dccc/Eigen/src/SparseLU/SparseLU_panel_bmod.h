@@ -221,3 +221,4 @@ void SparseLUImpl<Scalar,StorageIndex>::panel_bmod(const Index m, const Index w,
 } // end namespace Eigen
 
 #endif // SPARSELU_PANEL_BMOD_H
+

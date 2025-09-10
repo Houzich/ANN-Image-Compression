@@ -14,3 +14,4 @@ cout << "... and A * v = " << endl << A.cast<complex<double> >() * v << endl << 
 MatrixXcd D = es.eigenvalues().asDiagonal();
 MatrixXcd V = es.eigenvectors();
 cout << "Finally, V * D * V^(-1) = " << endl << V * D * V.inverse() << endl;
+

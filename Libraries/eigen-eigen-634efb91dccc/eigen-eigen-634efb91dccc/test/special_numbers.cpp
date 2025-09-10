@@ -56,3 +56,4 @@ EIGEN_DECLARE_TEST(special_numbers)
     CALL_SUBTEST_1( special_numbers<double>() );
   }
 }
+

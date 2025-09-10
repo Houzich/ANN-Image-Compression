@@ -645,3 +645,4 @@ struct TensorEvaluator<const TensorVolumePatchOp<Planes, Rows, Cols, ArgType>, D
 } // end namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_VOLUME_PATCH_H
+

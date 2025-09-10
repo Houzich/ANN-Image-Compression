@@ -687,3 +687,4 @@ void SimplicialCholeskyBase<Derived>::ordering(const MatrixType& a, ConstCholMat
 } // end namespace Eigen
 
 #endif // EIGEN_SIMPLICIAL_CHOLESKY_H
+

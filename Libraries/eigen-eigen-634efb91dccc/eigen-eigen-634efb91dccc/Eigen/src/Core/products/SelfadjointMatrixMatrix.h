@@ -519,3 +519,4 @@ struct selfadjoint_product_impl<Lhs,LhsMode,false,Rhs,RhsMode,false>
 } // end namespace Eigen
 
 #endif // EIGEN_SELFADJOINT_MATRIX_MATRIX_H
+

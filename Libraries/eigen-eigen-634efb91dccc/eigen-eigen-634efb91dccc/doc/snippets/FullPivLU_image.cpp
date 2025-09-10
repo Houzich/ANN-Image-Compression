@@ -7,3 +7,4 @@ cout << "Notice that the middle column is the sum of the two others, so the "
      << "columns are linearly dependent." << endl;
 cout << "Here is a matrix whose columns have the same span but are linearly independent:"
      << endl << m.fullPivLu().image(m) << endl;
+

@@ -286,3 +286,4 @@ struct TensorEvaluator<const TensorTraceOp<Dims, ArgType>, Device>
 } // End namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_TRACE_H
+

@@ -172,3 +172,4 @@ extern MagickPrivate void
 #endif /* !C++ */
 
 #endif /* !MAGICKCORE_NT_BASE_H */
+

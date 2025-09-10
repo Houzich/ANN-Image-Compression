@@ -473,3 +473,4 @@ template<typename BinaryOp> struct functor_traits<bind2nd_op<BinaryOp> > : funct
 } // end namespace Eigen
 
 #endif // EIGEN_BINARY_FUNCTORS_H
+

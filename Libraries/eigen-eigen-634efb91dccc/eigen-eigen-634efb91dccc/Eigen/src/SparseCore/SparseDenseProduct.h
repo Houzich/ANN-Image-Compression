@@ -340,3 +340,4 @@ struct product_evaluator<Product<Lhs, Rhs, DefaultProduct>, OuterProduct, DenseS
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSEDENSEPRODUCT_H
+

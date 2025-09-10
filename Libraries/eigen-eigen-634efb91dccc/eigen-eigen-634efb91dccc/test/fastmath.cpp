@@ -97,3 +97,4 @@ EIGEN_DECLARE_TEST(fastmath) {
   check_inf_nan<double>(false);
   check_inf_nan<long double>(false);
 }
+

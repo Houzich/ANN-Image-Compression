@@ -88,3 +88,4 @@ EIGEN_DECLARE_TEST(num_dimensions)
   CALL_SUBTEST( map_num_dimensions<TMatrix>() );
   #endif
 }
+

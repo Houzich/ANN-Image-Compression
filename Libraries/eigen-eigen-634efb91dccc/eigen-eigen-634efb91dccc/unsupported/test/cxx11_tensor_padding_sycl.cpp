@@ -155,3 +155,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_padding_sycl)
     CALL_SUBTEST(sycl_padding_test_per_device<float>(device));
   }
 }
+

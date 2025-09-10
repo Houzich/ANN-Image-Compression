@@ -158,3 +158,4 @@ DenseBase<Derived>::operator<<(const DenseBase<OtherDerived>& other)
 } // end namespace Eigen
 
 #endif // EIGEN_COMMAINITIALIZER_H
+

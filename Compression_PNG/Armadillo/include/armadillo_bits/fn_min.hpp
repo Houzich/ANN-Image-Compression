@@ -256,3 +256,4 @@ min(const SizeCube& s)
 
 
 //! @}
+

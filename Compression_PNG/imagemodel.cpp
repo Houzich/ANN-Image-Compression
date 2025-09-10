@@ -200,3 +200,4 @@ double ImageModel::convertColor(int color){
     return ((2.0 * color / 255) - 1);
 }
 
+

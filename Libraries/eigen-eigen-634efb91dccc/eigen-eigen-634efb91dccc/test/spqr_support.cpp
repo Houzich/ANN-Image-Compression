@@ -62,3 +62,4 @@ EIGEN_DECLARE_TEST(spqr_support)
   CALL_SUBTEST_1(test_spqr_scalar<double>());
   CALL_SUBTEST_2(test_spqr_scalar<std::complex<double> >());
 }
+

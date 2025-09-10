@@ -18,3 +18,4 @@ int main()
     evaluation[i] = poly_eval( polynomial, roots[i] ); }
   cout << "Evaluation of the polynomial at the roots: " << evaluation.transpose();
 }
+

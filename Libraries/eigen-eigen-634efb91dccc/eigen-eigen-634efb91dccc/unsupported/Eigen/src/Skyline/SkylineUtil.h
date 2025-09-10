@@ -87,3 +87,4 @@ template<typename T> class eval<T,IsSkyline>
 } // end namespace Eigen
 
 #endif // EIGEN_SKYLINEUTIL_H
+

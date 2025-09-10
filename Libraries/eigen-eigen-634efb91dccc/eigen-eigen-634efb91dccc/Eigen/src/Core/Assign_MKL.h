@@ -176,3 +176,4 @@ EIGEN_MKL_VML_DECLARE_POW_CALL(pow, vmzPowx, dcomplex, MKL_Complex16, LA)
 } // end namespace Eigen
 
 #endif // EIGEN_ASSIGN_VML_H
+

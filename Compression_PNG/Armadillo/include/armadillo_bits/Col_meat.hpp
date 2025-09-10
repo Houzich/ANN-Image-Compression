@@ -1693,3 +1693,4 @@ Col<eT>::Col(const arma_fixed_indicator&, const uword in_n_elem, const eT* in_me
 
 
 //! @}
+

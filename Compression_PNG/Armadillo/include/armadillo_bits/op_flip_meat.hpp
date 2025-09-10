@@ -285,3 +285,4 @@ op_fliplr::apply_proxy_noalias(Mat<typename T1::elem_type>& out, const Proxy<T1>
 
 
 //! @}
+

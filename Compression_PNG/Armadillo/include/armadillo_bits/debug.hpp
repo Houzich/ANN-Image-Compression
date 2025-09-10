@@ -1351,3 +1351,4 @@ arma_assert_atlas_size(const T1& A, const T2& B)
 
 
 //! @}
+

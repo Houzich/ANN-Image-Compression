@@ -1256,3 +1256,4 @@ eglue_core<eglue_type>::apply_inplace_div(Cube<typename T1::elem_type>& out, con
 
 
 //! @}
+

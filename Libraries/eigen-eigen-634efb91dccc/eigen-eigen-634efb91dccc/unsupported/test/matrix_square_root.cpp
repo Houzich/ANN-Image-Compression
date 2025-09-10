@@ -29,3 +29,4 @@ EIGEN_DECLARE_TEST(matrix_square_root)
     CALL_SUBTEST_5(testMatrixSqrt(Matrix<std::complex<float>,1,1>()));
   }
 }
+

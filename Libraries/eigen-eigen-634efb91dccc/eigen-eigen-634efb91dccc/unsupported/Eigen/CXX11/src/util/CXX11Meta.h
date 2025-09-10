@@ -544,3 +544,4 @@ InstType instantiate_by_c_array(ArrType* arr)
 #endif
 
 #endif // EIGEN_CXX11META_H
+

@@ -137,3 +137,4 @@ EIGEN_DECLARE_TEST(sparse_ref)
     CALL_SUBTEST_3( check_const_correctness(SparseVector<double,RowMajor>()) );
   }
 }
+

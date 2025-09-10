@@ -145,3 +145,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_intdiv)
   CALL_SUBTEST_6(test_powers_64bit());
   CALL_SUBTEST_7(test_specific());
 }
+

@@ -61,3 +61,4 @@ EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC Eigen::half i1e(const Eigen::half& x) {
 }  // end namespace Eigen
 
 #endif  // EIGEN_SPECIALFUNCTIONS_HALF_H
+

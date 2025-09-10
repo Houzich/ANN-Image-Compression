@@ -45,3 +45,4 @@ class spop_diagmat2
 
 
 //! @}
+

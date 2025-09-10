@@ -319,3 +319,4 @@ EIGEN_DECLARE_TEST(geo_quaternion)
     CALL_SUBTEST_3(( quaternion<AnnoyingScalar,AutoAlign>() ));
   }
 }
+

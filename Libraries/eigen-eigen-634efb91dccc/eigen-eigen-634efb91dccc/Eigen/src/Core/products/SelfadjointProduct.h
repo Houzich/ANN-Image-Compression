@@ -131,3 +131,4 @@ EIGEN_DEVICE_FUNC SelfAdjointView<MatrixType,UpLo>& SelfAdjointView<MatrixType,U
 } // end namespace Eigen
 
 #endif // EIGEN_SELFADJOINT_PRODUCT_H
+

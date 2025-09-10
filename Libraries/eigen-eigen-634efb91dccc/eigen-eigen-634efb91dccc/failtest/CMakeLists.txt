@@ -73,3 +73,4 @@ else()
   message(STATUS "Failtest SUCCESS: all ${EIGEN_FAILTEST_COUNT} failtests passed.")
   message(STATUS "")
 endif()
+

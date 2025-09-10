@@ -16,3 +16,4 @@ int main()
   CV_QUALIFIER SparseMatrix<float>& ac(a);
   call_ref(ac);
 }
+

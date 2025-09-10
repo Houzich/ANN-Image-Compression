@@ -525,3 +525,4 @@ HouseholderSequence<VectorsType,CoeffsType,OnTheRight> rightHouseholderSequence(
 } // end namespace Eigen
 
 #endif // EIGEN_HOUSEHOLDER_SEQUENCE_H
+

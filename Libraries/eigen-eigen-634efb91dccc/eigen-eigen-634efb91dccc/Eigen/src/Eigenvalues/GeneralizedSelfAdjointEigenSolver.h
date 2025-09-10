@@ -224,3 +224,4 @@ compute(const MatrixType& matA, const MatrixType& matB, int options)
 } // end namespace Eigen
 
 #endif // EIGEN_GENERALIZEDSELFADJOINTEIGENSOLVER_H
+

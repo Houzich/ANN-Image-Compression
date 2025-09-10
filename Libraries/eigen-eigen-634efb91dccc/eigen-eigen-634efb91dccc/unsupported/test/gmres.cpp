@@ -29,3 +29,4 @@ EIGEN_DECLARE_TEST(gmres)
   CALL_SUBTEST_1(test_gmres_T<double>());
   CALL_SUBTEST_2(test_gmres_T<std::complex<double> >());
 }
+

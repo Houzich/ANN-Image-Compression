@@ -12,3 +12,4 @@ int main()
 {
   HouseholderQR<Matrix<SCALAR,Dynamic,Dynamic> > qr(Matrix<SCALAR,Dynamic,Dynamic>::Random(10,10));
 }
+

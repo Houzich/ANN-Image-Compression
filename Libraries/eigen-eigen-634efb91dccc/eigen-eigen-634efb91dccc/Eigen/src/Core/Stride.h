@@ -109,3 +109,4 @@ class OuterStride : public Stride<Value, 0>
 } // end namespace Eigen
 
 #endif // EIGEN_STRIDE_H
+

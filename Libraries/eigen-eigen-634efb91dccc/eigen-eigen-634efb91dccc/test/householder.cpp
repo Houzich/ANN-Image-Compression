@@ -146,3 +146,4 @@ EIGEN_DECLARE_TEST(householder)
     CALL_SUBTEST_8( householder(Matrix<double,1,1>()) );
   }
 }
+

@@ -283,3 +283,4 @@ template<typename TPlainObjectType, int Options, typename StrideType> class Ref<
 } // end namespace Eigen
 
 #endif // EIGEN_REF_H
+

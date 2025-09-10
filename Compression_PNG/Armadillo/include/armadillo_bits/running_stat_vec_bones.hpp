@@ -153,3 +153,4 @@ class running_stat_vec_aux
 
 
 //! @}
+

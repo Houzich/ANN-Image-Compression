@@ -205,3 +205,4 @@ EIGEN_DECLARE_TEST(mapped_matrix)
     CALL_SUBTEST_11( map_not_aligned_on_scalar<double>() );
   }
 }
+

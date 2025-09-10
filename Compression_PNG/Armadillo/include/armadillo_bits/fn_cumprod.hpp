@@ -67,3 +67,4 @@ cumprod(const T& x)
 
 
 //! @}
+

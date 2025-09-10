@@ -265,3 +265,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_builtins_sycl) {
     CALL_SUBTEST(test_builtin_binary_sycl(sycl_device));
   }
 }
+

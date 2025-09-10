@@ -235,3 +235,4 @@ ModuleExport size_t analyzeImage(Image **images,const int argc,
   }
   return(MagickImageFilterSignature);
 }
+

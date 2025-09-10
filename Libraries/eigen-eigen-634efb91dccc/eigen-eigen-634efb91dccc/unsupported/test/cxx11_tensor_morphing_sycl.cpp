@@ -246,3 +246,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_morphing_sycl)
     CALL_SUBTEST(sycl_morphing_test_per_device<float>(device));
   }
 }
+

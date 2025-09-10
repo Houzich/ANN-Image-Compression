@@ -18,3 +18,4 @@
   <configure name="COPYRIGHT" value="Copyright (C) 1999-2018 ImageMagick Studio LLC"/>
   <configure name="WEBSITE" value="http://www.imagemagick.org"/>
 </configuremap>
+

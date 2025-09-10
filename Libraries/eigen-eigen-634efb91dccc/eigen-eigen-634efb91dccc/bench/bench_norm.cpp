@@ -358,3 +358,4 @@ int main(int argc, char** argv)
     BENCH_PERF(bl2passNorm);
   }
 }
+

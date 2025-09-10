@@ -319,3 +319,4 @@ struct TensorEvaluator<const TensorTupleReducerOp<ReduceOp, Dims, ArgType>, Devi
 } // end namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_ARG_MAX_H
+

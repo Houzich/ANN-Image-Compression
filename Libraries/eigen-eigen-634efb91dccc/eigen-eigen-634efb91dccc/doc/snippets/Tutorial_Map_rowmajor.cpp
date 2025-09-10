@@ -5,3 +5,4 @@ cout << "Row-major:\n" << Map<Matrix<int,2,4,RowMajor> >(array) << endl;
 cout << "Row-major using stride:\n" <<
   Map<Matrix<int,2,4>, Unaligned, Stride<1,4> >(array) << endl;
 
+

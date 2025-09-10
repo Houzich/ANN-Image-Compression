@@ -579,3 +579,4 @@ const MatrixFunctionReturnValue<Derived> MatrixBase<Derived>::cosh() const
 } // end namespace Eigen
 
 #endif // EIGEN_MATRIX_FUNCTION
+

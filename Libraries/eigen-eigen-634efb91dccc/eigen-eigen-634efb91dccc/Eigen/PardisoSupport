@@ -33,3 +33,4 @@
 #include "src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_PARDISOSUPPORT_MODULE_H
+

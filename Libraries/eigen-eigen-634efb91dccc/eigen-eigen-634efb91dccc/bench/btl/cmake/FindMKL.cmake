@@ -63,3 +63,4 @@ include(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(MKL DEFAULT_MSG MKL_LIBRARIES)
 
 mark_as_advanced(MKL_LIBRARIES)
+

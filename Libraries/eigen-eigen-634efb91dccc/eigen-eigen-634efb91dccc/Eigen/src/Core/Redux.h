@@ -493,3 +493,4 @@ MatrixBase<Derived>::trace() const
 } // end namespace Eigen
 
 #endif // EIGEN_REDUX_H
+

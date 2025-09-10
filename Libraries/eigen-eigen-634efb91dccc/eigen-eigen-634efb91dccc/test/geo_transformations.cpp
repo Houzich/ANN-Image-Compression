@@ -643,3 +643,4 @@ EIGEN_DECLARE_TEST(geo_transformations)
     CALL_SUBTEST_8(( transform_associativity<double,3,ColMajor>(Quaterniond::UnitRandom()) ));
   }
 }
+

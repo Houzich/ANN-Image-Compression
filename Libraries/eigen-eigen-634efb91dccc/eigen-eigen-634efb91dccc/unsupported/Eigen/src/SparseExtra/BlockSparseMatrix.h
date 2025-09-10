@@ -1077,3 +1077,4 @@ class BlockSparseMatrix<_Scalar, _BlockAtCompileTime, _Options, _StorageIndex>::
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSEBLOCKMATRIX_H
+

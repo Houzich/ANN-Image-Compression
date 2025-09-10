@@ -82,3 +82,4 @@ class eglue_schur : public eglue_core<eglue_schur>
 
 
 //! @}
+

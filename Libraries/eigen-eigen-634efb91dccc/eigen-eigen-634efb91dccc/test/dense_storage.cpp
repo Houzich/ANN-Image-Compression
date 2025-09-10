@@ -74,3 +74,4 @@ EIGEN_DECLARE_TEST(dense_storage)
   dense_storage_assignment<float,4,Dynamic>();  
   dense_storage_assignment<float,4,3>();  
 }
+

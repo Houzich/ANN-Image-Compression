@@ -278,3 +278,4 @@ void sparselu_gemm(Index m, Index n, Index d, const Scalar* A, Index lda, const 
 } // namespace Eigen
 
 #endif // EIGEN_SPARSELU_GEMM_KERNEL_H
+

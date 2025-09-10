@@ -65,3 +65,4 @@ typename Derived::RealScalar relerr(const MatrixBase<Derived>& A, const MatrixBa
 {
   return std::sqrt((A - B).cwiseAbs2().sum() / (std::min)(A.cwiseAbs2().sum(), B.cwiseAbs2().sum()));
 }
+

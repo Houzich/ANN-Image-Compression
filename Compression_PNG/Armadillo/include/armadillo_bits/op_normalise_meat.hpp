@@ -144,3 +144,4 @@ op_normalise_mat::apply(Mat<eT>& out, const Mat<eT>& A, const uword p, const uwo
 
 
 //! @}
+

@@ -693,3 +693,4 @@ DenseBase<Derived>::rowwise()
 } // end namespace Eigen
 
 #endif // EIGEN_PARTIAL_REDUX_H
+

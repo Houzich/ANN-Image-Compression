@@ -226,3 +226,4 @@ join_horiz(const SpBase<typename T1::elem_type,T1>& A, const SpBase<typename T1:
 
 
 //! @}
+

@@ -103,3 +103,4 @@ EIGEN_DECLARE_TEST(diagonal)
     CALL_SUBTEST_1( diagonal_assert(MatrixXf(internal::random<int>(1,EIGEN_TEST_MAX_SIZE), internal::random<int>(1,EIGEN_TEST_MAX_SIZE))) );
   }
 }
+

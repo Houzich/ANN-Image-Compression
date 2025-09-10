@@ -7,3 +7,4 @@ cout << "The matrix A is:" << endl << MatrixXd(A) << endl;
 cout << "it has " << A.nonZeros() << " stored non zero coefficients that are: " << A.coeffs().transpose() << endl;
 A.coeffs() += 10;
 cout << "After adding 10 to every stored non zero coefficient, the matrix A is:" << endl << MatrixXd(A) << endl;
+

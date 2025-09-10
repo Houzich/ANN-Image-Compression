@@ -754,3 +754,4 @@ op_strans_cube::apply_noalias(Cube<eT>& out, const Cube<eT>& X)
 
 
 //! @}
+

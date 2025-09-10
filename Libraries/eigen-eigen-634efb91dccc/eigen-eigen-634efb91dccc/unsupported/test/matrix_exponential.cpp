@@ -139,3 +139,4 @@ EIGEN_DECLARE_TEST(matrix_exponential)
   CALL_SUBTEST_6(randomTest(MatrixXf(8,8), 1e-4));
   CALL_SUBTEST_9(randomTest(Matrix<long double,Dynamic,Dynamic>(7,7), 1e-13));
 }
+

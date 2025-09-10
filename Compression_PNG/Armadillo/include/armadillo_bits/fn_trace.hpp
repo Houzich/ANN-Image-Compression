@@ -348,3 +348,4 @@ trace(const SpGlue<SpOp<T1, spop_htrans>, T2, spglue_times>& expr)
 
 
 //! @}
+

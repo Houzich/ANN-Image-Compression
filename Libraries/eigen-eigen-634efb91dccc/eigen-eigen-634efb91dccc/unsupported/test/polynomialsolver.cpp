@@ -214,3 +214,4 @@ EIGEN_DECLARE_TEST(polynomialsolver)
     CALL_SUBTEST_12((polynomialsolver<std::complex<double>,Dynamic>(internal::random<int>(2,13))) );
   }
 }
+

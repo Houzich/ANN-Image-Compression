@@ -42,3 +42,4 @@ auto C = (u + (A*v).normalized()).eval();
 In this case, C will be a regular VectorXd object.
 */
 }
+

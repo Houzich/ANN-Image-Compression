@@ -195,3 +195,4 @@ EIGEN_DECLARE_TEST(geo_hyperplane)
     CALL_SUBTEST_5( planes<double>() );
   }
 }
+

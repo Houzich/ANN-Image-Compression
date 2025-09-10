@@ -25,3 +25,4 @@ int main(int, char**)
   cout << "Now the vector v is:" << endl << v << endl;
   return 0;
 }
+

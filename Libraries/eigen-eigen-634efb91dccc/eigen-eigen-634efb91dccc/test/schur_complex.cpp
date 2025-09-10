@@ -89,3 +89,4 @@ EIGEN_DECLARE_TEST(schur_complex)
   // Test problem size constructors
   CALL_SUBTEST_5(ComplexSchur<MatrixXf>(10));
 }
+

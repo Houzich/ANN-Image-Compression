@@ -280,3 +280,4 @@ struct TensorEvaluator<const TensorPatchOp<PatchDim, ArgType>, Device>
 } // end namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_PATCH_H
+

@@ -220,3 +220,4 @@ op_shift::apply_alias(Mat<eT>& X, const uword len, const uword neg, const uword 
 
 
 //! @}
+

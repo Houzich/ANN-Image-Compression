@@ -260,3 +260,4 @@ IndexedView_or_VectorBlock
 operator()(const Indices& indices);
 
 #endif  // EIGEN_PARSED_BY_DOXYGEN
+

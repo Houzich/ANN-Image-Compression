@@ -168,3 +168,4 @@ op_trapz::apply_noalias(Mat<eT>& out, const Mat<eT>& Y, const uword dim)
 
 
 //! @}
+

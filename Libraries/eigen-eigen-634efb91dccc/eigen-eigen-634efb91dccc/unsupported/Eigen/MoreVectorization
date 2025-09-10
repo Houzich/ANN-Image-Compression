@@ -22,3 +22,4 @@ namespace Eigen {
 #include "src/MoreVectorization/MathFunctions.h"
 
 #endif // EIGEN_MOREVECTORIZATION_MODULE_H
+

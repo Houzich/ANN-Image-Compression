@@ -20,3 +20,4 @@ int main()
   Vector3d w(1,0,0);
   std::cout << "-v + w - v =\n" << -v + w - v << std::endl;
 }
+

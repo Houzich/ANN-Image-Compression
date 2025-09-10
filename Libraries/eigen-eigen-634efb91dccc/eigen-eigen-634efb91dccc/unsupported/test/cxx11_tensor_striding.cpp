@@ -117,3 +117,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_striding)
   CALL_SUBTEST(test_striding_as_lvalue<ColMajor>());
   CALL_SUBTEST(test_striding_as_lvalue<RowMajor>());
 }
+

@@ -19,3 +19,4 @@
 <typemap>
    <include file="type-ghostscript.xml"/>
 </typemap>
+

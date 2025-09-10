@@ -372,3 +372,4 @@ template<typename MatrixType> struct HessenbergDecompositionMatrixHReturnType
 } // end namespace Eigen
 
 #endif // EIGEN_HESSENBERGDECOMPOSITION_H
+

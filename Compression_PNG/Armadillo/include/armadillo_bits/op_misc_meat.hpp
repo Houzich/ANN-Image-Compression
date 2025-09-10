@@ -374,3 +374,4 @@ op_arg::apply( Cube<typename T1::pod_type>& out, const mtOpCube<typename T1::pod
 
 
 //! @}
+

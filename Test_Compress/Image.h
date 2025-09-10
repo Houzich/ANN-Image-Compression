@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "stdafx.h"
 
 namespace Compression_Plugin
@@ -54,3 +54,4 @@ namespace Compression_Plugin
 
 
 }
+

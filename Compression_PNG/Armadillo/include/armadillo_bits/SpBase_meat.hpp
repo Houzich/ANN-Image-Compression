@@ -329,3 +329,4 @@ SpBase<elem_type,derived>::index_max() const
 
 
 //! @}
+

@@ -82,3 +82,4 @@ EIGEN_DECLARE_TEST(constructor)
     VERIFY_IS_EQUAL(a(4), 123.f);
   }
 }
+

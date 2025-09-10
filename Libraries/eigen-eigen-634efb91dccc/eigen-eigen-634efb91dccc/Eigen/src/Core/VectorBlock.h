@@ -94,3 +94,4 @@ template<typename VectorType, int Size> class VectorBlock
 } // end namespace Eigen
 
 #endif // EIGEN_VECTORBLOCK_H
+

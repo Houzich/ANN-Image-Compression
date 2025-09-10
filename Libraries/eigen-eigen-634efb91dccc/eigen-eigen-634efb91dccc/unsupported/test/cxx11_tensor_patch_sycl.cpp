@@ -247,3 +247,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_patch_sycl)
     CALL_SUBTEST(sycl_tensor_patch_test_per_device<float>(device));
   }
 }
+

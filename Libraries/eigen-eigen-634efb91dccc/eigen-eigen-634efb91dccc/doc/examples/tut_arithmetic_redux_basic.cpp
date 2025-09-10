@@ -14,3 +14,4 @@ int main()
   cout << "Here is mat.maxCoeff():  " << mat.maxCoeff()  << endl;
   cout << "Here is mat.trace():     " << mat.trace()     << endl;
 }
+

@@ -142,3 +142,4 @@ SizeMat::operator/(const uword val) const
 
 
 //! @}
+

@@ -680,3 +680,4 @@ class CholmodDecomposition : public CholmodBase<_MatrixType, _UpLo, CholmodDecom
 } // end namespace Eigen
 
 #endif // EIGEN_CHOLMODSUPPORT_H
+

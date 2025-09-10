@@ -384,3 +384,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_index_list)
   CALL_SUBTEST(test_dim_check());
 #endif
 }
+

@@ -242,3 +242,4 @@ template<typename MatrixType> void product(const MatrixType& m)
   }
 
 }
+

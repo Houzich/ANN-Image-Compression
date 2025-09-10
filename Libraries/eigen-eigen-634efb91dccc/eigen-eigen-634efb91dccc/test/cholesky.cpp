@@ -521,3 +521,4 @@ EIGEN_DECLARE_TEST(cholesky)
 
   TEST_SET_BUT_UNUSED_VARIABLE(nb_temporaries)
 }
+

@@ -59,3 +59,4 @@ class op_norm
 
 
 //! @}
+

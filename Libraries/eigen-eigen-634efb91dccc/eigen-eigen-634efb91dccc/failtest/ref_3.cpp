@@ -13,3 +13,4 @@ int main()
   VectorXf a(10);
   call_ref(a+a);
 }
+

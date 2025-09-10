@@ -22,3 +22,4 @@ int main()
   cout << "Nearest neighbour is column " << index << ":" << endl;
   cout << m.col(index) << endl;
 }
+

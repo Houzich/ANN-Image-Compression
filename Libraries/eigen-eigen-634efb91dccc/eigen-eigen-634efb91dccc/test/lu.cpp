@@ -277,3 +277,4 @@ EIGEN_DECLARE_TEST(lu)
     CALL_SUBTEST_9( FullPivLU<MatrixXf>(10, 20); );
   }
 }
+

@@ -30,3 +30,4 @@ class glue_toeplitz
 
 
 //! @}
+

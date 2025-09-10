@@ -195,3 +195,4 @@ class CwiseTernaryOpImpl
 }  // end namespace Eigen
 
 #endif  // EIGEN_CWISE_TERNARY_OP_H
+

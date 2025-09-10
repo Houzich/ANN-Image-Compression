@@ -63,3 +63,4 @@ if (EIGEN3_FOUND)
   endif(NOT BTL_NOVEC)
 
 endif (EIGEN3_FOUND)
+

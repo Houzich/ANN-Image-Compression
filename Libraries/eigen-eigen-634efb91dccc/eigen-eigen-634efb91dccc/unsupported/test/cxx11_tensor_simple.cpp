@@ -325,3 +325,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_simple)
   CALL_SUBTEST(test_simple_assign());
   CALL_SUBTEST(test_resize());
 }
+

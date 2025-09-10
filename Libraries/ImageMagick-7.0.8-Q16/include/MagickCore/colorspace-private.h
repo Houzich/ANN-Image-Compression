@@ -131,3 +131,4 @@ static inline MagickBooleanType IssRGBCompatibleColorspace(
 #endif
 
 #endif
+

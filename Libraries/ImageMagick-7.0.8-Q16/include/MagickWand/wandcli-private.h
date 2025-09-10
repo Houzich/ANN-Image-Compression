@@ -138,3 +138,4 @@ struct _MagickCLI       /* CLI interface version of MagickWand */
 #endif
 
 #endif
+

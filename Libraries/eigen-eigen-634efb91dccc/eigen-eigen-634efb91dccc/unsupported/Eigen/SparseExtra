@@ -51,3 +51,4 @@
 #include "../../Eigen/src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_SPARSE_EXTRA_MODULE_H
+

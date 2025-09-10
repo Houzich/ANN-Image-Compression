@@ -33,3 +33,4 @@ extern MagickExport Image
 #endif
 
 #endif
+

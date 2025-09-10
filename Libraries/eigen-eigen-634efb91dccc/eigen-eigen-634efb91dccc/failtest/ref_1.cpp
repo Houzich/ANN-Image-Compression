@@ -16,3 +16,4 @@ int main()
   CV_QUALIFIER VectorXf& ac(a);
   call_ref(ac);
 }
+

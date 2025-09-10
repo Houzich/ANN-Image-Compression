@@ -32,3 +32,4 @@ EIGEN_DECLARE_TEST(umfpack_support)
   CALL_SUBTEST_4((test_umfpack_support_T<std::complex<double>, long>()));
 }
 
+

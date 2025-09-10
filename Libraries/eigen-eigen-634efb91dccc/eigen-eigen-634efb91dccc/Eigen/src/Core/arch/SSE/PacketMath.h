@@ -945,3 +945,4 @@ static inline __m128d _mm_castsi128_pd(__m128i x) { return reinterpret_cast<__m1
 #endif
 
 #endif // EIGEN_PACKET_MATH_SSE_H
+

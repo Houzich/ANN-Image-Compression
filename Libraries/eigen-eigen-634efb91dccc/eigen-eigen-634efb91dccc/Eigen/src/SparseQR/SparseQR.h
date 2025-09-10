@@ -744,3 +744,4 @@ struct Assignment<DstXprType, SparseQRMatrixQReturnType<SparseQRType>, internal:
 } // end namespace Eigen
 
 #endif
+

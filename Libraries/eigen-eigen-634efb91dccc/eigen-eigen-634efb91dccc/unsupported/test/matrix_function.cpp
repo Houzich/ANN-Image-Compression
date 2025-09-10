@@ -191,3 +191,4 @@ EIGEN_DECLARE_TEST(matrix_function)
   CALL_SUBTEST_6(testMatrixType(Matrix4cd()));
   CALL_SUBTEST_7(testMatrixType(MatrixXd(13,13)));
 }
+

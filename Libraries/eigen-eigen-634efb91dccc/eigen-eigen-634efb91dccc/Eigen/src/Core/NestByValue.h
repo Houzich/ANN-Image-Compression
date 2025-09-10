@@ -108,3 +108,4 @@ DenseBase<Derived>::nestByValue() const
 } // end namespace Eigen
 
 #endif // EIGEN_NESTBYVALUE_H
+

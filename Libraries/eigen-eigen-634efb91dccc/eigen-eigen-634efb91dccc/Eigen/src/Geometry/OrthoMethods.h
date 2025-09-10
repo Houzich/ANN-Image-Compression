@@ -232,3 +232,4 @@ MatrixBase<Derived>::unitOrthogonal() const
 } // end namespace Eigen
 
 #endif // EIGEN_ORTHOMETHODS_H
+

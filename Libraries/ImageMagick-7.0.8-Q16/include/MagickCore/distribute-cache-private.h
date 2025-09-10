@@ -76,3 +76,4 @@ extern MagickPrivate MagickOffsetType
 #endif
 
 #endif
+

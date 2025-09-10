@@ -10,3 +10,4 @@ int main()
   std::cout << "The matrix m is of size "
             << m.rows() << "x" << m.cols() << std::endl;
 }
+

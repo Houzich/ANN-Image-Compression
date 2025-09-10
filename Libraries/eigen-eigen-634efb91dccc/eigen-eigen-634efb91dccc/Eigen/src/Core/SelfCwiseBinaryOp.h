@@ -45,3 +45,4 @@ EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE Derived& DenseBase<Derived>::operator/=(co
 } // end namespace Eigen
 
 #endif // EIGEN_SELFCWISEBINARYOP_H
+

@@ -348,3 +348,4 @@ template<int Mode> struct trmv_selector<Mode,RowMajor>
 } // end namespace Eigen
 
 #endif // EIGEN_TRIANGULARMATRIXVECTOR_H
+

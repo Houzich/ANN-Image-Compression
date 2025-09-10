@@ -4,3 +4,4 @@ cout << "Here is a.topRows(2):" << endl;
 cout << a.topRows(2) << endl;
 a.topRows(2).setZero();
 cout << "Now the array a is:" << endl << a << endl;
+

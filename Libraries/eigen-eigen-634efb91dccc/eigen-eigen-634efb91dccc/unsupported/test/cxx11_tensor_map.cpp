@@ -275,3 +275,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_map)
   CALL_SUBTEST(test_from_tensor());
   CALL_SUBTEST(test_casting());
 }
+

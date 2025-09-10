@@ -51,3 +51,4 @@ EIGEN_DECLARE_TEST(unalignedcount)
   VERIFY(a==b);
   #endif
 }
+

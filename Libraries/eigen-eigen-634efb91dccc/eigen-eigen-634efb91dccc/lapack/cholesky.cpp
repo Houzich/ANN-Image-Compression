@@ -70,3 +70,4 @@ EIGEN_LAPACK_FUNC(potrs,(char* uplo, int *n, int *nrhs, RealScalar *pa, int *lda
 
   return 0;
 }
+

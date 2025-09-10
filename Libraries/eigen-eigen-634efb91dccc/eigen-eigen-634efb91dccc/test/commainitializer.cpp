@@ -104,3 +104,4 @@ EIGEN_DECLARE_TEST(commainitializer)
   // recursively test all block-sizes from 0 to 3:
   test_block_recursion<(1<<8) - 1>();
 }
+

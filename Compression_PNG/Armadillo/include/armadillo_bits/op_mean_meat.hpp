@@ -711,3 +711,4 @@ op_mean::robust_mean(const std::complex<T>& A, const std::complex<T>& B)
 
 //! @}
 
+

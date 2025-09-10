@@ -19,3 +19,4 @@ else
   ./buildtests.sh "$1" && ctest -R "$1"
 fi
 exit $?
+

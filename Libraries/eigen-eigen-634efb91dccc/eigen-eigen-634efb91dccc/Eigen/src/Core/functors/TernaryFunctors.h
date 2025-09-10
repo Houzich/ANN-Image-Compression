@@ -23,3 +23,4 @@ namespace internal {
 } // end namespace Eigen
 
 #endif // EIGEN_TERNARY_FUNCTORS_H
+

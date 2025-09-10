@@ -85,3 +85,4 @@ EIGEN_LAPACKE_EIG_SELFADJ(scomplex, lapack_complex_float,  float,  cheev)
 } // end namespace Eigen
 
 #endif // EIGEN_SAEIGENSOLVER_H
+

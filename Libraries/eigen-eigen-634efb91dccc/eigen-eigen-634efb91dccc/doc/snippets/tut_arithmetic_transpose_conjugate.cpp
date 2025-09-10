@@ -10,3 +10,4 @@ cout << "Here is the conjugate of a\n" << a.conjugate() << endl;
 cout << "Here is the matrix a^*\n" << a.adjoint() << endl;
 
 
+

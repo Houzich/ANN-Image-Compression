@@ -496,3 +496,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_of_float16_gpu)
   std::cout << "Half floats are not supported by this version of gpu: skipping the test" << std::endl;
 #endif
 }
+

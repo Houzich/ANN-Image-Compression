@@ -167,3 +167,4 @@ EIGEN_DECLARE_TEST(eigensolver_generic)
   
   TEST_SET_BUT_UNUSED_VARIABLE(s)
 }
+

@@ -42,3 +42,4 @@ void saveAsBitmap(const Eigen::VectorXd& x, int n, const char* filename)
   for(int i=0;i<256;i++) img.setColor(i,qRgb(i,i,i));
   img.save(filename);
 }
+

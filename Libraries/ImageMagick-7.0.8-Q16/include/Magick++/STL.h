@@ -2833,3 +2833,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_STL_header
+

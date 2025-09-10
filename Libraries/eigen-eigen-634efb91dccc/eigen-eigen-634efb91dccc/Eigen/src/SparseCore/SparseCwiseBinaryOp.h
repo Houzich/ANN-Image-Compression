@@ -720,3 +720,4 @@ operator-(const SparseMatrixBase<SparseDerived> &a, const MatrixBase<DenseDerive
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_CWISE_BINARY_OP_H
+

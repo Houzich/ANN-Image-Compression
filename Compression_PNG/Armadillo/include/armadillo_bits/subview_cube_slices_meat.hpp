@@ -488,3 +488,4 @@ subview_cube_slices<eT,T1>::div_inplace(Cube<eT>& out, const subview_cube_slices
 
 
 //! @}
+

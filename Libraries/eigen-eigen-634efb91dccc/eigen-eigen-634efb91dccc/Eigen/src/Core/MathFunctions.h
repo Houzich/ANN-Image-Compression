@@ -1751,3 +1751,4 @@ template<> struct scalar_fuzzy_impl<bool>
 } // end namespace Eigen
 
 #endif // EIGEN_MATHFUNCTIONS_H
+

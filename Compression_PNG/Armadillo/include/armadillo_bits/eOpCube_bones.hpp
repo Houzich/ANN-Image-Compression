@@ -58,3 +58,4 @@ class eOpCube : public BaseCube<typename T1::elem_type, eOpCube<T1, eop_type> >
 
 
 //! @}
+

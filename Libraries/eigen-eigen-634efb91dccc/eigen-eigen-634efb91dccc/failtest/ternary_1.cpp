@@ -11,3 +11,4 @@ int main(int argc,char **)
   b = argc>1 ? 2*a : VectorXf(-a);
 #endif
 }
+

@@ -355,3 +355,4 @@ EIGEN_DECLARE_TEST(cxx11_meta)
   CALL_SUBTEST(test_array_zip_and_apply());
   CALL_SUBTEST(test_array_misc());
 }
+

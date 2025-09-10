@@ -185,3 +185,4 @@ static const Eigen::internal::all_t all;
 } // end namespace Eigen
 
 #endif // EIGEN_INDEXED_VIEW_HELPER_H
+

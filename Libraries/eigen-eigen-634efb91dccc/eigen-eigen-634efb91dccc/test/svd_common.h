@@ -476,3 +476,4 @@ void svd_verify_assert(const MatrixType& m)
 
 #undef SVD_DEFAULT
 #undef SVD_FOR_MIN_NORM
+

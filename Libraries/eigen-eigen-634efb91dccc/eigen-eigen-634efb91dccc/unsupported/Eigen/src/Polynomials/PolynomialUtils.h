@@ -141,3 +141,4 @@ void roots_to_monicPolynomial( const RootVector& rv, Polynomial& poly )
 } // end namespace Eigen
 
 #endif // EIGEN_POLYNOMIAL_UTILS_H
+

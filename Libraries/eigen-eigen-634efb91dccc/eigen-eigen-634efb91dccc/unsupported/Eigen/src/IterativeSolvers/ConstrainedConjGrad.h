@@ -187,3 +187,4 @@ void constrained_cg(const TMatrix& A, const CMatrix& C, VectorX& x,
 } // end namespace Eigen
 
 #endif // EIGEN_CONSTRAINEDCG_H
+

@@ -498,3 +498,4 @@ struct generic_product_impl<Lhs,Rhs,DenseShape,DenseShape,GemmProduct>
 } // end namespace Eigen
 
 #endif // EIGEN_GENERAL_MATRIX_MATRIX_H
+

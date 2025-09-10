@@ -12,3 +12,4 @@ int main()
   v.segment(1,4) *= 2;
   cout << "after 'v.segment(1,4) *= 2', v =" << endl << v << endl;
 }
+

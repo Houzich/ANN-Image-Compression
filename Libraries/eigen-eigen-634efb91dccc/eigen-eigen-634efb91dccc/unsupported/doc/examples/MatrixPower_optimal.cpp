@@ -15,3 +15,4 @@ int main()
 	       "A^3.9 is:\n" << Apow(3.9) << std::endl;
   return 0;
 }
+

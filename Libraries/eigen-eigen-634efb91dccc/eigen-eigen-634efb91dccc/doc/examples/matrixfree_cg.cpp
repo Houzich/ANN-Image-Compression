@@ -127,3 +127,4 @@ int main()
     std::cout << "MINRES:   #iterations: " << minres.iterations() << ", estimated error: " << minres.error() << std::endl;
   }
 }
+

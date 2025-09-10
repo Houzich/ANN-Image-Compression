@@ -1841,3 +1841,4 @@ static inline  IndexType clear_mark  /* return the new value for tag_mark */
 
 } // namespace internal 
 #endif
+
