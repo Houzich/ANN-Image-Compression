@@ -47,3 +47,4 @@ static inline MagickBooleanType QuantumTick(const MagickOffsetType offset,
 #endif
 
 #endif
+

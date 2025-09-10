@@ -145,3 +145,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_generator_sycl)
     CALL_SUBTEST(sycl_generator_test_per_device<float>(device));
   }
 }
+

@@ -6,3 +6,4 @@ VectorXf elevations = 2*samples.col(0) + 3*samples.col(1) + VectorXf::Random(12)
 Matrix<float,2,1> xy
  = (samples.adjoint() * samples).llt().solve((samples.adjoint()*elevations));
 cout << xy << endl;
+

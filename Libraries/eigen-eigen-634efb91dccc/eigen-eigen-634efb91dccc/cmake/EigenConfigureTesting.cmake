@@ -60,3 +60,4 @@ check_cxx_compiler_flag("-std=c++11" EIGEN_COMPILER_SUPPORT_CXX11)
 if(EIGEN_TEST_CXX11 AND EIGEN_COMPILER_SUPPORT_CXX11)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 endif()
+

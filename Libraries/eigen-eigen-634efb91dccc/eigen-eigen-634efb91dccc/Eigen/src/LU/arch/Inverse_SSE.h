@@ -336,3 +336,4 @@ struct compute_inverse_size4<Architecture::SSE, double, MatrixType, ResultType>
 } // end namespace Eigen
 
 #endif // EIGEN_INVERSE_SSE_H
+

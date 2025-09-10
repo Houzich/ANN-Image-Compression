@@ -230,3 +230,4 @@ Packet4f prsqrt<Packet4f>(const Packet4f& x) {
 }  // end namespace Eigen
 
 #endif  // EIGEN_MATH_FUNCTIONS_ALTIVEC_H
+

@@ -47,3 +47,4 @@ mtSpOp<out_eT, T1, op_type>::~mtSpOp()
   {
   arma_extra_debug_sigprint();
   }
+

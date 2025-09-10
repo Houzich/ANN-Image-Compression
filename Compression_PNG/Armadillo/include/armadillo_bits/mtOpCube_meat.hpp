@@ -101,3 +101,4 @@ mtOpCube<out_eT, T1, op_type>::~mtOpCube()
 
 
 //! @}
+

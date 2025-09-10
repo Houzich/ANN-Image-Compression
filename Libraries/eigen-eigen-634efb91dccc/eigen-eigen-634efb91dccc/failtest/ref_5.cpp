@@ -14,3 +14,4 @@ int main()
   call_ref(ac.derived());
 #endif
 }
+

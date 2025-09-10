@@ -62,3 +62,4 @@ EIGEN_DECLARE_TEST(sizeoverflow)
   
   triggerVectorBadAlloc<VectorXd>(times_8_gives_0);
 }
+

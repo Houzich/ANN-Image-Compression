@@ -54,3 +54,4 @@ class eGlue : public Base<typename T1::elem_type, eGlue<T1, T2, eglue_type> >
 
 
 //! @}
+

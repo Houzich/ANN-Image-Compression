@@ -156,3 +156,4 @@ EIGEN_DECLARE_TEST(stddeque_overload)
   CALL_SUBTEST_5(check_stddeque_quaternion(Quaternionf()));
   CALL_SUBTEST_5(check_stddeque_quaternion(Quaterniond()));
 }
+

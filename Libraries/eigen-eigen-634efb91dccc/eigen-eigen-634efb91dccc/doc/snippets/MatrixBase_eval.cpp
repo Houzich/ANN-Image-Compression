@@ -10,3 +10,4 @@ cout << "Now let us instead do m.col(1) = m.row(0).eval(). Then m becomes" << en
 m = M;
 m.col(1) = m.row(0).eval();
 cout << m << endl << "which is right." << endl;
+

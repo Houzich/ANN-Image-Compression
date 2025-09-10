@@ -134,3 +134,4 @@ void SparseLUImpl<Scalar,StorageIndex>::pruneL(const Index jcol, const IndexVect
 } // end namespace Eigen
 
 #endif // SPARSELU_PRUNEL_H
+

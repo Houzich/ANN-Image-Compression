@@ -481,3 +481,4 @@ spglue_times_misc::dense_times_sparse(Mat<typename T1::elem_type>& out, const T1
 
 
 //! @}
+

@@ -13,3 +13,4 @@ int main(void)
     cout << "A(1..3,:) =\n" << A.middleRows<3>(1) << endl;
     return 0;
 }
+

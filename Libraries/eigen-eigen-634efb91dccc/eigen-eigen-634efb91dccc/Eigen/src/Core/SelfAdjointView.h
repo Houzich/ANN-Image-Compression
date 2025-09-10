@@ -350,3 +350,4 @@ MatrixBase<Derived>::selfadjointView()
 } // end namespace Eigen
 
 #endif // EIGEN_SELFADJOINTMATRIX_H
+

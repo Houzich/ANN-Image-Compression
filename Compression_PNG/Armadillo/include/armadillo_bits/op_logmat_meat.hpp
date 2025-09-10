@@ -422,3 +422,4 @@ op_logmat_sympd::apply_direct(Mat<typename T1::elem_type>& out, const Base<typen
 
 
 //! @}
+

@@ -10,3 +10,4 @@ for ((i=1; i<16; ++i)); do
     $CXX -O3 -I.. -DNDEBUG -finline-limit=10000 benchmark.cpp -DMATSIZE=$i -DEIGEN_DONT_USE_UNROLLED_LOOPS=1 -o benchmark && time ./benchmark >/dev/null
     echo " "
 done
+

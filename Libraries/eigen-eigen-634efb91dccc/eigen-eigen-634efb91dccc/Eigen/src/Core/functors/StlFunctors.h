@@ -134,3 +134,4 @@ struct functor_traits<std::binary_compose<T0,T1,T2> >
 } // end namespace Eigen
 
 #endif // EIGEN_STL_FUNCTORS_H
+

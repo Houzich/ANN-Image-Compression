@@ -136,3 +136,4 @@ protected:
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_DIAGONAL_PRODUCT_H
+

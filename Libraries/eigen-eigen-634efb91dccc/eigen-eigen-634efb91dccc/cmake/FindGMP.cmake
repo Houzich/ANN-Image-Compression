@@ -19,3 +19,4 @@ include(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(GMP DEFAULT_MSG
                                   GMP_INCLUDES GMP_LIBRARIES)
 mark_as_advanced(GMP_INCLUDES GMP_LIBRARIES)
+

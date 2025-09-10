@@ -256,3 +256,4 @@ void SparseLUImpl<Scalar,StorageIndex>::panel_dfs(const Index m, const Index w, 
 } // end namespace Eigen
 
 #endif // SPARSELU_PANEL_DFS_H
+

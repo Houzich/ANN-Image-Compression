@@ -125,3 +125,4 @@ EIGEN_DECLARE_TEST(product_trmm)
     CALL_ALL(4,std::complex<double>); //  EIGEN_SUFFIXES;14;114;24;124;34;134
   }
 }
+

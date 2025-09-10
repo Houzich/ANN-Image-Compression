@@ -18,3 +18,4 @@ int main()
   // like the scalar functions.
   std::cout << "sin^2(A) + cos^2(A) = \n" << sinA*sinA + cosA*cosA << "\n\n";
 }
+

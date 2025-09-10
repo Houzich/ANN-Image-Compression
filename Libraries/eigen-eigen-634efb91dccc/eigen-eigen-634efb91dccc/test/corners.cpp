@@ -115,3 +115,4 @@ EIGEN_DECLARE_TEST(corners)
     CALL_SUBTEST_3(( corners_fixedsize<Matrix<int,10,12>,4,7,5,2>() ));
   }
 }
+

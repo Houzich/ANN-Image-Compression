@@ -76,3 +76,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_scan_gpu)
   CALL_SUBTEST_1(test_gpu_cumsum<ColMajor>(128, 128, 128));
   CALL_SUBTEST_2(test_gpu_cumsum<RowMajor>(128, 128, 128));
 }
+

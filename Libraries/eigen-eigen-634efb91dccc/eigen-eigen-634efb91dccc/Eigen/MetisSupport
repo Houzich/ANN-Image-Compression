@@ -33,3 +33,4 @@ extern "C" {
 #include "src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_METISSUPPORT_MODULE_H
+

@@ -13,3 +13,4 @@ void foo(CV_QUALIFIER Matrix3d &m){
 }
 
 int main() {}
+

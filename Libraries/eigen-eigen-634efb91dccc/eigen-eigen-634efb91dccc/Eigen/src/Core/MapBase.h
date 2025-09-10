@@ -297,3 +297,4 @@ template<typename Derived> class MapBase<Derived, WriteAccessors>
 } // end namespace Eigen
 
 #endif // EIGEN_MAPBASE_H
+

@@ -67,3 +67,4 @@ extern MagickPrivate MagickBooleanType
 #endif
 
 #endif /* MAGICKCORE_ACCELERATE_PRIVATE_H */
+

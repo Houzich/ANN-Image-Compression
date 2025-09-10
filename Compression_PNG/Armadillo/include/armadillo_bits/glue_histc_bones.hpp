@@ -41,3 +41,4 @@ class glue_histc_default
 
 
 //! @}
+

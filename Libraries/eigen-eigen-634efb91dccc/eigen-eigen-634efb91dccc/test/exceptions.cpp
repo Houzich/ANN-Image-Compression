@@ -47,3 +47,4 @@ EIGEN_DECLARE_TEST(exceptions)
   }
   VERIFY(AnnoyingScalar::instances==0 && "global memory leak detected in " && EIGEN_MAKESTRING(OP));
 }
+

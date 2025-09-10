@@ -3136,3 +3136,4 @@ private:
 } // namespace Magick
 
 #endif // Magick_Drawable_header
+

@@ -329,3 +329,4 @@ EIGEN_USING_ARRAY_TYPEDEFS_FOR_TYPE(cd)
 } // end namespace Eigen
 
 #endif // EIGEN_ARRAY_H
+

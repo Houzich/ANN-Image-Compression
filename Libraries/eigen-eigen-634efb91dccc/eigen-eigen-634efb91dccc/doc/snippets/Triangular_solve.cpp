@@ -9,3 +9,4 @@ cout << "And now here is m.inverse()*n, taking advantage of the fact that"
      << m.triangularView<Eigen::Upper>().solve(n) << endl;
 cout << "And this is n*m.inverse():\n"
      << m.triangularView<Eigen::Upper>().solve<Eigen::OnTheRight>(n);
+

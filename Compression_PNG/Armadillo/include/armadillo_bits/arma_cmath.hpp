@@ -784,3 +784,4 @@ struct arma_arg< std::complex<double> >
 
 
 //! @}
+

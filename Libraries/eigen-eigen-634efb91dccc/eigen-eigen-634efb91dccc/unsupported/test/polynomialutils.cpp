@@ -111,3 +111,4 @@ EIGEN_DECLARE_TEST(polynomialutils)
     CauchyBounds_scalar<float>();
   }
 }
+

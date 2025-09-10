@@ -120,3 +120,4 @@ class SparseInnerVectorSet<DynamicSparseMatrix<_Scalar, _Options, _Index>, Size>
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_BLOCKFORDYNAMICMATRIX_H
+

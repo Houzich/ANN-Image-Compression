@@ -56,3 +56,4 @@ class mtOpCube : public BaseCube<out_eT, mtOpCube<out_eT, T1, op_type> >
 
 
 //! @}
+

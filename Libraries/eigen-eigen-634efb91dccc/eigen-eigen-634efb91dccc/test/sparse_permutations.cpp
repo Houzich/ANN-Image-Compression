@@ -234,3 +234,4 @@ EIGEN_DECLARE_TEST(sparse_permutations)
   VERIFY((internal::is_same<internal::permutation_matrix_product<SparseMatrix<double>,OnTheLeft,false,SparseShape>::ReturnType,
                             internal::nested_eval<Product<PermutationMatrix<Dynamic,Dynamic>,SparseMatrix<double>,AliasFreeProduct>,1>::type>::value));
 }
+

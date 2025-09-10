@@ -590,3 +590,4 @@ operator<<(const field_injector<T1>& ref, const injector_end_of_row<>& x)
 
 
 //! @}
+

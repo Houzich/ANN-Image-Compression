@@ -13,3 +13,4 @@ void foo(CV_QUALIFIER float *ptr, DenseIndex rows, DenseIndex cols){
 }
 
 int main() {}
+

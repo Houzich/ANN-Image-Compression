@@ -585,3 +585,4 @@ class diagmat_proxy_check< subview_col<eT> >
 
 
 //! @}
+

@@ -39,3 +39,4 @@ class mtGlueCube : public BaseCube<out_eT, mtGlueCube<out_eT, T1, T2, glue_type>
 
 
 //! @}
+

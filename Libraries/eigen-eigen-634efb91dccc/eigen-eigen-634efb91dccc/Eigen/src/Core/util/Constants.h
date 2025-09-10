@@ -552,3 +552,4 @@ enum ComparisonName {
 } // end namespace Eigen
 
 #endif // EIGEN_CONSTANTS_H
+

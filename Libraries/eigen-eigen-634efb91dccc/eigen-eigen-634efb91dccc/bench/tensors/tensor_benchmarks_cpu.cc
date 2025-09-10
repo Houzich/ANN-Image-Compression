@@ -166,3 +166,4 @@ BM_FuncWithKernelDimsCPU(convolution, 7, 64, 12);
 BM_FuncWithKernelDimsCPU(convolution, 64, 7, 4);
 BM_FuncWithKernelDimsCPU(convolution, 64, 7, 8);
 BM_FuncWithKernelDimsCPU(convolution, 64, 7, 12);
+

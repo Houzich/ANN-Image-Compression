@@ -328,3 +328,4 @@ EIGEN_DECLARE_TEST(nullary)
   CALL_SUBTEST_9( nullary_overflow<0>() );
   CALL_SUBTEST_10( nullary_internal_logic<0>() );
 }
+

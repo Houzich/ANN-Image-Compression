@@ -62,3 +62,4 @@ EIGEN_DECLARE_TEST(rvalue_types)
   CALL_SUBTEST_2(rvalue_copyassign( Array<float,3,3>::Random().eval() ));
   CALL_SUBTEST_2(rvalue_copyassign( Array<float,4,4>::Random().eval() ));
 }
+

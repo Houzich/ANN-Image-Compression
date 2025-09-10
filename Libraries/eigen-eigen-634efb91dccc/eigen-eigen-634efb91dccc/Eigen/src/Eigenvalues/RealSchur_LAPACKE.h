@@ -75,3 +75,4 @@ EIGEN_LAPACKE_SCHUR_REAL(float,    float,  s, S, RowMajor, LAPACK_ROW_MAJOR)
 } // end namespace Eigen
 
 #endif // EIGEN_REAL_SCHUR_LAPACKE_H
+

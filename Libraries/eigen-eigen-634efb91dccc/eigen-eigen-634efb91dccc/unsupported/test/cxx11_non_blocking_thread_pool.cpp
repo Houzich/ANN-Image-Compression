@@ -123,3 +123,4 @@ EIGEN_DECLARE_TEST(cxx11_non_blocking_thread_pool)
   CALL_SUBTEST(test_parallelism(false));
   CALL_SUBTEST(test_cancel());
 }
+

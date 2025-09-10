@@ -110,3 +110,4 @@ add_custom_target(doc ALL
   WORKING_DIRECTORY ${Eigen_BINARY_DIR}/doc)
 
 add_dependencies(doc doc-eigen-prerequisites doc-unsupported-prerequisites)
+

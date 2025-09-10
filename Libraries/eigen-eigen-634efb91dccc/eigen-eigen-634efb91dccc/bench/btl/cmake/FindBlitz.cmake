@@ -38,3 +38,4 @@ find_package_handle_standard_args(Blitz DEFAULT_MSG
                                   BLITZ_INCLUDES BLITZ_LIBRARIES)
 
 mark_as_advanced(BLITZ_INCLUDES BLITZ_LIBRARIES)
+

@@ -153,3 +153,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_Montage_header
+

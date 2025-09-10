@@ -355,3 +355,4 @@ static EIGEN_DEVICE_FUNC inline void setGpuSharedMemConfig(gpuSharedMemConfig co
 #include "TensorGpuHipCudaUndefines.h"
 
 #endif  // EIGEN_CXX11_TENSOR_TENSOR_DEVICE_GPU_H
+

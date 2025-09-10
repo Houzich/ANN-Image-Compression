@@ -459,3 +459,4 @@ running_stat_aux::update_stats(running_stat<eT>& x, const eT& sample, const type
 
 
 //! @}
+

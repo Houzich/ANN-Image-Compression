@@ -6,3 +6,4 @@ cout << "The Hessenberg matrix H is:" << endl << H << endl;
 MatrixXf Q = hessOfA.matrixQ();
 cout << "The orthogonal matrix Q is:" << endl << Q << endl;
 cout << "Q H Q^T is:" << endl << Q * H * Q.transpose() << endl;
+

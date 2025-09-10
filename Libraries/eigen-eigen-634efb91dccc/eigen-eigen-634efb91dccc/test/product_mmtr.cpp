@@ -94,3 +94,4 @@ EIGEN_DECLARE_TEST(product_mmtr)
     CALL_SUBTEST_4((mmtr<std::complex<double> >(internal::random<int>(1,EIGEN_TEST_MAX_SIZE/2))));
   }
 }
+

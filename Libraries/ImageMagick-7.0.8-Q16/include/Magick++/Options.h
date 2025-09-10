@@ -340,3 +340,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_Options_header
+

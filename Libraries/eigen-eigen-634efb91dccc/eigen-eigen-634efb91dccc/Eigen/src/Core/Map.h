@@ -169,3 +169,4 @@ template<typename PlainObjectType, int MapOptions, typename StrideType> class Ma
 } // end namespace Eigen
 
 #endif // EIGEN_MAP_H
+

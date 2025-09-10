@@ -21,3 +21,4 @@ int main()
   // Subtracting a scalar from an array
   cout << "a - 2 = " << endl << a - 2 << endl;
 }
+

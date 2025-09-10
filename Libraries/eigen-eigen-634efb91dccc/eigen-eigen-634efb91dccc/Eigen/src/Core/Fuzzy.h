@@ -153,3 +153,4 @@ EIGEN_DEVICE_FUNC bool DenseBase<Derived>::isMuchSmallerThan(
 } // end namespace Eigen
 
 #endif // EIGEN_FUZZY_H
+

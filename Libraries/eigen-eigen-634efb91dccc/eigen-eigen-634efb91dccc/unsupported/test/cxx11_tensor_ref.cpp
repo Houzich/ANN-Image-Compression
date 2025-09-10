@@ -246,3 +246,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_ref)
   CALL_SUBTEST(test_coeff_ref());
   CALL_SUBTEST(test_nested_ops_with_ref());
 }
+

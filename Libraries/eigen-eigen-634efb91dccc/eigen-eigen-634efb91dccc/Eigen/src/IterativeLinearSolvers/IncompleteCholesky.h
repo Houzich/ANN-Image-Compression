@@ -398,3 +398,4 @@ inline void IncompleteCholesky<Scalar,_UpLo, OrderingType>::updateList(Ref<const
 } // end namespace Eigen 
 
 #endif
+

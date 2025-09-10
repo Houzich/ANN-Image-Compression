@@ -476,3 +476,4 @@ struct sparse_vector_assign_selector<Dest,Src,SVA_RuntimeSwitch> {
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSEVECTOR_H
+

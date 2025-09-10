@@ -473,3 +473,4 @@ EIGEN_DECLARE_TEST(sparse_product)
     CALL_SUBTEST_5( (test_mixing_types<float>()) );
   }
 }
+

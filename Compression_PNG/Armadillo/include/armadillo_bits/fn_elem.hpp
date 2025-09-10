@@ -1064,3 +1064,4 @@ template<typename T1> void approx_exp(const T1&) { arma_stop_logic_error("unimpl
 template<typename T1> void approx_log(const T1&) { arma_stop_logic_error("unimplemented"); }
 
 //! @}
+

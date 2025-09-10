@@ -336,3 +336,4 @@ class tensor_symmetry_value_setter
 /*
  * kate: space-indent on; indent-width 2; mixedindent off; indent-mode cstyle;
  */
+

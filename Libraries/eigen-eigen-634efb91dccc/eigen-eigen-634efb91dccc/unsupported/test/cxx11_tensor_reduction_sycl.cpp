@@ -179,3 +179,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_reduction_sycl) {
     CALL_SUBTEST(sycl_reduction_test_per_device<float>(device));
   }
 }
+

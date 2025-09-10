@@ -95,3 +95,4 @@ struct hypot_impl
 } // end namespace Eigen
 
 #endif // EIGEN_MATHFUNCTIONSIMPL_H
+

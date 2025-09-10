@@ -293,3 +293,4 @@ SkylineMatrixBase<Derived>::operator*(const MatrixBase<OtherDerived> &other) con
 } // end namespace Eigen
 
 #endif // EIGEN_SKYLINEPRODUCT_H
+

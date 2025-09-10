@@ -336,3 +336,4 @@ EIGEN_DECLARE_TEST(qr_colpivoting)
   CALL_SUBTEST_1( qr_kahan_matrix<MatrixXf>() );
   CALL_SUBTEST_2( qr_kahan_matrix<MatrixXd>() );
 }
+

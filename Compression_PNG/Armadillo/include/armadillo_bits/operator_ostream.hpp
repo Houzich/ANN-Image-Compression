@@ -182,3 +182,4 @@ operator<< (std::ostream& o, const SizeCube& S)
 
 
 //! @}
+

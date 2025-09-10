@@ -401,3 +401,4 @@ template<typename T> const typename T::Scalar* extract_data(const T& m)
 } // end namespace Eigen
 
 #endif // EIGEN_BLASUTIL_H
+

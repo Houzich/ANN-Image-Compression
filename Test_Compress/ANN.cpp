@@ -1,4 +1,4 @@
-п»ї#include "stdafx.h"
+#include "stdafx.h"
 namespace Multilayer_Neural_Network
 {
 	using Mathematical_Operations::MathOperations;
@@ -37,13 +37,13 @@ namespace Multilayer_Neural_Network
 		ChannelSize = ChannelCols * ChannelRows;
 		Channels = channels;
 
-		//Р·Р°РїРѕР»РЅСЏРµРј РІРµРєС‚РѕСЂ РєР°РЅРЅР°Р»РѕРІ РїСѓСЃС‚С‹РјРё РјР°СЃСЃРёРІР°РјРё СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёРµ СЂР°Р·РјРµСЂР°Рј РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
+		//заполняем вектор канналов пустыми массивами соответствующие размерам изображения
 		MatrixColorFloat chann_matrix(rows, cols);
 		for (int i = 0; i < channels; i++) {
 			matrixsChannels.push_back(chann_matrix);
 		}
 
-		//Р·Р°РїРѕР»РЅСЏРµРј РјР°СЃСЃРёРІС‹ РєР°РЅР°Р»РѕРІ С†РІРµС‚Р°
+		//заполняем массивы каналов цвета
 		for (int row_idx = 0; row_idx < rows; row_idx++)
 			for (int col_idx = 0; col_idx < cols; col_idx++)
 			{
@@ -55,8 +55,8 @@ namespace Multilayer_Neural_Network
 		for (int chn = 0; chn < channels; chn++)
 			DEEP_DEBUG_DATA_TO_ARRAY("Channel[" << chn << "]:\n" << matrixsChannels[chn]);
 	}
-	//Р·Р°РїРѕР»РЅСЏРµРј РјР°С‚СЂРёС†С‹ Рё СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅР°С‡Р°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ РґР°Р»СЊРЅРµР№С€РµР№ СЂР°Р±РѕС‚С‹ ANN
-	//data - СЌС‚Рѕ Р±СѓС„РµСЂ СЃРѕРґРµСЂР¶Р°С‰РёР№ РґР°РЅРЅС‹Рµ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
+	//заполняем матрицы и устанавливаем начальные значения для дальнейшей работы ANN
+	//data - это буфер содержащий данные изображения
 	void ANN::initialDataGIF(int rows, int cols, int src_channels, int channels, Quantum *data) {
 
 		ChannelCols = cols;
@@ -64,13 +64,13 @@ namespace Multilayer_Neural_Network
 		ChannelSize = ChannelCols * ChannelRows;
 		Channels = channels;
 
-		//Р·Р°РїРѕР»РЅСЏРµРј РІРµРєС‚РѕСЂ РєР°РЅРЅР°Р»РѕРІ РїСѓСЃС‚С‹РјРё РјР°СЃСЃРёРІР°РјРё СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёРµ СЂР°Р·РјРµСЂР°Рј РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
+		//заполняем вектор канналов пустыми массивами соответствующие размерам изображения
 		MatrixColorFloat chann_matrix(rows, cols);
 		for (int i = 0; i < channels; i++) {
 			matrixsChannels.push_back(chann_matrix);
 		}
 
-		//Р·Р°РїРѕР»РЅСЏРµРј РјР°СЃСЃРёРІС‹ РєР°РЅР°Р»РѕРІ С†РІРµС‚Р°
+		//заполняем массивы каналов цвета
 		int offset = src_channels - channels;
 		int i = offset;
 #ifdef IMAGE_GRAYSCALE
@@ -90,33 +90,33 @@ namespace Multilayer_Neural_Network
 			DEEP_DEBUG_DATA_TO_ARRAY("Channel[" << chn << "]:\n" << matrixsChannels[chn]);
 	}
 
-	//РґРµР»РёРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ РЅР° Р±Р»РѕРєРё Рё РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј/Р·Р°РїРѕР»РЅСЏРµРј СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё РјР°С‚СЂРёС†С‹ РІРµСЃРѕРІ
+	//делим изображение на блоки и инициализируем/заполняем случайными числами матрицы весов
 	void ANN::divideIntoBlocks()
 	{
 		/*imageType = image.type();*/
 		//Magick::ColorGray  clr;
-		//Р”Р»СЏ РєР°Р¶РґРѕРіРѕ РєР°РЅРЅР°Р»Р° 
+		//Для каждого каннала 
 		for (int chn = 0; chn < Channels; chn++) {
 			MatrixColorFloat *mtx_img_chn = &matrixsChannels[chn];
 			int cnt_windows = 0;
 			std::vector<Block> channel_blocks;
-			//Р”РµР»РёРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ РЅР° Р±Р»РѕРєРё (РѕРєРЅР°)
+			//Делим изображение на блоки (окна)
 			for (int col_idx = 0; col_idx < ChannelCols; col_idx += settings.BlockCols) {
 				for (int row_idx = 0; row_idx < ChannelRows; row_idx += settings.BlockRows) {
 					Block block(row_idx, col_idx);
 
 					MatrixColorFloat mtx_wind = mtx_img_chn->block(row_idx, col_idx, settings.BlockRows, settings.BlockCols);
-					//Р•СЃР»Рё Р±Р»РѕРєРё РІС‹С…РѕРґСЏС‚ Р·Р° РіСЂР°РЅРёС†С‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ (Р›СѓС‡С€Рµ РїРѕРґР±РёСЂР°С‚СЊ С‚Р°Рє Р±Р»РѕРєРё, С‡С‚РѕР± Р±С‹Р»Рё РєСЂР°С‚РЅС‹ СЂР°Р·РјРµСЂСѓ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ)
-					//С‚Рѕ РґСѓР±Р»РёСЂСѓРµРј СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёРµ РєСЂР°Р№РЅРёРµ СЃС‚СЂРѕРєРё Рё СЃС‚РѕР»Р±С†С‹ (РёР»Рё РјРѕР¶РЅРѕ С‚СѓРґР° 0 Р·РЅР°С‡РµРЅРёСЏ РІСЃС‚Р°РІРёС‚СЊ)
-					int brink_cols = (col_idx + settings.BlockCols) - ChannelCols; //РєРѕР»-РІРѕ РєРѕР»РѕРЅРѕРє РІС‹С…РѕРґСЏС‰РёС… Р·Р° РіСЂР°РЅРёС†С‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
-					int brink_rows = (row_idx + settings.BlockRows) - ChannelRows; //РєРѕР»-РІРѕ СЃС‚СЂРѕРє РІС‹С…РѕРґСЏС‰РёС… Р·Р° РіСЂР°РЅРёС†С‹ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ
+					//Если блоки выходят за границы изображения (Лучше подбирать так блоки, чтоб были кратны размеру изображения)
+					//то дублируем соответствующие крайние строки и столбцы (или можно туда 0 значения вставить)
+					int brink_cols = (col_idx + settings.BlockCols) - ChannelCols; //кол-во колонок выходящих за границы изображения
+					int brink_rows = (row_idx + settings.BlockRows) - ChannelRows; //кол-во строк выходящих за границы изображения
 					if ((brink_cols > 0) || (brink_rows > 0))
 					{
 						MathOperations::fillBrinkBlock(&mtx_wind, brink_rows, brink_cols);
 					}
-					//РїРµСЂРµРІРѕРґРёРј Р·РЅР°С‡РµРЅРёСЏ С†РІРµС‚РѕРІ РІ РґРёР°РїР°Р·РѕРЅ [-1.0,1.0]
+					//переводим значения цветов в диапазон [-1.0,1.0]
 					MathOperations::convertColorMatrixToInputANN(&mtx_wind);
-					//Р·РЅР°С‡РµРЅРёСЏ С†РІРµС‚РѕРІ РїРёРєСЃРµР»РµР№ РёР· Р±Р»РѕРєР° СЃРѕР±РёСЂР°РµРј РІ СЃРІРѕР№(СЌС‚Р°Р»РѕРЅРЅС‹Р№) РІРµРєС‚РѕСЂ X РґР»СЏ СЌС‚РѕРєРѕ РѕРєРЅР°.
+					//значения цветов пикселей из блока собираем в свой(эталонный) вектор X для этоко окна.
 					block.setVectorX(mtx_wind);
 					cnt_windows++;
 					channel_blocks.push_back(block);
@@ -133,7 +133,7 @@ namespace Multilayer_Neural_Network
 		double coeff_in;
 		double coeff_out;
 		double E;
-		int L = (int)totalBlokcs[0].size(); //РєРѕР»-РІРѕ Р±Р»РѕРєРѕРІ(РѕРєРѕРЅ)
+		int L = (int)totalBlokcs[0].size(); //кол-во блоков(окон)
 		int iteration = 0;
 		MESSAGE_ANN_LEARNING(cout << "ANN Learning" << endl);
 		MESSAGE_ANN_LEARNING(cout << "Block: " << settings.BlockCols <<"x" << settings.BlockRows 
@@ -144,19 +144,19 @@ namespace Multilayer_Neural_Network
 		double z = (L * settings.BlockSize * Channels) / ((L* settings.Neurons)*Channels + settings.Neurons*settings.BlockSize*2);
 		MESSAGE_ANN_LEARNING(cout << "Compression ratio Z: " << z << endl);
 		MESSAGE_ANN_LEARNING(cout << "Blokcs: " << L << endl);
-		//Р”Р»СЏ РєР°Р¶РґРѕРіРѕ РєР°РЅРЅР°Р»Р° 
+		//Для каждого каннала 
 		SetPriorityClass(GetCurrentProcess(), HIGH_PRIORITY_CLASS);
 		for (int chn = 0; chn < Channels; chn++) {
-			MatrixColorFloat *Win = &matrixsOfWeightsIn[chn]; //РјР°С‚СЂРёС†Р° РІРµСЃРѕРІ РїСЂСЏРјРѕРіРѕ СЃР»РѕСЏ 
-			MatrixColorFloat *Wout = &matrixsOfWeightsOut[chn]; //РјР°С‚СЂРёС†Р° РІРµСЃРѕРІ РѕР±СЂР°С‚РЅРѕРіРѕ СЃР»РѕСЏ 
-			MatrixColorFloat *Xin;	//РІСЂРµРјРµРЅРЅС‹Р№ РІРµРєС‚РѕСЂ РёСЃС…РѕРґРЅС‹С… РґР°РЅРЅС‹С… РґР»СЏ РєР°Р¶РґРѕРіРѕ Р±Р»РѕРєР°
-			MatrixColorFloat Y;	//РІСЂРµРјРµРЅРЅС‹Р№ РІРµРєС‚РѕСЂ СЃР¶Р°С‚С‹С… РґР°РЅРЅС‹С… РґР»СЏ РєР°Р¶РґРѕРіРѕ Р±Р»РѕРєР°
-			MatrixColorFloat Xout;	//РІСЂРµРјРµРЅРЅС‹Р№ РІРµРєС‚РѕСЂ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹С… РґР°РЅРЅС‹С… РґР»СЏ РєР°Р¶РґРѕРіРѕ Р±Р»РѕРєР°
+			MatrixColorFloat *Win = &matrixsOfWeightsIn[chn]; //матрица весов прямого слоя 
+			MatrixColorFloat *Wout = &matrixsOfWeightsOut[chn]; //матрица весов обратного слоя 
+			MatrixColorFloat *Xin;	//временный вектор исходных данных для каждого блока
+			MatrixColorFloat Y;	//временный вектор сжатых данных для каждого блока
+			MatrixColorFloat Xout;	//временный вектор восстановленных данных для каждого блока
 			MatrixColorFloat deltaX;
 
-			//РЅРѕСЂРјР°Р»РёР·СѓРµРј РјР°С‚СЂРёС†С‹
+			//нормализуем матрицы
 			if(settings.WeightsNormalization)normalizeWeighMatrixs(Win, Wout);
-			iteration = 0; //СЃС‡РёС‚Р°РµРј РєРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№ (РѕР±СѓС‡РµРЅРёР№ РЅРµР№СЂРѕРЅРѕРІ)
+			iteration = 0; //считаем количество итераций (обучений нейронов)
 			int init_list_deltaX = 0;
 			std::vector<MatrixColorFloat*> list_deltaX;
 			do {
@@ -165,7 +165,7 @@ namespace Multilayer_Neural_Network
 					Xin = totalBlokcs[chn][index].getpVectorX();
 					Y = (*Xin) * (*Win);
 					Xout = Y * (*Wout);
-					deltaX = Xout - (*Xin);  //РѕР±СЂР°С‚РЅР°СЏ СЃРІСЏР·СЊ РјРµР¶РґСѓ РІС…РѕРґРѕРј X Рё РІС‹С…РѕРґРѕРј Y
+					deltaX = Xout - (*Xin);  //обратная связь между входом X и выходом Y
 #ifdef DEBUG_SPEED
 					list_deltaX.push_back(&deltaX);
 #endif // DEBUG_SPEED
@@ -192,16 +192,16 @@ namespace Multilayer_Neural_Network
 
 					if (index == L - 1) { break; }
 
-					*Win = *Win - coeff_in * (Xin->transpose() * deltaX * Wout->transpose()); //РѕР±СѓС‡Р°РµРј РїСЂСЏРјРѕР№ СЃР»РѕР№
-					*Wout = *Wout - (coeff_out * Y.transpose() * deltaX); //РѕР±СѓС‡Р°РµРј РѕР±СЂР°С‚РЅС‹Р№ СЃР»РѕР№
+					*Win = *Win - coeff_in * (Xin->transpose() * deltaX * Wout->transpose()); //обучаем прямой слой
+					*Wout = *Wout - (coeff_out * Y.transpose() * deltaX); //обучаем обратный слой
 					if (settings.WeightsNormalization)normalizeWeighMatrixs(Win, Wout);
 					DEEP_DEBUG_ANN_LEARNING("Win :\n" << Win);
 					DEEP_DEBUG_ANN_LEARNING("Wout :\n" << Wout);
 				}
 
-				E = 0; // cСѓРјРјР°СЂРЅР°СЏ СЃСЂРµРґРЅРµРєРІР°РґСЂР°С‚РёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°
+				E = 0; // cуммарная среднеквадратическая ошибка
 #ifdef DEBUG_SPEED
-				//РџРѕСЃР»Рµ РѕР±СѓС‡РµРЅРёСЏ РѕРїСЂРµРґРµР»СЏРµРј СЃСѓРјРјР°СЂРЅСѓСЋ СЃСЂРµРґРЅРµРєРІР°РґСЂР°С‚РёС‡РµСЃРєСѓСЋ РѕС€РёР±РєСѓ
+				//После обучения определяем суммарную среднеквадратическую ошибку
 				for (int index = 0; index < L; index++) {
 					E += MathOperations::getErrorDegree(list_deltaX[index]);
 				}
@@ -211,13 +211,13 @@ namespace Multilayer_Neural_Network
 				iteration++;
 				if(iteration%MESSAGE_LEARNING_INTERVAL ==0)
 					MESSAGE_ANN_LEARNING(cout << "Iteration: " << iteration << ", coeff_in: " << coeff_in* CORRECT_COEFF << ", coeff_out: " << coeff_out * CORRECT_COEFF << ", Total SSE: " << E * CORRECT_ERR << "\r");
-				//РїРѕРІС‚РѕСЂСЏРµРј Р°Р»РіРѕСЂРёС‚Рј РїРѕРєР° СЃСѓРјРјР°СЂРЅР°СЏ РѕС€РёР±РєР° РЅРµ СЃС‚Р°РЅРµС‚ РјРµРЅСЊС€Рµ РїСЂРёРµРјР»РµРјРѕР№
+				//повторяем алгоритм пока суммарная ошибка не станет меньше приемлемой
 			} while (E > settings.AcceptableError && !_kbhit()&& iteration<settings.MaxIteration);
 			MESSAGE_ANN_LEARNING(cout << "Iteration: " << iteration << ", coeff_in: " << coeff_in * CORRECT_COEFF << ", coeff_out: " << coeff_out * CORRECT_COEFF << ", Total SSE: " << E * CORRECT_ERR << "\r");
 
 			DEBUG_ANN_LEARNING("Channel " << chn << ":");
 			DEBUG_ANN_LEARNING("Total SSE = " << E * CORRECT_ERR << ", Iterations = " << iteration);
-			//СЃРѕС…СЂР°РЅСЏРµРј РІРµСЃРѕРІС‹Р№ РјР°С‚СЂРёС†С‹ РґР»СЏ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ.
+			//сохраняем весовый матрицы для восстановления.
 			matrixsOfWeightsIn[chn] = *Win;
 			matrixsOfWeightsOut[chn] = *Wout;
 		}
@@ -237,14 +237,14 @@ namespace Multilayer_Neural_Network
 	//Test.push_back('5');
 	//Test.push_back('6');
 	//out_file.write((const char*)&Test.front(), Test.size());
-	//out_file.close(); // Р·Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»
+	//out_file.close(); // закрываем файл
 	//std::ofstream out_file("Images\\Compression.bin", std::ios::binary | std::ios::out);
 
 
 	MatrixColor ANN::createOutputImageChann(int channel, ofstream &out_file) {
 		MatrixColor result(ChannelRows, ChannelCols);
 		vector<uint8_t> VectorToFile;
-		int L = (int)totalBlokcs[channel].size(); //РєРѕР»-РІРѕ Р±Р»РѕРєРѕРІ(РѕРєРѕРЅ)
+		int L = (int)totalBlokcs[channel].size(); //кол-во блоков(окон)
 		MatrixColorFloat W = matrixsOfWeightsIn[channel];
 		MatrixColorFloat W_ = matrixsOfWeightsOut[channel];
 		VectorToFile = MathOperations::matrixToByteVector(W_);
@@ -283,10 +283,10 @@ namespace Multilayer_Neural_Network
 	}
 
 	void ANN::createAndPushWeightMatrixs() {
-		//РќРµРїСЂРµСЂС‹РІРЅРѕРµ СЂР°РІРЅРѕРјРµСЂРЅРѕРµ СЂР°СЃРїСЂРµРґРµР»РµРЅРёРµ РІ РґРёР°РїР°Р·РѕРЅРµ [-1.0,1.0]
+		//Непрерывное равномерное распределение в диапазоне [-1.0,1.0]
 		MatrixColorFloat w_matrix = MatrixColorFloat::Random(settings.BlockSize, settings.Neurons);
 #ifdef COLOR_FLOAT_RANGE_0_1
-		//РќРµРїСЂРµСЂС‹РІРЅРѕРµ СЂР°РІРЅРѕРјРµСЂРЅРѕРµ СЂР°СЃРїСЂРµРґРµР»РµРЅРёРµ РІ РґРёР°РїР°Р·РѕРЅРµ [0.0,1.0]
+		//Непрерывное равномерное распределение в диапазоне [0.0,1.0]
 		w_matrix = (w_matrix.array() + 1.0) / 2.0;
 		//w_matrix.array() = 0.3;
 #endif // COLOR_FLOAT_RANGE_0_1
@@ -320,3 +320,4 @@ namespace Multilayer_Neural_Network
 		}
 	}
 }
+

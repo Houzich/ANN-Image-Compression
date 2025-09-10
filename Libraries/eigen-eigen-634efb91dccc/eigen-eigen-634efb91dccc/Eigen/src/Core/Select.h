@@ -160,3 +160,4 @@ DenseBase<Derived>::select(const typename ElseDerived::Scalar& thenScalar,
 } // end namespace Eigen
 
 #endif // EIGEN_SELECT_H
+

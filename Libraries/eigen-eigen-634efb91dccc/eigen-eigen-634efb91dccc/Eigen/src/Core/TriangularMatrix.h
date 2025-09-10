@@ -984,3 +984,4 @@ struct Assignment<DstXprType, Product<Lhs,Rhs,DefaultProduct>, internal::sub_ass
 } // end namespace Eigen
 
 #endif // EIGEN_TRIANGULARMATRIX_H
+

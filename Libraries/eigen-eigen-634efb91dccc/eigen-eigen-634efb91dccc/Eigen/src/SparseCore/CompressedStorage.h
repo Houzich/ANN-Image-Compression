@@ -256,3 +256,4 @@ class CompressedStorage
 } // end namespace Eigen
 
 #endif // EIGEN_COMPRESSED_STORAGE_H
+

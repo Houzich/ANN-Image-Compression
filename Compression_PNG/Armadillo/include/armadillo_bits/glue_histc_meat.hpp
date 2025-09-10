@@ -158,3 +158,4 @@ glue_histc_default::apply(Mat<uword>& C, const mtGlue<uword,T1,T2,glue_histc_def
 
 
 //! @}
+

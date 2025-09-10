@@ -919,3 +919,4 @@ subview_elem1<eT,T1>::div_inplace(Mat<eT>& out, const subview_elem1& in)
 
 
 //! @}
+

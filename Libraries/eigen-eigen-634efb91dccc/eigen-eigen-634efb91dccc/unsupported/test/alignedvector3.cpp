@@ -82,3 +82,4 @@ EIGEN_DECLARE_TEST(alignedvector3)
     CALL_SUBTEST( alignedvector3<float>() );
   }
 }
+

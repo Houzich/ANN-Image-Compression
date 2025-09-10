@@ -155,3 +155,4 @@ class COLAMDOrdering
 } // end namespace Eigen
 
 #endif
+

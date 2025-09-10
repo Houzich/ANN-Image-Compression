@@ -561,3 +561,4 @@ template<> EIGEN_STRONG_INLINE Packet2cf pblend(const Selector<2>& ifPacket, con
 } // end namespace Eigen
 
 #endif // EIGEN_COMPLEX32_ALTIVEC_H
+

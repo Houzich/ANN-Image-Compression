@@ -15,3 +15,4 @@ int main()
   v *= 2;
   std::cout << "Now v =\n" << v << std::endl;
 }
+

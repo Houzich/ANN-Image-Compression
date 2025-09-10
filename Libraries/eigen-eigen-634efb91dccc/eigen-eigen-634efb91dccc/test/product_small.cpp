@@ -295,3 +295,4 @@ EIGEN_DECLARE_TEST(product_small)
 
   CALL_SUBTEST_6( product_small_regressions<0>() );
 }
+

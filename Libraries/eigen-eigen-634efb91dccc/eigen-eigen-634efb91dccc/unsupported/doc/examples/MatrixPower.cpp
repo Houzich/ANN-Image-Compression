@@ -14,3 +14,4 @@ int main()
 	       "The matrix power A^(pi/4) is:\n" << A.pow(pi/4) << std::endl;
   return 0;
 }
+

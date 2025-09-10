@@ -103,3 +103,4 @@ Features and Capabilities
   and color manipulations. With Magick.NET, use ImageMagick without having
   to install ImageMagick on your server or desktop.
 
+

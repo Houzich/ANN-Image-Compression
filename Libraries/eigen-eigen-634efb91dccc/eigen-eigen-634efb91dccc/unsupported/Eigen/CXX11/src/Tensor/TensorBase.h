@@ -1066,3 +1066,4 @@ class TensorBase : public TensorBase<Derived, ReadOnlyAccessors> {
 } // end namespace Eigen
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_BASE_H
+

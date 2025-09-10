@@ -96,3 +96,4 @@ speye(const SizeMat& s)
 
 
 //! @}
+

@@ -57,3 +57,4 @@ bool Trackball::mapToSphere(const Vector2i& p2, Vector3f& v3)
   else
     return false;
 }
+

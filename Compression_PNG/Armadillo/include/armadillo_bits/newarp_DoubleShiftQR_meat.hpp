@@ -395,3 +395,4 @@ DoubleShiftQR<eT>::apply_YQ(Mat<eT>& Y)
 
 
 }  // namespace newarp
+

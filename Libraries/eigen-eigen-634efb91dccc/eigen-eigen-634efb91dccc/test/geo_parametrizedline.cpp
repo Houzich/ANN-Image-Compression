@@ -128,3 +128,4 @@ EIGEN_DECLARE_TEST(geo_parametrizedline)
     CALL_SUBTEST_4( parametrizedline(ParametrizedLine<std::complex<double>,5>()) );
   }
 }
+

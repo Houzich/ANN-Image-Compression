@@ -299,3 +299,4 @@ void MappedSuperNodalMatrix<Scalar,Index_>::solveInPlace( MatrixBase<Dest>&X) co
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSELU_MATRIX_H
+

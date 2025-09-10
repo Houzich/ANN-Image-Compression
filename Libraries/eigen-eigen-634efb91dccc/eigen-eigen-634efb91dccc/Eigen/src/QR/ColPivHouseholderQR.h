@@ -646,3 +646,4 @@ MatrixBase<Derived>::colPivHouseholderQr() const
 } // end namespace Eigen
 
 #endif // EIGEN_COLPIVOTINGHOUSEHOLDERQR_H
+

@@ -3,3 +3,4 @@ Circulant<ArgType> makeCirculant(const Eigen::MatrixBase<ArgType>& arg)
 {
   return Circulant<ArgType>(arg.derived());
 }
+

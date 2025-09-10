@@ -13,3 +13,4 @@ int main()
   SparseMatrix<float> a(10,10);
   call_ref(a+a);
 }
+

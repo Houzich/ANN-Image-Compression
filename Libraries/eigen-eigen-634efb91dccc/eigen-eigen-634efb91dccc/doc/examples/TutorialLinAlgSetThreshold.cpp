@@ -14,3 +14,4 @@ int main()
    lu.setThreshold(1e-5);
    cout << "With threshold 1e-5, the rank of A is found to be " << lu.rank() << endl;
 }
+

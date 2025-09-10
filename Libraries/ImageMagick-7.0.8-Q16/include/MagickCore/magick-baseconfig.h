@@ -459,3 +459,4 @@ typedef long ssize_t;
 #pragma warning(once: 4100) /* 'identifier' : unreferenced formal parameter */
 #pragma warning(once: 4456) /* 'identifier' : declaration of 'foo' hides previous local declaration */
 #pragma warning(once: 4459) /* 'identifier' : declaration of 'foo' hides global declaration */
+

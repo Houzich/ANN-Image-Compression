@@ -106,3 +106,4 @@ This saves compile time but consumes more run time. \c EIGEN_NO_STATIC_ASSERT is
 
 */
 }
+

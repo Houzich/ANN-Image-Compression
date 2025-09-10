@@ -38,3 +38,4 @@ namespace Magick
   MagickPPExport void TerminateMagick();
 }
 #endif // Magick_Functions_header
+

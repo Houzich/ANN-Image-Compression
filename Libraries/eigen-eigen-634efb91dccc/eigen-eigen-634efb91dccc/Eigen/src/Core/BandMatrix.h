@@ -351,3 +351,4 @@ template<> struct AssignmentKind<DenseShape,BandShape> { typedef EigenBase2Eigen
 } // end namespace Eigen
 
 #endif // EIGEN_BANDMATRIX_H
+

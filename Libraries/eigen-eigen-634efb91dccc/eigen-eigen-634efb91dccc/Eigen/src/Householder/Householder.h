@@ -174,3 +174,4 @@ void MatrixBase<Derived>::applyHouseholderOnTheRight(
 } // end namespace Eigen
 
 #endif // EIGEN_HOUSEHOLDER_H
+

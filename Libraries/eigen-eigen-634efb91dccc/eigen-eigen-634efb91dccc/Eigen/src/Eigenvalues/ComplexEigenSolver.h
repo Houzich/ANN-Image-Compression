@@ -344,3 +344,4 @@ void ComplexEigenSolver<MatrixType>::sortEigenvalues(bool computeEigenvectors)
 } // end namespace Eigen
 
 #endif // EIGEN_COMPLEX_EIGEN_SOLVER_H
+

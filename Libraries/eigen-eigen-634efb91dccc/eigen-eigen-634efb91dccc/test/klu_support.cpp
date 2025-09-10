@@ -30,3 +30,4 @@ EIGEN_DECLARE_TEST(klu_support)
   CALL_SUBTEST_2(test_klu_support_T<std::complex<double> >());
 }
 
+

@@ -541,3 +541,4 @@ class PardisoLDLT : public PardisoImpl< PardisoLDLT<MatrixType,Options> >
 } // end namespace Eigen
 
 #endif // EIGEN_PARDISOSUPPORT_H
+

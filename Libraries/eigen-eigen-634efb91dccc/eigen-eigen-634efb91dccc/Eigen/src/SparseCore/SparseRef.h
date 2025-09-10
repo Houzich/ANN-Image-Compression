@@ -395,3 +395,4 @@ struct evaluator<Ref<const SparseVector<MatScalar,MatOptions,MatIndex>, Options,
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_REF_H
+

@@ -161,3 +161,4 @@ T* copy_back(T* x_cpy, T* x, int n, int incx)
 #define EIGEN_BLAS_FUNC(X) EIGEN_CAT(SCALAR_SUFFIX,X##_)
 
 #endif // EIGEN_BLAS_COMMON_H
+

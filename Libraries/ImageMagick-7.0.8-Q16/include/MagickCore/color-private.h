@@ -48,3 +48,4 @@ static inline double GetFuzzyColorDistance(const Image *p,const Image *q)
 #endif
 
 #endif
+

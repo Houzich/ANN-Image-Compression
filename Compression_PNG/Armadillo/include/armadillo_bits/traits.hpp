@@ -1394,3 +1394,4 @@ struct has_op_inv< Glue<T1, Op<T2,op_inv>, glue_times> >
 
 
 //! @}
+

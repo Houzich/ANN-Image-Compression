@@ -458,3 +458,4 @@ $montage->Set(matte=>'false');
 $montage->Write('demo.jpg');
 print "Display...\n";
 $montage->Write('win:');
+

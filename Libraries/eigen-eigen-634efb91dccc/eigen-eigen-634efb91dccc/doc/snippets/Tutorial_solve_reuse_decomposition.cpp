@@ -11,3 +11,4 @@ b << 1,1,1;
 x = luOfA.solve(b);
 cout << "The solution with right-hand side (1,1,1) is:" << endl;
 cout << x << endl;
+

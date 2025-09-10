@@ -124,3 +124,4 @@ eye(const SizeMat& s, const typename arma_SpMat_SpCol_SpRow_only<obj_type>::resu
 
 
 //! @}
+

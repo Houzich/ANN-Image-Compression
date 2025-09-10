@@ -78,3 +78,4 @@ EIGEN_DECLARE_TEST(jacobi)
     TEST_SET_BUT_UNUSED_VARIABLE(c);
   }
 }
+

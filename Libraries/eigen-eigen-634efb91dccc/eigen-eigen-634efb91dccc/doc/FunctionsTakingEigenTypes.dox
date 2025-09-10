@@ -215,3 +215,4 @@ This implementation is now working for parameters being expressions and for para
   - Functions that take as parameters MatrixBase (or ArrayBase) objects, and potentially need to resize them (in the case where they are resizable), must call resize() on the derived class, as returned by derived().
 */
 }
+

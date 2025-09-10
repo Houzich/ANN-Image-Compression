@@ -35,3 +35,4 @@ EIGEN_DECLARE_TEST(lscg)
   CALL_SUBTEST_1(test_lscg_T<double>());
   CALL_SUBTEST_2(test_lscg_T<std::complex<double> >());
 }
+

@@ -654,3 +654,4 @@ EIGEN_DECLARE_TEST(packetmath)
     CALL_SUBTEST_5( packetmath_scatter_gather<std::complex<double> >() );
   }
 }
+

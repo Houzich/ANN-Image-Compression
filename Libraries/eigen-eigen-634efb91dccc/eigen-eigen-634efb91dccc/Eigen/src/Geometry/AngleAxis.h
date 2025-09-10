@@ -245,3 +245,4 @@ EIGEN_DEVICE_FUNC AngleAxis<Scalar>::toRotationMatrix(void) const
 } // end namespace Eigen
 
 #endif // EIGEN_ANGLEAXIS_H
+

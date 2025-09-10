@@ -14,3 +14,4 @@ int main()
    cout << "The determinant of A is " << A.determinant() << endl;
    cout << "The inverse of A is:\n" << A.inverse() << endl;
 }
+

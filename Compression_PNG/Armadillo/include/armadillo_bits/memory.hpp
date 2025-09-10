@@ -238,3 +238,4 @@ memory::mark_as_aligned(const eT*& mem)
 
 
 //! @}
+

@@ -14,3 +14,4 @@ cout << "Consider the first eigenvalue, lambda = " << lambda << endl;
 VectorXd v = es.eigenvectors().col(0);
 cout << "If v is the corresponding eigenvector, then A * v = " << endl << A * v << endl;
 cout << "... and lambda * B * v = " << endl << lambda * B * v << endl << endl;
+

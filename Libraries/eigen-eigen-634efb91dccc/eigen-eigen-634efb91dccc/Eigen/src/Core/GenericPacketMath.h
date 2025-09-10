@@ -602,3 +602,4 @@ pinsertlast(const Packet& a, typename unpacket_traits<Packet>::type b)
 } // end namespace Eigen
 
 #endif // EIGEN_GENERIC_PACKET_MATH_H
+

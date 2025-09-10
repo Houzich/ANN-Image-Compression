@@ -74,3 +74,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_forced_eval_sycl) {
     CALL_SUBTEST(tensorForced_evalperDevice<float>(device));
   }
 }
+

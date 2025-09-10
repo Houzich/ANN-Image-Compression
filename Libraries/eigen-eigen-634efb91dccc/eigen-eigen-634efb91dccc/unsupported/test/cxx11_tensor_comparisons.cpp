@@ -82,3 +82,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_comparisons)
   CALL_SUBTEST(test_orderings());
   CALL_SUBTEST(test_equality());
 }
+

@@ -378,3 +378,4 @@ else()
     BLAS_SEQ_LIBRARIES
     BLAS_LIBRARY_DIRS)
 endif()
+

@@ -40,3 +40,4 @@ class Trackball
 };
 
 #endif // EIGEN_TRACKBALL_H
+

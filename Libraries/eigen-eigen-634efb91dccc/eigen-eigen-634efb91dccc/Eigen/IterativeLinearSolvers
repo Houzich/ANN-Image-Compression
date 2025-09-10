@@ -46,3 +46,4 @@
 #include "src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_ITERATIVELINEARSOLVERS_MODULE_H
+

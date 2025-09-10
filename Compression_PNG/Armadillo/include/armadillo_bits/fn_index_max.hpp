@@ -159,3 +159,4 @@ index_max(const SizeCube& s)
 
 
 //! @}
+

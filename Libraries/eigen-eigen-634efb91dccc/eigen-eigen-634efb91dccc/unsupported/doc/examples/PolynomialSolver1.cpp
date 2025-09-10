@@ -51,3 +51,4 @@ int main()
   std::complex<float> castedRoot( psolve6d.roots()[5].real(), psolve6d.roots()[5].imag() );
   cout << "Norm of the difference: " << std::abs( psolvef.roots()[5] - castedRoot ) << endl;
 }
+

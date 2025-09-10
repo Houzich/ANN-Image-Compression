@@ -491,3 +491,4 @@ EIGEN_DECLARE_TEST(array)
                            ArrayBase<Xpr>
                          >::value));
 }
+

@@ -14,3 +14,4 @@ int main()
   std::cout << "The matrix A is:\n" << A << "\n\n";
   std::cout << "The matrix exponential of A is:\n" << A.exp() << "\n\n";
 }
+

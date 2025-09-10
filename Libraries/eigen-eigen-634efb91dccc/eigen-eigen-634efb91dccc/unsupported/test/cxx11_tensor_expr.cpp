@@ -379,3 +379,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_expr)
   CALL_SUBTEST(test_clip());
   CALL_SUBTEST(test_minmax_nan_propagation());
 }
+

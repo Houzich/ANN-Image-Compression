@@ -676,3 +676,4 @@ class PastixLDLT : public PastixBase< PastixLDLT<_MatrixType, _UpLo> >
 } // end namespace Eigen
 
 #endif
+

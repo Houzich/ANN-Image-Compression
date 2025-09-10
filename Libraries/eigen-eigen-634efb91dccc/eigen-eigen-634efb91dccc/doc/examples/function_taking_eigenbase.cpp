@@ -16,3 +16,4 @@ int main()
     // v.asDiagonal() returns a 3x3 diagonal matrix pseudo-expression
     print_size(v.asDiagonal());
 }
+

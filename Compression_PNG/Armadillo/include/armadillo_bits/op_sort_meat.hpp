@@ -232,3 +232,4 @@ op_sort_default::apply(Mat<typename T1::elem_type>& out, const Op<T1,op_sort_def
 
 
 //! @}
+

@@ -112,3 +112,4 @@ class QuaternionDemo : public QMainWindow
 };
 
 #endif // EIGEN_QUATERNION_DEMO_H
+

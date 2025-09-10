@@ -30,3 +30,4 @@ EIGEN_DECLARE_TEST(array_of_string)
   VERIFY((a1==a3ref).all());
   VERIFY((a3!=a3ref).all());
 }
+

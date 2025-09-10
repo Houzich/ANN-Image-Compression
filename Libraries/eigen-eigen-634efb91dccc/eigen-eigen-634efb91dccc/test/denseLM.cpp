@@ -188,3 +188,4 @@ EIGEN_DECLARE_TEST(denseLM)
   
   // CALL_SUBTEST_2(test_sparseLM_T<std::complex<double>());
 }
+

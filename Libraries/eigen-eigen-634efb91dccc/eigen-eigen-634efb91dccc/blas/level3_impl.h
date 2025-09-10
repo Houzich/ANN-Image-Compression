@@ -700,3 +700,4 @@ int EIGEN_BLAS_FUNC(her2k)(const char *uplo, const char *op, const int *n, const
 }
 
 #endif // ISCOMPLEX
+

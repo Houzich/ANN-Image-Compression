@@ -150,3 +150,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_of_strings)
   CALL_SUBTEST(test_additions());
   CALL_SUBTEST(test_initialization());
 }
+

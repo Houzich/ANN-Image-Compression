@@ -310,3 +310,4 @@ op_var::direct_var_robust(const std::complex<T>* const X, const uword n_elem, co
 
 //! @}
 
+

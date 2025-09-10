@@ -20,3 +20,4 @@ int main()
   v[0] = 1; v[1] = 2; v(2) = 3; v(3) = 4;
   std::cout << "\nv:\n" << v << std::endl;
 }
+

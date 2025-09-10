@@ -66,3 +66,4 @@ namespace Magick
 } // namespace Magick
 
 #endif // Magick_TypeMetric_header
+

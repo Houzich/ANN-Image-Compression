@@ -220,3 +220,4 @@ EIGEN_DECLARE_TEST(BVH)
 #endif
   }
 }
+

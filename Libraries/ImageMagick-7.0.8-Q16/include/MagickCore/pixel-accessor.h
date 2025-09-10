@@ -886,3 +886,4 @@ static inline void SetPixelYTraits(Image *image,const PixelTrait traits)
 #endif
 
 #endif
+

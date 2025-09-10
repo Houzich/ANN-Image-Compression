@@ -177,3 +177,4 @@ void parallelize_gemm(const Functor& func, Index rows, Index cols, Index depth, 
 } // end namespace Eigen
 
 #endif // EIGEN_PARALLELIZER_H
+

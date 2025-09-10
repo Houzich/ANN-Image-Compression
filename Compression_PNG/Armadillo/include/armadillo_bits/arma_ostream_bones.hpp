@@ -69,3 +69,4 @@ class arma_ostream
 
 
 //! @}
+

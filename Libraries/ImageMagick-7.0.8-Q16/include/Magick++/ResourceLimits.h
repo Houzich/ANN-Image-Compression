@@ -74,3 +74,4 @@ namespace Magick
 } // Magick namespace
 
 #endif // Magick_ResourceLimits_header
+

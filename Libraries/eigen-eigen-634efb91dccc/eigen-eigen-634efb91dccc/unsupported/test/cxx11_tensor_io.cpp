@@ -134,3 +134,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_io)
   CALL_SUBTEST(test_output_const<ColMajor>());
   CALL_SUBTEST(test_output_const<RowMajor>());
 }
+

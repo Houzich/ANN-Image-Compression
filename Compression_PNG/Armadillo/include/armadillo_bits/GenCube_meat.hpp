@@ -238,3 +238,4 @@ GenCube<eT, gen_type>::apply(subview_cube<eT>& out) const
 
 
 //! @}
+

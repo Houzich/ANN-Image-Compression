@@ -186,3 +186,4 @@ UniformScaling<Scalar>::operator* (const Translation<Scalar,Dim>& t) const
 } // end namespace Eigen
 
 #endif // EIGEN_SCALING_H
+

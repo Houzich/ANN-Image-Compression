@@ -128,3 +128,4 @@ EIGEN_DECLARE_TEST(qr)
   // Test problem size constructors
   CALL_SUBTEST_12(HouseholderQR<MatrixXf>(10, 20));
 }
+

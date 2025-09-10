@@ -158,3 +158,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_uint128)
   CALL_SUBTEST_6(test_misc2());
 #endif
 }
+

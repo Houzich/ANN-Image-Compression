@@ -358,3 +358,4 @@ int EIGEN_BLAS_FUNC(gerc)(int *m, int *n, RealScalar *palpha, RealScalar *px, in
 
   return 1;
 }
+

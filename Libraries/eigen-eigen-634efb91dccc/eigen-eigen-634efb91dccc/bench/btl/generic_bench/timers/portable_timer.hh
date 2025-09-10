@@ -185,3 +185,4 @@ private:
 #endif
 
 #endif  // PORTABLE_TIMER_HPP
+

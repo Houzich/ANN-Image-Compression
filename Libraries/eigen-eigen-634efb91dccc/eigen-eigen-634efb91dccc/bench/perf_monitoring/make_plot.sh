@@ -96,3 +96,4 @@ done < $WHAT.out
 echo '];'  >> $WHAT.html
 
 cat resources/chart_footer.html >> $WHAT.html
+

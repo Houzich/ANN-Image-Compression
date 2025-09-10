@@ -101,3 +101,4 @@ double2 prsqrt<double2>(const double2& a)
 } // end namespace Eigen
 
 #endif // EIGEN_MATH_FUNCTIONS_GPU_H
+

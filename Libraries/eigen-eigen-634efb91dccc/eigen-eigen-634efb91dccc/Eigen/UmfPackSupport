@@ -38,3 +38,4 @@ extern "C" {
 #include "src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_UMFPACKSUPPORT_MODULE_H
+

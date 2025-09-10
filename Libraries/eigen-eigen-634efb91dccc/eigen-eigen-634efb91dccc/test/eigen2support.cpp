@@ -63,3 +63,4 @@ EIGEN_DECLARE_TEST(eigen2support)
     CALL_SUBTEST_6( eigen2support(MatrixXcd(100,100)) );
   }
 }
+

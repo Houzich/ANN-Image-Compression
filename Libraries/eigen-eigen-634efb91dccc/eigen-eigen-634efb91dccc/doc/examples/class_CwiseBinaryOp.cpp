@@ -16,3 +16,4 @@ int main(int, char**)
   cout << m1.binaryExpr(m2, MakeComplexOp<double>()) << endl;
   return 0;
 }
+

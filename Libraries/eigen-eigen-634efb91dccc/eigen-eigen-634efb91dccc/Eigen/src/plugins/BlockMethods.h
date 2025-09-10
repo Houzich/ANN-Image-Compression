@@ -1399,3 +1399,4 @@ innerVectors(Index outerStart, Index outerSize) const
                                                   IsRowMajor ? outerSize : rows(), IsRowMajor ? cols() : outerSize);
 
 }
+

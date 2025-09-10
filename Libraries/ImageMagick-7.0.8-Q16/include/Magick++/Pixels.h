@@ -150,3 +150,4 @@ inline size_t Magick::Pixels::rows(void) const
 }
 
 #endif // Magick_Pixels_header
+

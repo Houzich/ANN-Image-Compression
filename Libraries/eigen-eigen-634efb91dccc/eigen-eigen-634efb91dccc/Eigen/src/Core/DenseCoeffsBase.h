@@ -679,3 +679,4 @@ struct outer_stride_at_compile_time<Derived, false>
 } // end namespace Eigen
 
 #endif // EIGEN_DENSECOEFFSBASE_H
+

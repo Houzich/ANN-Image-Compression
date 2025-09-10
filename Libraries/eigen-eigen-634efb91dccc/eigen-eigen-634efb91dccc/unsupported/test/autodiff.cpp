@@ -369,3 +369,4 @@ EIGEN_DECLARE_TEST(autodiff)
   CALL_SUBTEST_5( bug_1261() );
 }
 
+

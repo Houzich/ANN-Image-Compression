@@ -42,3 +42,4 @@ static inline MagickBooleanType SetImageProgress(const Image *image,
 #endif
 
 #endif
+

@@ -1025,3 +1025,4 @@ void SuperILU<MatrixType>::_solve_impl(const MatrixBase<Rhs> &b, MatrixBase<Dest
 } // end namespace Eigen
 
 #endif // EIGEN_SUPERLUSUPPORT_H
+

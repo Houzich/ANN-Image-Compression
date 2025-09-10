@@ -117,3 +117,4 @@ class running_stat_aux
 
 
 //! @}
+

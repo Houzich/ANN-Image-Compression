@@ -1106,3 +1106,4 @@ inline int queryTopLevelCacheSize()
 } // end namespace Eigen
 
 #endif // EIGEN_MEMORY_H
+

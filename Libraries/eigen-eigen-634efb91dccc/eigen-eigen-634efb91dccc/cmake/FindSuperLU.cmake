@@ -95,3 +95,4 @@ find_package_handle_standard_args(SUPERLU
                                   VERSION_VAR SUPERLU_VERSION_VAR)
 
 mark_as_advanced(SUPERLU_INCLUDES SUPERLU_LIBRARIES)
+

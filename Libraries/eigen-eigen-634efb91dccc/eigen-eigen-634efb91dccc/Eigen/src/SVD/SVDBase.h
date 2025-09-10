@@ -310,3 +310,4 @@ bool SVDBase<MatrixType>::allocate(Index rows, Index cols, unsigned int computat
 }// end namespace
 
 #endif // EIGEN_SVDBASE_H
+

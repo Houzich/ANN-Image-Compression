@@ -76,3 +76,4 @@ class Glue : public Base<typename T1::elem_type, Glue<T1, T2, glue_type> >
 
 
 //! @}
+

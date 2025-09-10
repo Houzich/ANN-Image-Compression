@@ -123,3 +123,4 @@ EIGEN_DECLARE_TEST(geo_homogeneous)
     CALL_SUBTEST_3(( homogeneous<double,8>() ));
   }
 }
+

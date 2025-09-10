@@ -168,3 +168,4 @@ EIGEN_DECLARE_TEST(sparse_extra)
     TEST_SET_BUT_UNUSED_VARIABLE(s);
   }
 }
+

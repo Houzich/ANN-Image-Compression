@@ -184,3 +184,4 @@ class ProductImpl<Lhs,Rhs,Option,Dense>
 } // end namespace Eigen
 
 #endif // EIGEN_PRODUCT_H
+

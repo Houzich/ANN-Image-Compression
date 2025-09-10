@@ -561,3 +561,4 @@ struct unary_evaluator<Block<const SparseMatrix<_Scalar, _Options, _StorageIndex
 } // end namespace Eigen
 
 #endif // EIGEN_SPARSE_BLOCK_H
+

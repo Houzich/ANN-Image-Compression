@@ -146,3 +146,4 @@ struct triangular_solve_vector<LhsScalar, RhsScalar, Index, OnTheLeft, Mode, Con
 } // end namespace Eigen
 
 #endif // EIGEN_TRIANGULAR_SOLVER_VECTOR_H
+

@@ -900,3 +900,4 @@ EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE Derived& MatrixBase<Derived>::setUnit(Inde
 } // end namespace Eigen
 
 #endif // EIGEN_CWISE_NULLARY_OP_H
+

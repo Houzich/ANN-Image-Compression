@@ -143,3 +143,4 @@ EIGEN_BLAS_RANKUPDATE_R(float,  float,  ssyrk_)
 } // end namespace Eigen
 
 #endif // EIGEN_GENERAL_MATRIX_MATRIX_TRIANGULAR_BLAS_H
+

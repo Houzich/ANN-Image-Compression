@@ -157,3 +157,4 @@ spglue_kron::apply_noalias(SpMat<eT>& out, const SpMat<eT>& A, const SpMat<eT>& 
 
 
 //! @}
+

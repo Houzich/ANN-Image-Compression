@@ -26,3 +26,4 @@ MatrixBase<Derived>::operator*(const DiagonalBase<DiagonalDerived> &a_diagonal) 
 } // end namespace Eigen
 
 #endif // EIGEN_DIAGONALPRODUCT_H
+

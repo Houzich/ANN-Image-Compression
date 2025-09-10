@@ -298,3 +298,4 @@ EIGEN_DECLARE_TEST(array_for_matrix)
   CALL_SUBTEST_6( regression_bug_654<0>() );
   CALL_SUBTEST_6( regrrssion_bug_1410<0>() );
 }
+

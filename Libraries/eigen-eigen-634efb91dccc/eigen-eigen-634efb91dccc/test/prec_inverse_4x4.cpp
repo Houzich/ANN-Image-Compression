@@ -81,3 +81,4 @@ EIGEN_DECLARE_TEST(prec_inverse_4x4)
   CALL_SUBTEST_3((inverse_permutation_4x4<Matrix4cf>()));
   CALL_SUBTEST_3((inverse_general_4x4<Matrix4cf>(50000 * g_repeat)));
 }
+

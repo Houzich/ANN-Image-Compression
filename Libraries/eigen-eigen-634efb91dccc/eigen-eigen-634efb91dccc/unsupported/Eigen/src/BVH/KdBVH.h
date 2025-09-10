@@ -220,3 +220,4 @@ private:
 } // end namespace Eigen
 
 #endif //KDBVH_H_INCLUDED
+

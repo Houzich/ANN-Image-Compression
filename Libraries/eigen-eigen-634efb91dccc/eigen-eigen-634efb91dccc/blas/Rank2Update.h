@@ -55,3 +55,4 @@ struct packed_rank2_update_selector
 } // end namespace internal
 
 #endif // EIGEN_RANK2UPDATE_H
+

@@ -210,3 +210,4 @@ op_dotext::direct_rowvec_invdiagvec_colvec
 
 
 //! @}
+

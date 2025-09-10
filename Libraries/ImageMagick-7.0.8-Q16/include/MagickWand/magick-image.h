@@ -396,3 +396,4 @@ extern WandExport VirtualPixelMethod
 #endif
 
 #endif
+

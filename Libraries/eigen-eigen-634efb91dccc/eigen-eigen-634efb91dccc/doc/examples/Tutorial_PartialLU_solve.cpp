@@ -16,3 +16,4 @@ int main()
    Vector3f x = A.lu().solve(b);
    cout << "The solution is:" << endl << x << endl;
 }
+

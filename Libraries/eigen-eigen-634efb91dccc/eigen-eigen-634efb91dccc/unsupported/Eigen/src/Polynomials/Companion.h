@@ -274,3 +274,4 @@ void companion<_Scalar,_Deg>::balance()
 } // end namespace Eigen
 
 #endif // EIGEN_COMPANION_H
+

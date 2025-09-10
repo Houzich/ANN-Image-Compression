@@ -398,3 +398,4 @@ SpCol<eT>::end_row(const uword row_num) const
 
 
 //! @}
+

@@ -24,3 +24,4 @@ int main()
   cout << "Min: " << min << ", at: " <<
      minRow << "," << minCol << endl;
 }
+

@@ -150,3 +150,4 @@ function(add_sycl_to_target targetName sourceFile binaryDir)
   endif(${TRISYCL_OPENMP} AND (NOT WIN32))
 
 endfunction(add_sycl_to_target)
+
