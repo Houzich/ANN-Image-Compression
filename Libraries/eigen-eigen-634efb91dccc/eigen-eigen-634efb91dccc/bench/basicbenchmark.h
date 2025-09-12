@@ -62,3 +62,4 @@ double benchBasic(const MatrixType& mat, int iterations, int tries)
 
 #endif // EIGEN_BENCH_BASICBENCH_H
 
+

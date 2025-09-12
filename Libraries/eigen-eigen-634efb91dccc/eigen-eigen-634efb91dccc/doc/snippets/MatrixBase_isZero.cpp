@@ -4,3 +4,4 @@ cout << "Here's the matrix m:" << endl << m << endl;
 cout << "m.isZero() returns: " << m.isZero() << endl;
 cout << "m.isZero(1e-3) returns: " << m.isZero(1e-3) << endl;
 
+

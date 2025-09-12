@@ -560,3 +560,4 @@ template<typename MatrixType> struct TridiagonalizationMatrixTReturnType
 
 #endif // EIGEN_TRIDIAGONALIZATION_H
 
+

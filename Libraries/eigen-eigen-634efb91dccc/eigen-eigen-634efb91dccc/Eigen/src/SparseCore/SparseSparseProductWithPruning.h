@@ -197,3 +197,4 @@ struct sparse_sparse_product_with_pruning_selector<Lhs,Rhs,ResultType,RowMajor,C
 
 #endif // EIGEN_SPARSESPARSEPRODUCTWITHPRUNING_H
 
+

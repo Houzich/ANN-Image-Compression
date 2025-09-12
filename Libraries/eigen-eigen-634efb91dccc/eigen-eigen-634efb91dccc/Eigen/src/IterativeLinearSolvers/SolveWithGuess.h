@@ -114,3 +114,4 @@ struct Assignment<DstXprType, SolveWithGuess<DecType,RhsType,GuessType>, interna
 
 #endif // EIGEN_SOLVEWITHGUESS_H
 
+

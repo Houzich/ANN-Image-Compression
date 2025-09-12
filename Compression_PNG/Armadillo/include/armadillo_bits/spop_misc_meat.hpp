@@ -554,3 +554,4 @@ spop_fliplr::apply(SpMat<typename T1::elem_type>& out, const SpOp<T1,spop_fliplr
 
 //! @}
 
+

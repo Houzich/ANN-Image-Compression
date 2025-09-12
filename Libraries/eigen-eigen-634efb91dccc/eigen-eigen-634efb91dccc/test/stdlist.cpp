@@ -129,3 +129,4 @@ EIGEN_DECLARE_TEST(stdlist)
   CALL_SUBTEST_5(check_stdlist_quaternion(Quaterniond()));
 }
 
+

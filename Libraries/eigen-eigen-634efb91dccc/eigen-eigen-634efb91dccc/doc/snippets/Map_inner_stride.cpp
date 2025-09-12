@@ -4,3 +4,4 @@ cout << Map<VectorXi, 0, InnerStride<2> >
          (array, 6) // the inner stride has already been passed as template parameter
      << endl;
 
+

@@ -499,3 +499,4 @@ struct generic_product_impl<Lhs,Rhs,DenseShape,DenseShape,GemmProduct>
 
 #endif // EIGEN_GENERAL_MATRIX_MATRIX_H
 
+

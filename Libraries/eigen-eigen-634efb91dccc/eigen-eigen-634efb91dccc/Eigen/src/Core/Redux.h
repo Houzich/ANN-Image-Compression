@@ -494,3 +494,4 @@ MatrixBase<Derived>::trace() const
 
 #endif // EIGEN_REDUX_H
 
+

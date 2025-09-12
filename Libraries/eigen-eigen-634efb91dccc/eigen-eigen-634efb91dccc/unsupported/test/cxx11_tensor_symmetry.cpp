@@ -817,3 +817,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_symmetry)
  * kate: space-indent on; indent-width 2; mixedindent off; indent-mode cstyle;
  */
 
+

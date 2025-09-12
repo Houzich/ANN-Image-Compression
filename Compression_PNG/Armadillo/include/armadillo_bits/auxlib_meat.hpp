@@ -5131,3 +5131,4 @@ ptr_cast(blas_int (*function)(const std::complex<T>*, const std::complex<T>*))
 
 //! @}
 
+

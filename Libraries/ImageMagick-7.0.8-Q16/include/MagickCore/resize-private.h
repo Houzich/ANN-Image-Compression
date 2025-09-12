@@ -66,3 +66,4 @@ extern MagickPrivate ResizeWeightingFunctionType
 
 #endif
 
+

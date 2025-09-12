@@ -50,3 +50,4 @@ template<> EIGEN_STRONG_INLINE Packet8f pcast<Packet8i, Packet8f>(const Packet8i
 
 #endif // EIGEN_TYPE_CASTING_AVX_H
 
+

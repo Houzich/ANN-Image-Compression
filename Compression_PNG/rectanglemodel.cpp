@@ -51,3 +51,4 @@ void RectangleModel::setX(ublas::matrix<double> X){
 }
 
 
+

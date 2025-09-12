@@ -40,3 +40,4 @@ class GlueCube : public BaseCube<typename T1::elem_type, GlueCube<T1, T2, glue_t
 
 //! @}
 
+

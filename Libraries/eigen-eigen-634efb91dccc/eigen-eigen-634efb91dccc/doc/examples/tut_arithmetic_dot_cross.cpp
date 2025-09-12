@@ -14,3 +14,4 @@ int main()
   cout << "Cross product:\n" << v.cross(w) << endl;
 }
 
+

@@ -177,3 +177,4 @@ operator*(const InverseImpl<PermutationType,PermutationStorage>& tperm, const Sp
 
 #endif // EIGEN_SPARSE_SELFADJOINTVIEW_H
 
+

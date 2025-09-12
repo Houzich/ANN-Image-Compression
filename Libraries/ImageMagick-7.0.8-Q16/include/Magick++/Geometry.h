@@ -260,3 +260,4 @@ namespace Magick
 
 #endif // Magick_Geometry_header
 
+

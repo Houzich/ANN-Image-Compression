@@ -69,3 +69,4 @@ namespace Compression_Plugin
 		return 0;
 	}
 }
+

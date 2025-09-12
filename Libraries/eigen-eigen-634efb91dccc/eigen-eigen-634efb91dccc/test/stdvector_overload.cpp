@@ -160,3 +160,4 @@ EIGEN_DECLARE_TEST(stdvector_overload)
   CALL_SUBTEST_5(check_stdvector_quaternion(Quaterniond()));
 }
 
+

@@ -4,3 +4,4 @@ cout << "Here's the matrix m:" << endl << m << endl;
 cout << "m.isOnes() returns: " << m.isOnes() << endl;
 cout << "m.isOnes(1e-3) returns: " << m.isOnes(1e-3) << endl;
 
+

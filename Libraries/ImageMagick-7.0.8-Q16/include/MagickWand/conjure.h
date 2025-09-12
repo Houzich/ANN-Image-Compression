@@ -31,3 +31,4 @@ extern WandExport MagickBooleanType
 
 #endif
 
+

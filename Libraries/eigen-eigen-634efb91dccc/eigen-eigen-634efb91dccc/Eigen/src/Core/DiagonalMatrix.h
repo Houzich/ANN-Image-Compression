@@ -342,3 +342,4 @@ struct Assignment<DstXprType, SrcXprType, Functor, Diagonal2Dense>
 
 #endif // EIGEN_DIAGONALMATRIX_H
 
+

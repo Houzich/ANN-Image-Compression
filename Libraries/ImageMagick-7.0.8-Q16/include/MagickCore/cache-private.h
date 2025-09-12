@@ -300,3 +300,4 @@ extern MagickPrivate void
 
 #endif
 
+

@@ -107,3 +107,4 @@ inline typename internal::traits<Derived>::Scalar MatrixBase<Derived>::determina
 
 #endif // EIGEN_DETERMINANT_H
 
+

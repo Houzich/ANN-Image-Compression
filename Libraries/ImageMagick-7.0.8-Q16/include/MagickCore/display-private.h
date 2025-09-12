@@ -41,3 +41,4 @@ extern MagickExport MagickBooleanType XDisplayBackgroundImage(Display *,
 
 #endif
 
+

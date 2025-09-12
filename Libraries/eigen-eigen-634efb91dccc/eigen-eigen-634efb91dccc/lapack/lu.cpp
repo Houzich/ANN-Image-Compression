@@ -88,3 +88,4 @@ EIGEN_LAPACK_FUNC(getrs,(char *trans, int *n, int *nrhs, RealScalar *pa, int *ld
   return 0;
 }
 
+

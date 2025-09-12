@@ -5,3 +5,4 @@ cout << "Here's the vector w:" << endl << w << endl;
 cout << "v.isOrthogonal(w) returns: " << v.isOrthogonal(w) << endl;
 cout << "v.isOrthogonal(w,1e-3) returns: " << v.isOrthogonal(w,1e-3) << endl;
 
+

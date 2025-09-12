@@ -266,3 +266,4 @@ glue_max::apply(Cube< std::complex<T> >& out, const ProxyCube<T1>& PA, const Pro
 
 //! @}
 
+

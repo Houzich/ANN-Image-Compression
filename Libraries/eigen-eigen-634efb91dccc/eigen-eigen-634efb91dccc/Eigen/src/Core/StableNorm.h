@@ -263,3 +263,4 @@ MatrixBase<Derived>::hypotNorm() const
 
 #endif // EIGEN_STABLENORM_H
 
+

@@ -168,3 +168,4 @@ protected:
 
 #endif // EIGEN_SPARSEPRODUCT_H
 
+

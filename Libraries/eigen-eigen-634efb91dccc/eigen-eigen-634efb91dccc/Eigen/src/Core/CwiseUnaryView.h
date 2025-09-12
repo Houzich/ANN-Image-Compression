@@ -127,3 +127,4 @@ class CwiseUnaryViewImpl<ViewOp,MatrixType,Dense>
 
 #endif // EIGEN_CWISE_UNARY_VIEW_H
 
+

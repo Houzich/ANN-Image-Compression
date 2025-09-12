@@ -23,3 +23,4 @@ int main()
   cout << m.col(index) << endl;
 }
 
+

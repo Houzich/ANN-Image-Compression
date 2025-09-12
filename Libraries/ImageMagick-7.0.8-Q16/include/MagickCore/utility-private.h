@@ -297,3 +297,4 @@ static inline int stat_utf8(const char *path,struct stat *attributes)
 
 #endif
 
+

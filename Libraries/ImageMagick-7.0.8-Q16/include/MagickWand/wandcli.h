@@ -45,3 +45,4 @@ extern WandExport MagickBooleanType
 
 #endif
 
+

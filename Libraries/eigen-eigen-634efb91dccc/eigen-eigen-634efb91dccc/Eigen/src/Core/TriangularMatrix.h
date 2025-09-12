@@ -985,3 +985,4 @@ struct Assignment<DstXprType, Product<Lhs,Rhs,DefaultProduct>, internal::sub_ass
 
 #endif // EIGEN_TRIANGULARMATRIX_H
 
+

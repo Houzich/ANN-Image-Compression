@@ -112,3 +112,4 @@ EIGEN_DECLARE_TEST(polynomialutils)
   }
 }
 
+

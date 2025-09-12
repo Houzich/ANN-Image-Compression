@@ -1418,3 +1418,4 @@ ptranspose(PacketBlock<Packet4h,4>& kernel) {
 
 #endif // EIGEN_PACKET_MATH_HALF_GPU_H
 
+

@@ -170,3 +170,4 @@ EIGEN_DECLARE_TEST(integer_types)
   CALL_SUBTEST_9( integer_types_extra<0>() );
 }
 
+

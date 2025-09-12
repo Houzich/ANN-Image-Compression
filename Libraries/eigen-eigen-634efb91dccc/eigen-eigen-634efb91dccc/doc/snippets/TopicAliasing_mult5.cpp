@@ -4,3 +4,4 @@ A << 2, 0, 0, -2;
 A = (B * A).eval().cwiseAbs();
 cout << A;
 
+

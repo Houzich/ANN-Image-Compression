@@ -12,3 +12,4 @@ bool bug1213_1(const Eigen::Vector3f& x)
 }
 
 
+

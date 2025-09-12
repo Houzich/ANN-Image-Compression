@@ -100,3 +100,4 @@ EIGEN_DECLARE_TEST(autodiff_scalar)
   }
 }
 
+

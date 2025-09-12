@@ -6,3 +6,4 @@ cout << "Here is a matrix whose columns form a basis of the kernel of m:"
 cout << "By definition of the kernel, m*ker is zero:"
      << endl << m*ker << endl;
 
+

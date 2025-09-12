@@ -407,3 +407,4 @@ class PolynomialSolver<_Scalar,1> : public PolynomialSolverBase<_Scalar,1>
 
 #endif // EIGEN_POLYNOMIAL_SOLVER_H
 
+

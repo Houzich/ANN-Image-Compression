@@ -61,3 +61,4 @@ EIGEN_DECLARE_TEST(hessenberg)
   CALL_SUBTEST_6(HessenbergDecomposition<MatrixXf>(10));
 }
 
+

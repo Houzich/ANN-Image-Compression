@@ -176,3 +176,4 @@ typedef gmm_priv::gmm_diag<float>  fgmm_diag;
 
 //! @}
 
+

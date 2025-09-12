@@ -121,3 +121,4 @@ op_repmat::apply(Mat<typename T1::elem_type>& out, const Op<T1,op_repmat>& in)
 
 //! @}
 
+

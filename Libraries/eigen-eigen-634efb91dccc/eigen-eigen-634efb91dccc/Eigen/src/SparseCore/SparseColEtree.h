@@ -205,3 +205,4 @@ void treePostorder(typename IndexVector::Scalar n, IndexVector& parent, IndexVec
 
 #endif // SPARSE_COLETREE_H
 
+

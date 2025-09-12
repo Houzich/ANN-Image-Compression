@@ -130,3 +130,4 @@ EIGEN_DECLARE_TEST(inverse)
   }
 }
 
+

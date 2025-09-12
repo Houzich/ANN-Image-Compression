@@ -5,3 +5,4 @@ b << 3, 3, 4;
 A.triangularView<Upper>().solveInPlace(b);
 cout << "The solution is:" << endl << b << endl;
 
+

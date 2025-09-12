@@ -39,3 +39,4 @@ include(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(SPQR DEFAULT_MSG SPQR_INCLUDES SPQR_LIBRARIES)
 
 mark_as_advanced(SPQR_INCLUDES SPQR_LIBRARIES)
+

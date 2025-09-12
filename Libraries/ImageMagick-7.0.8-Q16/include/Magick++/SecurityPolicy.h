@@ -47,3 +47,4 @@ namespace Magick
 
 #endif // Magick_SecurityPolicy_header
 
+

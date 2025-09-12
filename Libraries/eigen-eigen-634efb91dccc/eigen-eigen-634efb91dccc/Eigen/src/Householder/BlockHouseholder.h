@@ -109,3 +109,4 @@ void apply_block_householder_on_the_left(MatrixType& mat, const VectorsType& vec
 
 #endif // EIGEN_BLOCK_HOUSEHOLDER_H
 
+

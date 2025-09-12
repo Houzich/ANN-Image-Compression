@@ -1078,3 +1078,4 @@ class BlockSparseMatrix<_Scalar, _BlockAtCompileTime, _Options, _StorageIndex>::
 
 #endif // EIGEN_SPARSEBLOCKMATRIX_H
 
+

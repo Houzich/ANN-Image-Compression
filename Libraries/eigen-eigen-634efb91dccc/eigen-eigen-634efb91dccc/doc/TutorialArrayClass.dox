@@ -191,3 +191,4 @@ expression <tt>(m.array() * n.array()).matrix() * m</tt> computes the coefficien
 
 }
 
+

@@ -182,3 +182,4 @@ Packet4f plog<Packet4f>(const Packet4f& _x)
 
 #endif // EIGEN_MATH_FUNCTIONS_NEON_H
 
+

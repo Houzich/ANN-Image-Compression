@@ -3,3 +3,4 @@ SelfAdjointEigenSolver<MatrixXd> es(ones);
 cout << "The eigenvalues of the 3x3 matrix of ones are:" 
      << endl << es.eigenvalues() << endl;
 
+

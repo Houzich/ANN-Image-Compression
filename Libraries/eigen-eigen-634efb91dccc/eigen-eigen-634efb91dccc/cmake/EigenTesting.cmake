@@ -759,3 +759,4 @@ macro(ei_test_get_compilerver_from_cxx_version_string)
   ei_test1_get_compilerver_from_cxx_version_string("g++-mp-4.4 (GCC) 2011" "g++" "4.4")
 endmacro(ei_test_get_compilerver_from_cxx_version_string)
 
+

@@ -169,3 +169,4 @@ glue_hypot::apply_noalias(Cube<typename T1::elem_type>& out, const ProxyCube<T1>
 
 //! @}
 
+

@@ -225,3 +225,4 @@ Index SparseLUImpl<Scalar,StorageIndex>::memXpand(VectorType& vec, Index& maxlen
 } // end namespace Eigen
 #endif // EIGEN_SPARSELU_MEMORY
 
+

@@ -227,3 +227,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_shuffling)
   CALL_SUBTEST(test_shuffle_unshuffle<RowMajor>());
 }
 
+

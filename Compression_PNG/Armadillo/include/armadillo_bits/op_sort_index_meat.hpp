@@ -203,3 +203,4 @@ op_stable_sort_index::apply(Mat<uword>& out, const mtOp<uword,T1,op_stable_sort_
 
 //! @}
 
+

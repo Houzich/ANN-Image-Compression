@@ -90,3 +90,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_generator)
   CALL_SUBTEST(test_gaussian<RowMajor>());
 }
 
+

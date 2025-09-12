@@ -465,3 +465,4 @@ struct triangular_product_impl<Mode,LhsIsTriangular,Lhs,false,Rhs,false>
 
 #endif // EIGEN_TRIANGULAR_MATRIX_MATRIX_H
 
+

@@ -4,3 +4,4 @@ cout << "v                   = " << v.transpose() << "]^T" << endl;
 cout << "v.hnormalized()     = " << v.hnormalized().transpose() << "]^T" << endl;
 cout << "P*v                 = " << (P*v).transpose() << "]^T" << endl;
 cout << "(P*v).hnormalized() = " << (P*v).hnormalized().transpose() << "]^T" << endl;
+

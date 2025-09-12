@@ -146,3 +146,4 @@ EIGEN_DECLARE_TEST(linearstructure)
   CALL_SUBTEST_4( linearstructure_overflow<0>() );
 }
 
+

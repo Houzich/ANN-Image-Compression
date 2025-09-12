@@ -246,3 +246,4 @@ EIGEN_DEVICE_FUNC AngleAxis<Scalar>::toRotationMatrix(void) const
 
 #endif // EIGEN_ANGLEAXIS_H
 
+

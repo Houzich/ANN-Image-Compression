@@ -444,3 +444,4 @@ void minimum_degree_ordering(SparseMatrix<Scalar,ColMajor,StorageIndex>& C, Perm
 
 #endif // EIGEN_SPARSE_AMD_H
 
+

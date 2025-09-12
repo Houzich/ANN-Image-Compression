@@ -33,3 +33,4 @@ EIGEN_DECLARE_TEST(conjugate_gradient)
   CALL_SUBTEST_3(( test_conjugate_gradient_T<double,long int>() ));
 }
 
+

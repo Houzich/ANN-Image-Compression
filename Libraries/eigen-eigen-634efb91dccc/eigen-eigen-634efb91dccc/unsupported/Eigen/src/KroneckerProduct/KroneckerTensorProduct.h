@@ -304,3 +304,4 @@ KroneckerProductSparse<A,B> kroneckerProduct(const EigenBase<A>& a, const EigenB
 
 #endif // KRONECKER_TENSOR_PRODUCT_H
 
+

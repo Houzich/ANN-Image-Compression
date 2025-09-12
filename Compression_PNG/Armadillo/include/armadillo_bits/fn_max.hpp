@@ -258,3 +258,4 @@ max(const SizeCube& s)
 
 //! @}
 
+

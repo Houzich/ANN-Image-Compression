@@ -288,3 +288,4 @@ struct ScanLauncher<Self, Reducer, GpuDevice> {
 
 #endif  // EIGEN_CXX11_TENSOR_TENSOR_SCAN_H
 
+

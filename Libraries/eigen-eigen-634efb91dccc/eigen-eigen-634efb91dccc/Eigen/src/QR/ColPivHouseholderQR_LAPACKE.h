@@ -96,3 +96,4 @@ EIGEN_LAPACKE_QR_COLPIV(scomplex, lapack_complex_float,  c, RowMajor, LAPACK_ROW
 
 #endif // EIGEN_COLPIVOTINGHOUSEHOLDERQR_LAPACKE_H
 
+

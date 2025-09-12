@@ -18,3 +18,4 @@ int main()
        << a.min(a.abs().sqrt()) << endl;
 }
 
+

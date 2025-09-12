@@ -317,3 +317,4 @@ bool MatrixBase<Derived>::isUnitary(const RealScalar& prec) const
 
 #endif // EIGEN_DOT_H
 
+

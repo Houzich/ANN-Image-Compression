@@ -74,3 +74,4 @@ class SpCol : public SpMat<eT>
   #endif
   };
 
+

@@ -18,3 +18,4 @@ int main()
   cout << "inv_cond(m+I):        " << inv_cond(m+Matrix4f::Identity()) << endl;
 }
 
+

@@ -22,3 +22,4 @@ namespace Mathematical_Operations
 	};
 
 }
+

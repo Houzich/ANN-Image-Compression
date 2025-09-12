@@ -438,3 +438,4 @@ Packet4d prsqrt<Packet4d>(const Packet4d& x) {
 
 #endif  // EIGEN_MATH_FUNCTIONS_AVX_H
 
+

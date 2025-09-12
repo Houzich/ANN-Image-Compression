@@ -292,3 +292,4 @@ typename Minimizer::Scalar BVMinimize(const BVH1 &tree1, const BVH2 &tree2, Mini
 
 #endif // EIGEN_BVALGORITHMS_H
 
+

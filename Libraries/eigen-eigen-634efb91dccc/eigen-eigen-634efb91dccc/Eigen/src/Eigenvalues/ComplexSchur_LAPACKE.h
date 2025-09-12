@@ -90,3 +90,4 @@ EIGEN_LAPACKE_SCHUR_COMPLEX(scomplex, lapack_complex_float,  c, C, RowMajor, LAP
 
 #endif // EIGEN_COMPLEX_SCHUR_LAPACKE_H
 
+

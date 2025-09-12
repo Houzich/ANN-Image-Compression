@@ -25,3 +25,4 @@ foreach(snippet_src ${snippets_SRCS})
                               PROPERTIES OBJECT_DEPENDS ${snippet_src})
 endforeach(snippet_src)
 
+

@@ -225,3 +225,4 @@ pi1e<double2>(const double2& x) {
 
 #endif // EIGEN_GPU_SPECIALFUNCTIONS_H
 
+

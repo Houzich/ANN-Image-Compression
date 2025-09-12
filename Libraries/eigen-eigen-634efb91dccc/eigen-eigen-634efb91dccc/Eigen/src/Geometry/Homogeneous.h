@@ -496,3 +496,4 @@ struct permutation_matrix_product<ExpressionType, Side, Transposed, HomogeneousS
 
 #endif // EIGEN_HOMOGENEOUS_H
 
+

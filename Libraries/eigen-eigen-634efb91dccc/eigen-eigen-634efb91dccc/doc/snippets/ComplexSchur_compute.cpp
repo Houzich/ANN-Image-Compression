@@ -5,3 +5,4 @@ cout << "The matrix T in the decomposition of A is:" << endl << schur.matrixT() 
 schur.compute(A.inverse());
 cout << "The matrix T in the decomposition of A^(-1) is:" << endl << schur.matrixT() << endl;
 
+

@@ -196,3 +196,4 @@ EIGEN_DECLARE_TEST(geo_hyperplane)
   }
 }
 
+

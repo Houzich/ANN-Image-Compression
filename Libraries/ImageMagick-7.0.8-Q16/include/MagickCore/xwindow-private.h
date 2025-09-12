@@ -607,3 +607,4 @@ extern MagickPrivate MagickBooleanType
 
 #endif
 
+

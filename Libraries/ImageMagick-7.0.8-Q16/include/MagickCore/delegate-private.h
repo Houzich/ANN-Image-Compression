@@ -87,3 +87,4 @@ extern MagickPrivate void
 
 #endif
 
+

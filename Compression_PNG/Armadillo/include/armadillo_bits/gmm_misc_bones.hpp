@@ -116,3 +116,4 @@ struct distance<eT, uword(2)>
 
 //! @}
 
+

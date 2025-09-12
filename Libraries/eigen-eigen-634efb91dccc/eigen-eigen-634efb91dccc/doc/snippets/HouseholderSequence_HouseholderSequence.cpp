@@ -30,3 +30,4 @@ cout << "If we construct a HouseholderSequence from v and h" << endl;
 cout << "and convert it to a matrix, we get:" << endl;
 cout << hhSeqAsMatrix << endl;
 
+

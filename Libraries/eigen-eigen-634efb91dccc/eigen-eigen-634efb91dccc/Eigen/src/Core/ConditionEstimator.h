@@ -174,3 +174,4 @@ rcond_estimate_helper(typename Decomposition::RealScalar matrix_norm, const Deco
 
 #endif
 
+

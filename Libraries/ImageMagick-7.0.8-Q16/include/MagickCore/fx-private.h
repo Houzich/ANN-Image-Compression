@@ -40,3 +40,4 @@ extern MagickPrivate MagickBooleanType
 
 #endif
 
+

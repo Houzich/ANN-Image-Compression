@@ -182,3 +182,4 @@ spglue_join_rows::apply_direct(SpMat<eT>& out, const SpMat<eT>& A, const SpMat<e
 
 //! @}
 
+

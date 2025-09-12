@@ -104,3 +104,4 @@ Features and Capabilities
   to install ImageMagick on your server or desktop.
 
 
+

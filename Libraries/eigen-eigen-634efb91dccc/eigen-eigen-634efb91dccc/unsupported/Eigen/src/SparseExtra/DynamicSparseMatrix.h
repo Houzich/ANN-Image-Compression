@@ -391,3 +391,4 @@ struct evaluator<DynamicSparseMatrix<_Scalar,_Options,_StorageIndex> >
 
 #endif // EIGEN_DYNAMIC_SPARSEMATRIX_H
 
+

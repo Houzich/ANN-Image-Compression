@@ -187,3 +187,4 @@ struct Assignment<DstXprType, Solve<CwiseUnaryOp<internal::scalar_conjugate_op<t
 
 #endif // EIGEN_SOLVE_H
 
+

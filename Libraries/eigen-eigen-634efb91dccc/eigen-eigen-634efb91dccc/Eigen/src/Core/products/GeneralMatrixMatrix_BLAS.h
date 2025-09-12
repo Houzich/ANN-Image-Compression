@@ -121,3 +121,4 @@ GEMM_SPECIALIZATION(scomplex, cf, float,  cgemm_)
 
 #endif // EIGEN_GENERAL_MATRIX_MATRIX_BLAS_H
 
+

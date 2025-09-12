@@ -4,3 +4,4 @@ cout << "Here is v.tail(2):" << endl << v.tail(2) << endl;
 v.tail(2).setZero();
 cout << "Now the vector v is:" << endl << v << endl;
 
+

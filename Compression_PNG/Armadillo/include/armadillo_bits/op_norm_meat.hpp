@@ -1007,3 +1007,4 @@ op_norm::mat_norm_inf(const SpProxy<T1>& P)
 
 //! @}
 
+

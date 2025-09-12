@@ -90,3 +90,4 @@ EIGEN_DECLARE_TEST(schur_complex)
   CALL_SUBTEST_5(ComplexSchur<MatrixXf>(10));
 }
 
+

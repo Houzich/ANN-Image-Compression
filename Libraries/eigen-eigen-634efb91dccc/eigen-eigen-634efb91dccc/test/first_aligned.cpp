@@ -50,3 +50,4 @@ EIGEN_DECLARE_TEST(first_aligned)
   test_none_aligned_helper(array_nonvec, 100);
 }
 
+

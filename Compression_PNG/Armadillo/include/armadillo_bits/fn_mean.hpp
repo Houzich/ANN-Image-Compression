@@ -212,3 +212,4 @@ mean(const SpOp<T1, spop_mean>& in)
 
 //! @}
 
+

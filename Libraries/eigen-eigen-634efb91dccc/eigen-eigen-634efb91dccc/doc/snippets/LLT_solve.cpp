@@ -7,3 +7,4 @@ Matrix<float,2,1> xy
  = (samples.adjoint() * samples).llt().solve((samples.adjoint()*elevations));
 cout << xy << endl;
 
+

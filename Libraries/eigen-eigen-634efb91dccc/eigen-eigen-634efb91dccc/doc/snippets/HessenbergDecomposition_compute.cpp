@@ -5,3 +5,4 @@ cout << "The matrix H in the decomposition of A is:" << endl << hd.matrixH() << 
 hd.compute(2*A); // re-use hd to compute and store decomposition of 2A
 cout << "The matrix H in the decomposition of 2A is:" << endl << hd.matrixH() << endl;
 
+

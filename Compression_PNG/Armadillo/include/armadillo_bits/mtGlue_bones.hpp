@@ -56,3 +56,4 @@ class mtGlue : public Base<out_eT, mtGlue<out_eT, T1, T2, glue_type> >
 
 //! @}
 
+

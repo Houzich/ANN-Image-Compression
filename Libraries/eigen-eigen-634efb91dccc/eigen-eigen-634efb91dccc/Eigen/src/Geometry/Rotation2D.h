@@ -198,3 +198,4 @@ EIGEN_DEVICE_FUNC Rotation2D<Scalar>::toRotationMatrix(void) const
 
 #endif // EIGEN_ROTATION2D_H
 
+

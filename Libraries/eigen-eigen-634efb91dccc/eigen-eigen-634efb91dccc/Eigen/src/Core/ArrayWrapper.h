@@ -208,3 +208,4 @@ class MatrixWrapper : public MatrixBase<MatrixWrapper<ExpressionType> >
 
 #endif // EIGEN_ARRAYWRAPPER_H
 
+

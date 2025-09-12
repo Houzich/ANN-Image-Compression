@@ -395,3 +395,4 @@ op_index_max::apply(Mat<uword>& out, const SpBase<typename T1::elem_type,T1>& ex
 
 //! @}
 
+

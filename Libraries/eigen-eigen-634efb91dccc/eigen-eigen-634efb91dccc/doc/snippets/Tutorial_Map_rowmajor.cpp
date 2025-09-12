@@ -6,3 +6,4 @@ cout << "Row-major using stride:\n" <<
   Map<Matrix<int,2,4>, Unaligned, Stride<1,4> >(array) << endl;
 
 
+

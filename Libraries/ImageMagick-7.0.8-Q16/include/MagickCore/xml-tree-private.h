@@ -50,3 +50,4 @@ extern MagickPrivate XMLTreeInfo
 
 #endif
 
+

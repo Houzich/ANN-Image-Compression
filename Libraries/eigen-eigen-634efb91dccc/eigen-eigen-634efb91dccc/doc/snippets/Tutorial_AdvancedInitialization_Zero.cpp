@@ -12,3 +12,4 @@ std::cout << "A two-dimensional dynamic-size array:\n";
 ArrayXXf a3 = ArrayXXf::Zero(3, 4);
 std::cout << a3 << "\n";
 
+

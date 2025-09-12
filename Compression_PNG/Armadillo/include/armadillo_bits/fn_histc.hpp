@@ -55,3 +55,4 @@ histc(const T1& X, const T2& Y, const uword dim)
 
 //! @}
 
+

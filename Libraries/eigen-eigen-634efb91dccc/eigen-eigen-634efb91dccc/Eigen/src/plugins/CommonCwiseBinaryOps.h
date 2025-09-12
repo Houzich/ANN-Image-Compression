@@ -114,3 +114,4 @@ operator||(const EIGEN_CURRENT_STORAGE_BASE_CLASS<OtherDerived> &other) const
   return CwiseBinaryOp<internal::scalar_boolean_or_op, const Derived, const OtherDerived>(derived(),other.derived());
 }
 
+

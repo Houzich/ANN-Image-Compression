@@ -51,3 +51,4 @@ cov(const Base<typename T1::elem_type,T1>& A, const Base<typename T1::elem_type,
 
 //! @}
 
+

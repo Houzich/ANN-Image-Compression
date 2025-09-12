@@ -3,3 +3,4 @@
 
 template <class ArgType> class Circulant;
 
+

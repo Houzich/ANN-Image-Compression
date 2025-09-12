@@ -5,3 +5,4 @@ cout << "Here is the symmetric matrix extracted from the upper part of m:" << en
 cout << "Here is the symmetric matrix extracted from the lower part of m:" << endl
      << Matrix3i(m.selfadjointView<Lower>()) << endl;
 
+

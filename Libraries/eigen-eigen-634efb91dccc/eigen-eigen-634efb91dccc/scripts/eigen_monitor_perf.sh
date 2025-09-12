@@ -24,3 +24,4 @@ rsync -az --no-p --delete $ALLFILES $USER@ssh.tuxfamily.org:eigen/eigen.tuxfamil
 # fix the perm
 ssh $USER@ssh.tuxfamily.org "chmod -R g+w /home/eigen/eigen.tuxfamily.org-web/htdocs/perf_monitoring" || { echo "perm failed"; exit 1; }
 
+

@@ -66,3 +66,4 @@ EIGEN_DECLARE_TEST(smallvectors)
   }
 }
 
+

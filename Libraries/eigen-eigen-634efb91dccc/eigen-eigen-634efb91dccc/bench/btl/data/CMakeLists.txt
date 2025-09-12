@@ -31,3 +31,4 @@ add_executable(regularize regularize.cxx)
 add_executable(main mean.cxx)
 add_dependencies(main copy_scripts)
 
+

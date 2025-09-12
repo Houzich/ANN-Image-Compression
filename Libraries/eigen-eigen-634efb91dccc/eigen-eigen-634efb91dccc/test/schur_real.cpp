@@ -109,3 +109,4 @@ EIGEN_DECLARE_TEST(schur_real)
   CALL_SUBTEST_5(RealSchur<MatrixXf>(10));
 }
 
+

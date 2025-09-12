@@ -5,3 +5,4 @@ cout << a.bottomRows<2>() << endl;
 a.bottomRows<2>().setZero();
 cout << "Now the array a is:" << endl << a << endl;
 
+

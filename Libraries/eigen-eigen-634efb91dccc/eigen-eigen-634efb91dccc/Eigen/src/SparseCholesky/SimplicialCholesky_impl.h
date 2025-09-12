@@ -198,3 +198,4 @@ void SimplicialCholeskyBase<Derived>::factorize_preordered(const CholMatrixType&
 
 #endif // EIGEN_SIMPLICIAL_CHOLESKY_IMPL_H
 
+

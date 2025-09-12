@@ -284,3 +284,4 @@ template<typename TPlainObjectType, int Options, typename StrideType> class Ref<
 
 #endif // EIGEN_REF_H
 
+

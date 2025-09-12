@@ -48,3 +48,4 @@ SparseVector<_Scalar,_Options,_Index>::sum() const
 
 #endif // EIGEN_SPARSEREDUX_H
 
+

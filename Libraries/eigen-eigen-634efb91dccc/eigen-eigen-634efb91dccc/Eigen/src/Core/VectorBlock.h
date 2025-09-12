@@ -95,3 +95,4 @@ template<typename VectorType, int Size> class VectorBlock
 
 #endif // EIGEN_VECTORBLOCK_H
 
+

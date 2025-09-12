@@ -110,3 +110,4 @@ EIGEN_DECLARE_TEST(product_symm)
   }
 }
 
+

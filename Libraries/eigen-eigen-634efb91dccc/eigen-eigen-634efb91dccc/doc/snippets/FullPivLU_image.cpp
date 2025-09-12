@@ -8,3 +8,4 @@ cout << "Notice that the middle column is the sum of the two others, so the "
 cout << "Here is a matrix whose columns have the same span but are linearly independent:"
      << endl << m.fullPivLu().image(m) << endl;
 
+

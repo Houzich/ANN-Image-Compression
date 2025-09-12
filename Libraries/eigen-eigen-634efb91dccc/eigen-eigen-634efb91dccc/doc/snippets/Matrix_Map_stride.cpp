@@ -6,3 +6,4 @@ A << 1,  2,  3,  4,
 
 std::cout << Matrix2i::Map(&A(1,1),Stride<8,2>()) << std::endl;
 
+

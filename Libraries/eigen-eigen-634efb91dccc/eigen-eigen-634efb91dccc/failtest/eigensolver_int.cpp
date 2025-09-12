@@ -13,3 +13,4 @@ int main()
   EigenSolver<Matrix<SCALAR,Dynamic,Dynamic> > eig(Matrix<SCALAR,Dynamic,Dynamic>::Random(10,10));
 }
 
+

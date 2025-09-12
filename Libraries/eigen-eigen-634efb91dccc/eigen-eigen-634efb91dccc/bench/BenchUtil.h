@@ -91,3 +91,4 @@ void eiToUblasVec(const EigenType& src, UblasType& dst)
 
 #endif // EIGEN_BENCH_UTIL_H
 
+

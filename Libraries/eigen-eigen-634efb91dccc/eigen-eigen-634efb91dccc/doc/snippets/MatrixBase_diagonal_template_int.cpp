@@ -4,3 +4,4 @@ cout << "Here are the coefficients on the 1st super-diagonal and 2nd sub-diagona
      << m.diagonal<1>().transpose() << endl
      << m.diagonal<-2>().transpose() << endl;
 
+

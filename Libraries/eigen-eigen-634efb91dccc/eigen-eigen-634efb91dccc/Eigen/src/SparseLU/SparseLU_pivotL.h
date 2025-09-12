@@ -136,3 +136,4 @@ Index SparseLUImpl<Scalar,StorageIndex>::pivotL(const Index jcol, const RealScal
 
 #endif // SPARSELU_PIVOTL_H
 
+

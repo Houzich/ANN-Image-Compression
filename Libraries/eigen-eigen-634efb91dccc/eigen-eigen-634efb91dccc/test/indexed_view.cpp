@@ -408,3 +408,4 @@ EIGEN_DECLARE_TEST(indexed_view)
   STATIC_CHECK(( !internal::valid_indexed_view_overload<std::size_t,int>::value ));
 }
 
+

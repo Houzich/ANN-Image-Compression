@@ -43,3 +43,4 @@ class SpGlue : public SpBase<typename T1::elem_type, SpGlue<T1, T2, spglue_type>
 
 //! @}
 
+

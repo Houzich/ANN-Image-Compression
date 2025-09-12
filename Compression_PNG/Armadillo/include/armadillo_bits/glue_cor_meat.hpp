@@ -182,3 +182,4 @@ glue_cor::apply(Mat<typename T1::elem_type>& out, const Glue<T1,T2,glue_cor>& X)
 
 //! @}
 
+

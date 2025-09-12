@@ -210,3 +210,4 @@ EIGEN_DEVICE_FUNC void VectorwiseOp<ExpressionType,Direction>::reverseInPlace()
 
 #endif // EIGEN_REVERSE_H
 
+

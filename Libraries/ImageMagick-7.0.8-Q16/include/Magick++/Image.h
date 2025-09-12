@@ -1553,3 +1553,4 @@ namespace Magick
 
 #endif // Magick_Image_header
 
+

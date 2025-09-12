@@ -135,3 +135,4 @@ op_nonzeros::apply_noalias(Mat<typename T1::elem_type>& out, const SpBase<typena
   
 //! @}
 
+

@@ -934,3 +934,4 @@ struct Assignment<DstXprType, SrcXprType, Functor, EigenBase2EigenBase, Weak>
 
 #endif // EIGEN_ASSIGN_EVALUATOR_H
 
+

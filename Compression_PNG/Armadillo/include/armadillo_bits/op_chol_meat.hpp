@@ -63,3 +63,4 @@ op_chol::apply_direct(Mat<typename T1::elem_type>& out, const Base<typename T1::
 
 //! @}
 
+

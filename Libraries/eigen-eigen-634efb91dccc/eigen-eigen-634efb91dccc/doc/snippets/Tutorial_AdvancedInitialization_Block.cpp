@@ -4,3 +4,4 @@ MatrixXf matB(4, 4);
 matB << matA, matA/10, matA/10, matA;
 std::cout << matB << std::endl;
 
+

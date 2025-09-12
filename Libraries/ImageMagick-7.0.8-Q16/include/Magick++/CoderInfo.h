@@ -87,3 +87,4 @@ namespace Magick
 
 #endif // Magick_CoderInfo_header
 
+

@@ -683,3 +683,4 @@ spop_max::max_with_index(const SpProxy<T1>& P, uword& index_of_max_val)
 
 //! @}
 
+

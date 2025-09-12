@@ -1752,3 +1752,4 @@ template<> struct scalar_fuzzy_impl<bool>
 
 #endif // EIGEN_MATHFUNCTIONS_H
 
+

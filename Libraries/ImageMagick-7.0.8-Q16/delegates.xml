@@ -99,3 +99,4 @@
   <delegate encode="mpeg:encode" stealth="True" command="&quot;ffmpeg.exe&quot; -nostdin -v -1 -i &quot;%M%%d.jpg&quot; &quot;%u.%m&quot;"/>
 </delegatemap>
 
+

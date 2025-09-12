@@ -47,3 +47,4 @@ extern MagickExport const MimeInfo
 
 #endif
 
+

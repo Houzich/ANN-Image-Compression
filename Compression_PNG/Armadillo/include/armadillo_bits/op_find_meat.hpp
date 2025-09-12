@@ -562,3 +562,4 @@ op_find_nonfinite::apply(Mat<uword>& out, const mtOp<uword, T1, op_find_nonfinit
 
 //! @}
 
+

@@ -222,3 +222,4 @@ void SparseLUImpl<Scalar,StorageIndex>::panel_bmod(const Index m, const Index w,
 
 #endif // SPARSELU_PANEL_BMOD_H
 
+

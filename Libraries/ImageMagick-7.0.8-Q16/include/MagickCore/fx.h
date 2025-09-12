@@ -76,3 +76,4 @@ extern MagickExport MagickBooleanType
 
 #endif
 
+

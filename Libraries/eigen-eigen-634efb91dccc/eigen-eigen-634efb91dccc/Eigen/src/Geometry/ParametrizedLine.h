@@ -231,3 +231,4 @@ ParametrizedLine<_Scalar, _AmbientDim,_Options>::intersectionPoint(const Hyperpl
 
 #endif // EIGEN_PARAMETRIZEDLINE_H
 
+

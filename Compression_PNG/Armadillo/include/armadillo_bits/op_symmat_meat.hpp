@@ -217,3 +217,4 @@ op_symmat_cx::apply(Mat<typename T1::elem_type>& out, const Op<T1,op_symmat_cx>&
 
 //! @}
 
+

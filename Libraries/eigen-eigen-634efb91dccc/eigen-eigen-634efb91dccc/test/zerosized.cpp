@@ -101,3 +101,4 @@ EIGEN_DECLARE_TEST(zerosized)
   zeroSizedVector<Matrix<float, 1, 0> >();
 }
 
+

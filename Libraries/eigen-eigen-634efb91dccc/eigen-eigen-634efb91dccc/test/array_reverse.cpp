@@ -148,3 +148,4 @@ EIGEN_DECLARE_TEST(array_reverse)
   CALL_SUBTEST_3( array_reverse_extra<0>() );
 }
 
+

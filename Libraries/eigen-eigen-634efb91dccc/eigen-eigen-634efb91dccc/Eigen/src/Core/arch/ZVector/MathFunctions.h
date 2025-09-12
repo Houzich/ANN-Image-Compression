@@ -231,3 +231,4 @@ Packet4f prsqrt<Packet4f>(const Packet4f& x) {
 
 #endif  // EIGEN_MATH_FUNCTIONS_ALTIVEC_H
 
+

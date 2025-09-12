@@ -81,3 +81,4 @@ template<typename _DecompositionType> struct image_retval_base
 
 #endif // EIGEN_MISC_IMAGE_H
 
+

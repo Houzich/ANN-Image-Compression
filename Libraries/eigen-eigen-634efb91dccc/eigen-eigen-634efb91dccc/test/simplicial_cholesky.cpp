@@ -46,3 +46,4 @@ EIGEN_DECLARE_TEST(simplicial_cholesky)
   CALL_SUBTEST_3(( test_simplicial_cholesky_T<double,long int>() ));
 }
 
+

@@ -213,3 +213,4 @@ arma_rng_cxx11::randg_fill(eT* mem, const uword N, const double a, const double 
 
 //! @}
 
+

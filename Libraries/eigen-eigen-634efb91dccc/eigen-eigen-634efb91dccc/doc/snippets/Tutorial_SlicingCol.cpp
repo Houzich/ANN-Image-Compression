@@ -9,3 +9,4 @@ cout << "Row major input:" << endl << M3 << "\n";
 Map<RowMajorMatrixXf,0,Stride<Dynamic,3> > M4(M3.data(), M3.rows(), (M3.cols()+2)/3,
                                               Stride<Dynamic,3>(M3.outerStride(),3));
 cout << "1 column over 3:" << endl << M4 << "\n";
+

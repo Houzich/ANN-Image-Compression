@@ -595,3 +595,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_contraction)
   CALL_SUBTEST(test_large_contraction_with_output_kernel<RowMajor>());
 }
 
+

@@ -125,3 +125,4 @@ void SparseLUImpl<Scalar,StorageIndex>::heap_relax_snode (const Index n, IndexVe
 } // end namespace Eigen
 #endif // SPARSELU_HEAP_RELAX_SNODE_H
 
+

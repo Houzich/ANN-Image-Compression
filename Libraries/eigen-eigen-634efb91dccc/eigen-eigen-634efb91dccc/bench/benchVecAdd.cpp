@@ -134,3 +134,4 @@ void benchVec(Scalar* a, Scalar* b, Scalar* c, int size)
         }
 }
 
+

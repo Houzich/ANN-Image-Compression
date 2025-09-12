@@ -261,3 +261,4 @@ EIGEN_DECLARE_TEST(FFTW)
   #endif
 }
 
+

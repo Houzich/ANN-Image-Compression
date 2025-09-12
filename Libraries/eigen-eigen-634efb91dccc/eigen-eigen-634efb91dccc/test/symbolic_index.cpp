@@ -119,3 +119,4 @@ EIGEN_DECLARE_TEST(symbolic_index)
   CALL_SUBTEST_2( check_symbolic_index() );
 }
 
+

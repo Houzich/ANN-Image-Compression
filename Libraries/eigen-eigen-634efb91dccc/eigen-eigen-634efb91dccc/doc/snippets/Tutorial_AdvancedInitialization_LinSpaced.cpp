@@ -6,3 +6,4 @@ table.col(3) = table.col(1).cos();
 std::cout << "  Degrees   Radians      Sine    Cosine\n";
 std::cout << table << std::endl;
 
+

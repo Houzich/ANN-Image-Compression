@@ -331,3 +331,4 @@ zeta(const EIGEN_CURRENT_STORAGE_BASE_CLASS<DerivedQ> &q) const
   return CwiseBinaryOp<internal::scalar_zeta_op<Scalar>, const Derived, const DerivedQ>(this->derived(), q.derived());
 }
 
+

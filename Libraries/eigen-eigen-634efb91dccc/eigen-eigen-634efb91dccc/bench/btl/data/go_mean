@@ -56,3 +56,4 @@ fi
 ## compile the web page ##
 
 #echo `cat footer.html` >> $webpagefilename
+

@@ -5,3 +5,4 @@ cout << a.rightCols<2>() << endl;
 a.rightCols<2>().setZero();
 cout << "Now the array a is:" << endl << a << endl;
 
+

@@ -6358,3 +6358,4 @@ SpMat_aux::set_imag(SpMat< std::complex<T> >& out, const SpBase<T,T1>& X)
 
 //! @}
 
+

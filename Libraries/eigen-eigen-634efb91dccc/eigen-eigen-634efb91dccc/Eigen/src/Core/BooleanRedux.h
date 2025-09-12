@@ -161,3 +161,4 @@ inline bool DenseBase<Derived>::allFinite() const
 
 #endif // EIGEN_ALLANDANY_H
 
+

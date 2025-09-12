@@ -4,3 +4,4 @@ cout << "Here is the sum of each column:" << endl << m.colwise().sum() << endl;
 cout << "Here is the maximum absolute value of each column:"
      << endl << m.cwiseAbs().colwise().maxCoeff() << endl;
 
+

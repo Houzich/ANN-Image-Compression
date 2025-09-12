@@ -205,3 +205,4 @@ EIGEN_DEVICE_FUNC static inline const MatrixBase<OtherDerived>& toRotationMatrix
 
 #endif // EIGEN_ROTATIONBASE_H
 
+

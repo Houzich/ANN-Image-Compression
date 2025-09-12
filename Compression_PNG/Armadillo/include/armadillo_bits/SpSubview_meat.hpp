@@ -1932,3 +1932,4 @@ SpSubview_row<eT>::SpSubview_row(Mat<eT>& in_m, const uword in_row, const uword 
 
 //! @}
 
+

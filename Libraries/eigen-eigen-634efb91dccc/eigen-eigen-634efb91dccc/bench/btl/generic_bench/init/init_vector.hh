@@ -36,3 +36,4 @@ void init_vector(Vector & X, int size){
 
 #endif
 
+

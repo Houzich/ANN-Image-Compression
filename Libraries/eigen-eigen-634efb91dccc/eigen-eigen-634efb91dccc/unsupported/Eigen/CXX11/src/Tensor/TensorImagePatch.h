@@ -550,3 +550,4 @@ struct TensorEvaluator<const TensorImagePatchOp<Rows, Cols, ArgType>, Device>
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_IMAGE_PATCH_H
 
+

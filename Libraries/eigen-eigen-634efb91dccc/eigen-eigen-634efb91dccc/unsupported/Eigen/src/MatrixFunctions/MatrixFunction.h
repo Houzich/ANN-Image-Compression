@@ -580,3 +580,4 @@ const MatrixFunctionReturnValue<Derived> MatrixBase<Derived>::cosh() const
 
 #endif // EIGEN_MATRIX_FUNCTION
 
+

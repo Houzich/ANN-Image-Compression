@@ -12,3 +12,4 @@ if(NOT EIGEN_TEST_NOQT)
   endif(QT4_FOUND)
 endif()
 
+

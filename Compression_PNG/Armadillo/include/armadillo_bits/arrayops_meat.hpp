@@ -1085,3 +1085,4 @@ arrayops::has_nan(const eT* src, const uword n_elem)
 
 //! @}
 
+

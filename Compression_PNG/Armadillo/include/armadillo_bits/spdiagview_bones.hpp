@@ -105,3 +105,4 @@ class spdiagview : public SpBase<eT, spdiagview<eT> >
 
 //! @}
 
+

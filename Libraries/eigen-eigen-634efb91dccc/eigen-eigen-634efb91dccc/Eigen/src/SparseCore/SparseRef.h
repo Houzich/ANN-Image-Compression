@@ -396,3 +396,4 @@ struct evaluator<Ref<const SparseVector<MatScalar,MatOptions,MatIndex>, Options,
 
 #endif // EIGEN_SPARSE_REF_H
 
+

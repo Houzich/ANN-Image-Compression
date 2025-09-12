@@ -185,3 +185,4 @@ class ProductImpl<Lhs,Rhs,Option,Dense>
 
 #endif // EIGEN_PRODUCT_H
 
+

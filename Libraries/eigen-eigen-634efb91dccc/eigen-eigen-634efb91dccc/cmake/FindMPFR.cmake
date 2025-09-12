@@ -82,3 +82,4 @@ find_package_handle_standard_args(MPFR DEFAULT_MSG
                                   MPFR_INCLUDES MPFR_LIBRARIES MPFR_VERSION_OK)
 mark_as_advanced(MPFR_INCLUDES MPFR_LIBRARIES)
 
+

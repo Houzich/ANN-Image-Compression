@@ -245,3 +245,4 @@ EIGEN_DECLARE_TEST(triangular)
   CALL_SUBTEST_1( bug_159() );
 }
 
+

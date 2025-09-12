@@ -59,3 +59,4 @@ namespace Magick
 
 #endif // Magick_Thread_header
 
+

@@ -487,3 +487,4 @@ glue_affmul::apply_noalias_generic(Mat<typename T1::elem_type>& out, const T1& A
 
 //! @}
 
+

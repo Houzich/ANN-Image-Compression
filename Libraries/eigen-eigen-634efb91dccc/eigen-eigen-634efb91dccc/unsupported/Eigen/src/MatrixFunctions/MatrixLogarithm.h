@@ -372,3 +372,4 @@ const MatrixLogarithmReturnValue<Derived> MatrixBase<Derived>::log() const
 
 #endif // EIGEN_MATRIX_LOGARITHM
 
+

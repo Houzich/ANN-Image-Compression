@@ -34,3 +34,4 @@ extern MagickExport const char
 
 #endif
 
+

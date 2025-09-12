@@ -170,3 +170,4 @@ eOpCube<T1, eop_type>::at_alt(const uword i) const
 
 //! @}
 
+

@@ -11,3 +11,4 @@ m = M;
 m.col(1) = m.row(0).eval();
 cout << m << endl << "which is right." << endl;
 
+

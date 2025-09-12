@@ -1049,3 +1049,4 @@ struct matrix_swap_impl<MatrixTypeA, MatrixTypeB, true>
 
 #endif // EIGEN_DENSESTORAGEBASE_H
 
+

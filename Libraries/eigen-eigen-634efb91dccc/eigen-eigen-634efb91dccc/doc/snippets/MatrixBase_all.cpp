@@ -6,3 +6,4 @@ cout << "Is (" << p0.transpose() << ") inside the box: "
 cout << "Is (" << p1.transpose() << ") inside the box: "
      << ((boxMin.array()<p1.array()).all() && (boxMax.array()>p1.array()).all()) << endl;
 
+

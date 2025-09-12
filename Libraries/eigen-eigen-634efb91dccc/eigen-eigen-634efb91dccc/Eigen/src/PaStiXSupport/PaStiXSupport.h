@@ -677,3 +677,4 @@ class PastixLDLT : public PastixBase< PastixLDLT<_MatrixType, _UpLo> >
 
 #endif
 
+

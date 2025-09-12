@@ -4,3 +4,4 @@ cout << "Here is v.segment(1, 2):" << endl << v.segment(1, 2) << endl;
 v.segment(1, 2).setZero();
 cout << "Now the vector v is:" << endl << v << endl;
 
+

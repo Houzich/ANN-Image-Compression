@@ -9,3 +9,4 @@ cout << matB << endl << endl;
 matB.noalias() = matA * matA;
 cout << matB;
 
+

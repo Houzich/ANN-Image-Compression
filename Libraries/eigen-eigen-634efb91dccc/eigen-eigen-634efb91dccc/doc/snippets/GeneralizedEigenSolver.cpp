@@ -6,3 +6,4 @@ cout << "The (complex) numerators of the generalzied eigenvalues are: " << ges.a
 cout << "The (real) denominatore of the generalzied eigenvalues are: " << ges.betas().transpose() << endl;
 cout << "The (complex) generalzied eigenvalues are (alphas./beta): " << ges.eigenvalues().transpose() << endl;
 
+

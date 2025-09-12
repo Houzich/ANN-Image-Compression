@@ -132,3 +132,4 @@ EIGEN_DEVICE_FUNC SelfAdjointView<MatrixType,UpLo>& SelfAdjointView<MatrixType,U
 
 #endif // EIGEN_SELFADJOINT_PRODUCT_H
 
+

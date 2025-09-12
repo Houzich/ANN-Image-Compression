@@ -141,3 +141,4 @@ VectorwiseOp<ExpressionType,Direction>::replicate(Index factor) const
 
 #endif // EIGEN_REPLICATE_H
 
+

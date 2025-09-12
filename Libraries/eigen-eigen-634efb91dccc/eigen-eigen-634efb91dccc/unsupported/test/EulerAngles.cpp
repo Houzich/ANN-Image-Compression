@@ -294,3 +294,4 @@ EIGEN_DECLARE_TEST(EulerAngles)
   // TODO: Add tests for complex numbers
 }
 
+

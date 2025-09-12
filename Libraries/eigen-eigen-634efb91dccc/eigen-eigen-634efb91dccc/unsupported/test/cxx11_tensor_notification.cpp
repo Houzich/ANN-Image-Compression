@@ -71,3 +71,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_notification)
   CALL_SUBTEST(test_notification_multiple());
 }
 
+

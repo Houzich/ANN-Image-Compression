@@ -52,3 +52,4 @@ repelem(const SpBase<typename T1::elem_type,T1>& A, const uword r, const uword c
 
 //! @}
 
+

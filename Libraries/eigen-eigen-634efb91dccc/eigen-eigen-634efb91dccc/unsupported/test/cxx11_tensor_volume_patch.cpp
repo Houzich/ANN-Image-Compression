@@ -111,3 +111,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_volume_patch)
   CALL_SUBTEST(test_entire_volume_patch());
 }
 
+

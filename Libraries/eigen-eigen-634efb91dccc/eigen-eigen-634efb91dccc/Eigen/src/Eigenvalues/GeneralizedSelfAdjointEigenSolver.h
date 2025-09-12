@@ -225,3 +225,4 @@ compute(const MatrixType& matA, const MatrixType& matB, int options)
 
 #endif // EIGEN_GENERALIZEDSELFADJOINTEIGENSOLVER_H
 
+

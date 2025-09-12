@@ -139,3 +139,4 @@ op_diagvec::apply_proxy(Mat<typename T1::elem_type>& out, const Proxy<T1>& P, co
 
 //! @}
 
+

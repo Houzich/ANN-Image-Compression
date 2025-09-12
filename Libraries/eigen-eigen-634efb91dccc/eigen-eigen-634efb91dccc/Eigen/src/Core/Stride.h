@@ -110,3 +110,4 @@ class OuterStride : public Stride<Value, 0>
 
 #endif // EIGEN_STRIDE_H
 
+

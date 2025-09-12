@@ -321,3 +321,4 @@ EIGEN_DECLARE_TEST(sparse_block)
   }
 }
 
+

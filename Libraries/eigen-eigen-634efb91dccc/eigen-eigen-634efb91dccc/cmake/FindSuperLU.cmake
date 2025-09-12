@@ -96,3 +96,4 @@ find_package_handle_standard_args(SUPERLU
 
 mark_as_advanced(SUPERLU_INCLUDES SUPERLU_LIBRARIES)
 
+

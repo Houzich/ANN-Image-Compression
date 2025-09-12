@@ -108,3 +108,4 @@ all(const mtOp<uword, T1, op_all>& in, const uword dim)
 
 //! @}
 
+

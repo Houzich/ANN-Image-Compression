@@ -28,3 +28,4 @@ bool SparseMatrixBase<Derived>::isApprox(const SparseMatrixBase<OtherDerived>& o
 
 #endif // EIGEN_SPARSE_FUZZY_H
 
+

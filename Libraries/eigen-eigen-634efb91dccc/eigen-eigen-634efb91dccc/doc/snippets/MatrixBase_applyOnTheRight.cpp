@@ -8,3 +8,4 @@ cout << "After A *= B, A = " << endl << A << endl;
 A.applyOnTheRight(B);  // equivalent to A *= B
 cout << "After applyOnTheRight, A = " << endl << A << endl;
 
+

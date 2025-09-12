@@ -165,3 +165,4 @@ spop_repmat::apply_noalias(SpMat<eT>& out, const uword A_n_rows, const uword A_n
 
 //! @}
 
+

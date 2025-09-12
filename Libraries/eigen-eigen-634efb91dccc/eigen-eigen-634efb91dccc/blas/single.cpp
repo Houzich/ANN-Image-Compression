@@ -21,3 +21,4 @@
 float BLASFUNC(sdsdot)(int* n, float* alpha, float* x, int* incx, float* y, int* incy)
 { return double(*alpha) + BLASFUNC(dsdot)(n, x, incx, y, incy); }
 
+

@@ -30,3 +30,4 @@ find_package_handle_standard_args(ATLAS DEFAULT_MSG ATLAS_LIBRARIES)
 
 mark_as_advanced(ATLAS_LIBRARIES)
 
+

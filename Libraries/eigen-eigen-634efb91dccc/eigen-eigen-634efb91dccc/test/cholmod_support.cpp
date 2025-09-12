@@ -68,3 +68,4 @@ EIGEN_DECLARE_TEST(cholmod_support)
   // CALL_SUBTEST_24( (test_cholmod_T<std::complex<double>, RowMajor, long>()) );
 }
 
+

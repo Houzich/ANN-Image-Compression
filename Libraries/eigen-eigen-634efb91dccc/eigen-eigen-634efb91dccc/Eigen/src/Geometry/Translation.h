@@ -207,3 +207,4 @@ Translation<Scalar,Dim>::operator* (const EigenBase<OtherDerived>& linear) const
 
 #endif // EIGEN_TRANSLATION_H
 
+

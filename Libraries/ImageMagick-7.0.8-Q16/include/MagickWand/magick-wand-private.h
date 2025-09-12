@@ -78,3 +78,4 @@ struct _MagickWand
 
 #endif
 
+

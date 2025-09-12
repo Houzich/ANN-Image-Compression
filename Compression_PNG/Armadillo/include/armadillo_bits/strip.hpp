@@ -116,3 +116,4 @@ struct strip_inv< Op<T1, op_inv_sympd> >
 
 //! @}
 
+

@@ -19,3 +19,4 @@ mat << 1, 2,  4, 7;
 mat = (2 * mat - MatrixXf::Identity(2,2)).array().square();
 cout << "Doing everything at once yields\n" << mat << endl << endl;
 
+

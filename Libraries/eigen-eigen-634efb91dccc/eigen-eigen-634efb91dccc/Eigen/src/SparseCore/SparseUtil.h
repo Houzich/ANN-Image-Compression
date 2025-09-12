@@ -177,3 +177,4 @@ protected:
 
 #endif // EIGEN_SPARSEUTIL_H
 
+

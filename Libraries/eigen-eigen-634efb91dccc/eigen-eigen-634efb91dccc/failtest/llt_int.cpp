@@ -13,3 +13,4 @@ int main()
   LLT<Matrix<SCALAR,Dynamic,Dynamic> > llt(Matrix<SCALAR,Dynamic,Dynamic>::Random(10,10));
 }
 
+

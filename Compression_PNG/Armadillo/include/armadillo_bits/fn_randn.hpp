@@ -192,3 +192,4 @@ randn(const SizeCube& s, const typename arma_Cube_only<cube_type>::result* junk 
 
 //! @}
 
+

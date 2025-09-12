@@ -8,3 +8,4 @@ cout << "The pseudo-eigenvalue matrix D is:" << endl << D << endl;
 cout << "The pseudo-eigenvector matrix V is:" << endl << V << endl;
 cout << "Finally, V * D * V^(-1) = " << endl << V * D * V.inverse() << endl;
 
+

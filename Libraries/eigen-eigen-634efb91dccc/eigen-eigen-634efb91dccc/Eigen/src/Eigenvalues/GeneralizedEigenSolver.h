@@ -417,3 +417,4 @@ GeneralizedEigenSolver<MatrixType>::compute(const MatrixType& A, const MatrixTyp
 
 #endif // EIGEN_GENERALIZEDEIGENSOLVER_H
 
+

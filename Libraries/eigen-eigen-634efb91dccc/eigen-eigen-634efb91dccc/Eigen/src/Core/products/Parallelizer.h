@@ -178,3 +178,4 @@ void parallelize_gemm(const Functor& func, Index rows, Index cols, Index depth, 
 
 #endif // EIGEN_PARALLELIZER_H
 
+

@@ -768,3 +768,4 @@ static inline unsigned short SinglePrecisionToHalf(const float value)
 
 #endif
 
+

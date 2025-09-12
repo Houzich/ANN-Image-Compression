@@ -261,3 +261,4 @@ struct selfadjoint_product_impl<Lhs,0,true,Rhs,RhsMode,false>
 
 #endif // EIGEN_SELFADJOINT_MATRIX_VECTOR_H
 
+

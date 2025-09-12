@@ -173,3 +173,4 @@ extern MagickPrivate void
 
 #endif /* !MAGICKCORE_NT_BASE_H */
 
+

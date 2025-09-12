@@ -175,3 +175,4 @@ extern MagickExport WarningHandler
 
 #endif
 
+

@@ -8,3 +8,4 @@ cout << es.operatorInverseSqrt() << endl;
 cout << "We can also compute it with operatorSqrt() and inverse(). That yields: " << endl;
 cout << es.operatorSqrt().inverse() << endl;
 
+

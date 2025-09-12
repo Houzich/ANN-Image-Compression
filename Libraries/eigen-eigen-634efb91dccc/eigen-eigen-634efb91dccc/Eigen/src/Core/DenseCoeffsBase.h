@@ -680,3 +680,4 @@ struct outer_stride_at_compile_time<Derived, false>
 
 #endif // EIGEN_DENSECOEFFSBASE_H
 
+

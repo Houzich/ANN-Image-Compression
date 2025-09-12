@@ -129,3 +129,4 @@ EIGEN_DONT_INLINE void LU_kernel_bmod<1>::run(const Index /*segsize*/, BlockScal
 } // end namespace Eigen
 #endif // SPARSELU_KERNEL_BMOD_H
 
+

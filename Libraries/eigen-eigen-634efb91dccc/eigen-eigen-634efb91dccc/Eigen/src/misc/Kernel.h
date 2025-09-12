@@ -78,3 +78,4 @@ template<typename _DecompositionType> struct kernel_retval_base
 
 #endif // EIGEN_MISC_KERNEL_H
 
+

@@ -289,3 +289,4 @@ EIGEN_DECLARE_TEST(ref)
   CALL_SUBTEST_7( test_ref_fixed_size_assert() );
 }
 
+

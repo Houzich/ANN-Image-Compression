@@ -397,3 +397,4 @@ template<typename Derived> class SparseMatrixBase
 
 #endif // EIGEN_SPARSEMATRIXBASE_H
 
+

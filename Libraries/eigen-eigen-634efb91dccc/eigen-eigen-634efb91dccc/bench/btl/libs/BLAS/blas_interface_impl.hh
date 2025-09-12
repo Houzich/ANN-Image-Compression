@@ -146,3 +146,4 @@ public :
 SCALAR blas_interface<SCALAR>::fone = SCALAR(1);
 SCALAR blas_interface<SCALAR>::fzero = SCALAR(0);
 
+

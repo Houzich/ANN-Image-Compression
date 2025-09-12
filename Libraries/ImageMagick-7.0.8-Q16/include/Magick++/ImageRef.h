@@ -81,3 +81,4 @@ namespace Magick
 } // end of namespace Magick
 
 #endif // Magick_ImageRef_header
+

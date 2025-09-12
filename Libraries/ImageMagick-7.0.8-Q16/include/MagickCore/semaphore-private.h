@@ -112,3 +112,4 @@ static inline void UnlockMagickMutex(void)
 
 #endif
 
+

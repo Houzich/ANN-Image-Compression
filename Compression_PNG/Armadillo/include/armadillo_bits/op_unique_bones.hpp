@@ -64,3 +64,4 @@ struct arma_unique_comparator< std::complex<T> >
 
 //! @}
 
+

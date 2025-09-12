@@ -53,3 +53,4 @@ convert -background white -density 120 -rotate 90 -resize 800 +dither -colors 25
 
 # pstoedit -rotate -90 -xscale 0.8 -yscale 0.8 -centered -yshift -50 -xshift -100  -f plot-svg aat.ps  aat2.svg
 
+

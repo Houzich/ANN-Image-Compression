@@ -8,3 +8,4 @@ MatrixXd T = triOfA.matrixT();
 cout << "The tridiagonal matrix T is:" << endl << T << endl << endl;
 cout << "Q * T * Q^T = " << endl << Q * T * Q.transpose() << endl;
 
+

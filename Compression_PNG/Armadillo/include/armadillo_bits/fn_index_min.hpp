@@ -160,3 +160,4 @@ index_min(const SizeCube& s)
 
 //! @}
 
+

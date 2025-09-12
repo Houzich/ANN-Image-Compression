@@ -43,3 +43,4 @@ void saveAsBitmap(const Eigen::VectorXd& x, int n, const char* filename)
   img.save(filename);
 }
 
+

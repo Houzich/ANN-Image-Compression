@@ -132,3 +132,4 @@ struct arma_sort_index_helper_descend< std::complex<T> >
 
 //! @}
 
+

@@ -160,3 +160,4 @@ struct quat_conj<Architecture::SSE, Derived, double>
 
 #endif // EIGEN_GEOMETRY_SSE_H
 
+

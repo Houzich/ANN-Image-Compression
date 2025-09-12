@@ -153,3 +153,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_reduction_gpu) {
   CALL_SUBTEST_6((test_last_dim_reductions<double, RowMajor>()));
 }
 
+

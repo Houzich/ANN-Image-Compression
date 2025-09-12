@@ -21,3 +21,4 @@ int main()
   std::cout << "-v + w - v =\n" << -v + w - v << std::endl;
 }
 
+

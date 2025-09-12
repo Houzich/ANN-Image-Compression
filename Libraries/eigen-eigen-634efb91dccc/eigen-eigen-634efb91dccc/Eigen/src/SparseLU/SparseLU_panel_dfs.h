@@ -257,3 +257,4 @@ void SparseLUImpl<Scalar,StorageIndex>::panel_dfs(const Index m, const Index w, 
 
 #endif // SPARSELU_PANEL_DFS_H
 
+

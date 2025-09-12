@@ -272,3 +272,4 @@ DenseBase<Derived>::maxCoeff(IndexType* index) const
 
 #endif // EIGEN_VISITOR_H
 
+

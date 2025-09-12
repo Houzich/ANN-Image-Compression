@@ -17,3 +17,4 @@ $CXX -O3 -I .. -DEIGEN_DEFAULT_TO_ROW_MAJOR -DNDEBUG benchmarkX.cpp -o benchmark
 echo "Dynamic size 20x20, row-major, with asserts"
 $CXX -O3 -I .. -DEIGEN_DEFAULT_TO_ROW_MAJOR benchmarkX.cpp -o benchmarkX && time ./benchmarkX >/dev/null
 
+

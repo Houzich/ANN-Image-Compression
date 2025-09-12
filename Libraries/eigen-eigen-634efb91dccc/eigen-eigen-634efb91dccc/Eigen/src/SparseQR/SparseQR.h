@@ -745,3 +745,4 @@ struct Assignment<DstXprType, SparseQRMatrixQReturnType<SparseQRType>, internal:
 
 #endif
 
+

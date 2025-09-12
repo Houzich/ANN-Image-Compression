@@ -135,3 +135,4 @@ void SparseLUImpl<Scalar,StorageIndex>::pruneL(const Index jcol, const IndexVect
 
 #endif // SPARSELU_PRUNEL_H
 
+

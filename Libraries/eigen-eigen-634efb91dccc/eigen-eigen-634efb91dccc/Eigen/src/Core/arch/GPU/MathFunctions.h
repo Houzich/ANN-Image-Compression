@@ -102,3 +102,4 @@ double2 prsqrt<double2>(const double2& a)
 
 #endif // EIGEN_MATH_FUNCTIONS_GPU_H
 
+

@@ -5,3 +5,4 @@ cout << "The matrix M is:" << endl << M << endl << endl;
 cout << "M.colwise().hnormalized():" << endl << M.colwise().hnormalized() << endl << endl;
 cout << "P*M:" << endl << P*M << endl << endl;
 cout << "(P*M).colwise().hnormalized():" << endl << (P*M).colwise().hnormalized() << endl << endl;
+

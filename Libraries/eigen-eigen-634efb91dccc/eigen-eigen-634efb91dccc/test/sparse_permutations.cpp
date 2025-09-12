@@ -235,3 +235,4 @@ EIGEN_DECLARE_TEST(sparse_permutations)
                             internal::nested_eval<Product<PermutationMatrix<Dynamic,Dynamic>,SparseMatrix<double>,AliasFreeProduct>,1>::type>::value));
 }
 
+

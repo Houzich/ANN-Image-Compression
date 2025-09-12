@@ -215,3 +215,4 @@ struct Assignment<DstXprType, SrcXprType, Functor, Diagonal2Sparse>
 
 #endif // EIGEN_SPARSEASSIGN_H
 
+

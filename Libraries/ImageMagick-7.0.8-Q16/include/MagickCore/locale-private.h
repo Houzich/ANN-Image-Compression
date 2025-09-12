@@ -45,3 +45,4 @@ extern MagickPrivate ssize_t
 
 #endif
 
+

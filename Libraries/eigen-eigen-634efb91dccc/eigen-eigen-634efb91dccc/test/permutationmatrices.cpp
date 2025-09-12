@@ -166,3 +166,4 @@ EIGEN_DECLARE_TEST(permutationmatrices)
   CALL_SUBTEST_5( bug890<double>() );
 }
 
+

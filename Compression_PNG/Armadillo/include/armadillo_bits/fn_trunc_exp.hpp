@@ -90,3 +90,4 @@ trunc_exp(const BaseCube<typename T1::elem_type,T1>& A)
 
 //! @}
 
+

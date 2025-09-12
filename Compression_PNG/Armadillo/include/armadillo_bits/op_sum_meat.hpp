@@ -579,3 +579,4 @@ op_sum::apply_noalias_proxy_mp(Cube<typename T1::elem_type>& out, const ProxyCub
 
 //! @}
 
+

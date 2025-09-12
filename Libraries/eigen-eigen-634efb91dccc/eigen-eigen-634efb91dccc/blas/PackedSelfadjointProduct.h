@@ -52,3 +52,4 @@ struct selfadjoint_packed_rank1_update<Scalar,Index,RowMajor,UpLo,ConjLhs,ConjRh
 
 #endif // EIGEN_SELFADJOINT_PACKED_PRODUCT_H
 
+

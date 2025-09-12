@@ -96,3 +96,4 @@ extern MagickExport void
 
 #endif
 
+

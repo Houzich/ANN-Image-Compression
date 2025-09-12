@@ -8,3 +8,4 @@ cout << "Here is the unit-lower-triangular matrix extracted from m:" << endl
      << Matrix3i(m.triangularView<Eigen::UnitLower>()) << endl;
 // FIXME need to implement output for triangularViews (Bug 885)
 
+

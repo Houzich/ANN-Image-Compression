@@ -470,3 +470,4 @@ template<> EIGEN_STRONG_INLINE Packet1cd pinsertlast(const Packet1cd&, std::comp
 
 #endif // EIGEN_COMPLEX_SSE_H
 
+

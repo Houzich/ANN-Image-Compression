@@ -184,3 +184,4 @@ void Map_MatrixXd_add(const C_Map_MatrixXd *m1, const C_Map_MatrixXd *m2, C_Map_
   c_to_eigen(result) = c_to_eigen(m1) + c_to_eigen(m2);
 }
 
+

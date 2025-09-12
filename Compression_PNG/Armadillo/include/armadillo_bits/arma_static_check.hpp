@@ -65,3 +65,4 @@ struct arma_type_check_cxx1998<false>
 
 //! @}
 
+

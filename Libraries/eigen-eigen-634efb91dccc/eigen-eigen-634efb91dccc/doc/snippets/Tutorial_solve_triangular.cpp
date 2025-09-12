@@ -7,3 +7,4 @@ cout << "Here is the vector b:" << endl << b << endl;
 Vector3f x = A.triangularView<Upper>().solve(b);
 cout << "The solution is:" << endl << x << endl;
 
+

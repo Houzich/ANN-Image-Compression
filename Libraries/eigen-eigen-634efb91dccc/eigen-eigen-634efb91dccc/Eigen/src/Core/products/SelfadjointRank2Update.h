@@ -93,3 +93,4 @@ EIGEN_DEVICE_FUNC SelfAdjointView<MatrixType,UpLo>& SelfAdjointView<MatrixType,U
 
 #endif // EIGEN_SELFADJOINTRANK2UPTADE_H
 
+

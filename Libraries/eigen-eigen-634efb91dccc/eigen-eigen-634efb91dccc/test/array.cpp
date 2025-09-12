@@ -492,3 +492,4 @@ EIGEN_DECLARE_TEST(array)
                          >::value));
 }
 
+

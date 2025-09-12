@@ -260,3 +260,4 @@ op_clamp::apply_direct(Cube<eT>& out, const Cube<eT>& X, const eT min_val, const
 
 //! @}
 
+

@@ -246,3 +246,4 @@ spop_diagmat2::apply_noalias(SpMat<eT>& out, const SpMat<eT>& X, const uword row
 
 //! @}
 
+

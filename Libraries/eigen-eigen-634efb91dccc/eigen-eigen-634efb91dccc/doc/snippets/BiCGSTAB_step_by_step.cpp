@@ -12,3 +12,4 @@
     std::cout << i << " : " << solver.error() << std::endl;
     ++i;
   } while (solver.info()!=Success && i<100);
+

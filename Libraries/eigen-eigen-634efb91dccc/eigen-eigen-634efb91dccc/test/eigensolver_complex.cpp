@@ -175,3 +175,4 @@ EIGEN_DECLARE_TEST(eigensolver_complex)
   TEST_SET_BUT_UNUSED_VARIABLE(s)
 }
 
+

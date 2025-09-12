@@ -72,3 +72,4 @@ struct arma_find_unique_comparator< std::complex<T> >
 
 //! @}
 
+

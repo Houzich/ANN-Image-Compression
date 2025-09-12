@@ -39,3 +39,4 @@ namespace Magick
 }
 #endif // Magick_Functions_header
 
+

@@ -129,3 +129,4 @@ EIGEN_DECLARE_TEST(qr)
   CALL_SUBTEST_12(HouseholderQR<MatrixXf>(10, 20));
 }
 
+

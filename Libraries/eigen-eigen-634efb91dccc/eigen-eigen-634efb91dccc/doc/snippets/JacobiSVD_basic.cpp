@@ -8,3 +8,4 @@ Vector3f rhs(1, 0, 0);
 cout << "Now consider this rhs vector:" << endl << rhs << endl;
 cout << "A least-squares solution of m*x = rhs is:" << endl << svd.solve(rhs) << endl;
 
+

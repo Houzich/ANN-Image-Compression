@@ -40,3 +40,4 @@ EIGEN_DECLARE_TEST(is_same_dense)
   VERIFY(!is_same_dense(m2, ref_m2_real));
 }
 
+

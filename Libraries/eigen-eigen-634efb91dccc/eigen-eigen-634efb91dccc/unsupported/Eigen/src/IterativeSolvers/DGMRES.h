@@ -509,3 +509,4 @@ Index DGMRES<_MatrixType, _Preconditioner>::dgmresApplyDeflation(const RhsType &
 } // end namespace Eigen
 #endif 
 
+

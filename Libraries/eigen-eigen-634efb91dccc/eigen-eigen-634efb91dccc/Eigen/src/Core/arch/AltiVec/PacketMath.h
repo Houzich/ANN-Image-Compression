@@ -1064,3 +1064,4 @@ template<> EIGEN_STRONG_INLINE Packet2d pblend(const Selector<2>& ifPacket, cons
 
 #endif // EIGEN_PACKET_MATH_ALTIVEC_H
 
+

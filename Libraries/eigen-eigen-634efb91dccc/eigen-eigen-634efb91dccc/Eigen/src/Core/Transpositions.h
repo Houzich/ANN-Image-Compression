@@ -406,3 +406,4 @@ class Transpose<TranspositionsBase<TranspositionsDerived> >
 
 #endif // EIGEN_TRANSPOSITIONS_H
 
+

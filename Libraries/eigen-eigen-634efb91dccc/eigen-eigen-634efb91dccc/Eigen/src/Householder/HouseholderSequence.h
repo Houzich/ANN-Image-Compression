@@ -526,3 +526,4 @@ HouseholderSequence<VectorsType,CoeffsType,OnTheRight> rightHouseholderSequence(
 
 #endif // EIGEN_HOUSEHOLDER_SEQUENCE_H
 
+

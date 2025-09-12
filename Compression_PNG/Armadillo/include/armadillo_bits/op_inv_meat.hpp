@@ -162,3 +162,4 @@ op_inv_sympd::apply(Mat<typename T1::elem_type>& out, const Op<T1,op_inv_sympd>&
 
 //! @}
 
+

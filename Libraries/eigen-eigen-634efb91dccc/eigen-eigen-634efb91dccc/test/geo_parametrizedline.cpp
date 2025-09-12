@@ -129,3 +129,4 @@ EIGEN_DECLARE_TEST(geo_parametrizedline)
   }
 }
 
+

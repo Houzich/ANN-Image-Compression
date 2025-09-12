@@ -251,3 +251,4 @@ EIGEN_DECLARE_TEST(kronecker_product)
 
 #endif
 
+

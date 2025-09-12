@@ -4,3 +4,4 @@ cout << "v                                   = [" << v.transpose() << "]^T" << e
 cout << "h.homogeneous()                     = [" << v.homogeneous().transpose() << "]^T" << endl;
 cout << "(P * v.homogeneous())               = [" << (P * v.homogeneous()).transpose() << "]^T" << endl;
 cout << "(P * v.homogeneous()).hnormalized() = [" << (P * v.homogeneous()).eval().hnormalized().transpose() << "]^T" << endl;
+

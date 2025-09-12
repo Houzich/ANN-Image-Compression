@@ -4,3 +4,4 @@ cout << "Here's the matrix m:" << endl << m << endl;
 cout << "m.isUnitary() returns: " << m.isUnitary() << endl;
 cout << "m.isUnitary(1e-3) returns: " << m.isUnitary(1e-3) << endl;
 
+

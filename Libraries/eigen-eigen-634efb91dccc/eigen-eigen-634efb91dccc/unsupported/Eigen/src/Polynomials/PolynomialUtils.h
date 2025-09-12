@@ -142,3 +142,4 @@ void roots_to_monicPolynomial( const RootVector& rv, Polynomial& poly )
 
 #endif // EIGEN_POLYNOMIAL_UTILS_H
 
+

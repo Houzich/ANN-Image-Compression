@@ -157,3 +157,4 @@ SelfAdjointView<MatrixType, UpLo>::operatorNorm() const
 
 #endif
 
+

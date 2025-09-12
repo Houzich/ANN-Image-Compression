@@ -9,3 +9,4 @@ cout << "v1:" << endl << v1 << endl;
 Matrix<float,Dynamic,Dynamic,RowMajor> M2(M1);
 Map<RowVectorXf> v2(M2.data(), M2.size());
 cout << "v2:" << endl << v2 << endl;
+

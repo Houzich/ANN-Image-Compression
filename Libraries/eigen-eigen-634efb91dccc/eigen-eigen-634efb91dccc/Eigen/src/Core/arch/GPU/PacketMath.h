@@ -340,3 +340,4 @@ ptranspose(PacketBlock<double2,2>& kernel) {
 
 #endif // EIGEN_PACKET_MATH_GPU_H
 
+

@@ -188,3 +188,4 @@ SparseMatrixBase<Derived>::triangularView() const
 
 #endif // EIGEN_SPARSE_TRIANGULARVIEW_H
 
+

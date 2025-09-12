@@ -4,3 +4,4 @@ cout << "Here is the initial matrix a:\n" << a << endl;
 
 a.transposeInPlace();
 cout << "and after being transposed:\n" << a << endl;
+

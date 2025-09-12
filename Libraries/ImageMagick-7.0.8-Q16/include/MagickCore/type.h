@@ -99,3 +99,4 @@ extern MagickExport const TypeInfo
 
 #endif
 
+

@@ -148,3 +148,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_convolution)
   CALL_SUBTEST(test_strides<RowMajor>());
 }
 
+

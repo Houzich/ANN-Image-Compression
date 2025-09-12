@@ -51,3 +51,4 @@ namespace Magick
 
 #endif // Magick_Blob_header
 
+

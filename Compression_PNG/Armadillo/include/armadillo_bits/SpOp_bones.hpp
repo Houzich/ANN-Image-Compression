@@ -46,3 +46,4 @@ class SpOp : public SpBase<typename T1::elem_type, SpOp<T1, op_type> >
 
 //! @}
 
+

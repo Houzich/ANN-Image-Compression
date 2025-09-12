@@ -378,3 +378,4 @@ op_vectorise_cube_col::apply_proxy(Mat<typename T1::elem_type>& out, const Proxy
 
 //! @}
 
+

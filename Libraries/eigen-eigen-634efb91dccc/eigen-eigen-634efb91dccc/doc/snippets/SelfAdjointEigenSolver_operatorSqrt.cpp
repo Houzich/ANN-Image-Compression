@@ -7,3 +7,4 @@ MatrixXd sqrtA = es.operatorSqrt();
 cout << "The square root of A is: " << endl << sqrtA << endl;
 cout << "If we square this, we get: " << endl << sqrtA*sqrtA << endl;
 
+

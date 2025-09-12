@@ -223,3 +223,4 @@ struct evaluator<AlignedVector3<Scalar> >
 
 #endif // EIGEN_ALIGNED_VECTOR3
 
+

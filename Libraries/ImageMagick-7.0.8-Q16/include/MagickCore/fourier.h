@@ -47,3 +47,4 @@ extern MagickExport Image
 
 #endif
 
+

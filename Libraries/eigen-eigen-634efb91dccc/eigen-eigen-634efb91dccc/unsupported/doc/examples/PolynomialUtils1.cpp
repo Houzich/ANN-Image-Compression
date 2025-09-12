@@ -19,3 +19,4 @@ int main()
   cout << "Evaluation of the polynomial at the roots: " << evaluation.transpose();
 }
 
+

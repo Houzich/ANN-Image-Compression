@@ -6,3 +6,4 @@ cout << "Here is the matrix mat:\n" << mat << endl;
 mat.bottomRightCorner(2,2) = mat.topLeftCorner(2,2).eval();
 cout << "After the assignment, mat = \n" << mat << endl;
 
+

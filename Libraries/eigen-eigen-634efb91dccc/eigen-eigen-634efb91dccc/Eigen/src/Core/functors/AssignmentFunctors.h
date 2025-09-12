@@ -167,3 +167,4 @@ struct functor_traits<swap_assign_op<Scalar> > {
 
 #endif // EIGEN_ASSIGNMENT_FUNCTORS_H
 
+

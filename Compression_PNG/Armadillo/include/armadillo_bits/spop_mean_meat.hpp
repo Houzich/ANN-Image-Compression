@@ -347,3 +347,4 @@ spop_mean::iterator_mean_robust(T1& it, const T1& end, const uword n_zero, const
 
 //! @}
 
+

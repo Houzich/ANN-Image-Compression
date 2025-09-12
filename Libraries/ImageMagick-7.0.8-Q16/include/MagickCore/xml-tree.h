@@ -49,3 +49,4 @@ extern MagickExport XMLTreeInfo
 
 #endif
 
+

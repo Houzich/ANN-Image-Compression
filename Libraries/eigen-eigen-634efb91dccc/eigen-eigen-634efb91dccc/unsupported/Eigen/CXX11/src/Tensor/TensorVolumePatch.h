@@ -646,3 +646,4 @@ struct TensorEvaluator<const TensorVolumePatchOp<Planes, Rows, Cols, ArgType>, D
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_VOLUME_PATCH_H
 
+

@@ -65,3 +65,4 @@ double bench_fixed_size(int size, unsigned long long  & nb_calc,unsigned long lo
 
 #endif
 
+

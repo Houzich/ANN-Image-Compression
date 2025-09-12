@@ -30,3 +30,4 @@ EIGEN_DECLARE_TEST(dgmres)
   CALL_SUBTEST_2(test_dgmres_T<std::complex<double> >());
 }
 
+

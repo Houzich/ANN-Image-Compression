@@ -460,3 +460,4 @@ GenEigsSolver<eT, SelectionRule, OpType>::eigenvectors(uword nvec)
 
 }  // namespace newarp
 
+

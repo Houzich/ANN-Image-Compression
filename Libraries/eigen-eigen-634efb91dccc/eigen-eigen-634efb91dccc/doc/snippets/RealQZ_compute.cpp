@@ -16,3 +16,4 @@ cout << "\nErrors:"
   << ", |ZZ* - I|: " << (qz.matrixZ()*qz.matrixZ().adjoint() - MatrixXf::Identity(4,4)).norm()
   << "\n";
 
+

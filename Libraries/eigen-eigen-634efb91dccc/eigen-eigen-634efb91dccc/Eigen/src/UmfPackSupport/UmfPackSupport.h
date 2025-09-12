@@ -642,3 +642,4 @@ bool UmfPackLU<MatrixType>::_solve_impl(const MatrixBase<BDerived> &b, MatrixBas
 
 #endif // EIGEN_UMFPACKSUPPORT_H
 
+

@@ -5,3 +5,4 @@ void d_cnjg(doublecomplex *r, doublecomplex *z) {
     r->i = -(z->i);
 }
 
+

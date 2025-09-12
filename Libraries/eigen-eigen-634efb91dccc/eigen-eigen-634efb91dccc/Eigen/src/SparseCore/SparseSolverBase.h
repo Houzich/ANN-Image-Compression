@@ -123,3 +123,4 @@ class SparseSolverBase : internal::noncopyable
 
 #endif // EIGEN_SPARSESOLVERBASE_H
 
+

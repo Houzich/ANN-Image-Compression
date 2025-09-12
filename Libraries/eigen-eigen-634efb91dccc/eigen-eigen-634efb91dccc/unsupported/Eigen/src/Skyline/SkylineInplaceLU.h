@@ -351,3 +351,4 @@ bool SkylineInplaceLU<MatrixType>::solve(const MatrixBase<BDerived> &b, MatrixBa
 
 #endif // EIGEN_SKYLINELU_H
 
+

@@ -4,3 +4,4 @@ cout << "Here is m.block<2,2>(1,1):" << endl << m.block<2,2>(1,1) << endl;
 m.block<2,2>(1,1).setZero();
 cout << "Now the matrix m is:" << endl << m << endl;
 
+

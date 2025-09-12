@@ -15,3 +15,4 @@ cout << "... and A * v = " << endl << A * v << endl << endl;
 cout << "Finally, V * D * V^(-1) = " << endl
      << ces.eigenvectors() * ces.eigenvalues().asDiagonal() * ces.eigenvectors().inverse() << endl;
 
+

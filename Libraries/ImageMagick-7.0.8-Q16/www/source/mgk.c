@@ -449,3 +449,4 @@ static MagickBooleanType WriteMGKImage(const ImageInfo *image_info,
   return(MagickTrue);
 }
 
+

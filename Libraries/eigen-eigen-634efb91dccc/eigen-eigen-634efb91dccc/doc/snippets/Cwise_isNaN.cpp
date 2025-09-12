@@ -4,3 +4,4 @@ v(2) /= 0.0;
 cout << v << endl << endl;
 cout << isnan(v) << endl;
 
+

@@ -145,3 +145,4 @@ op_resize::apply(Cube<typename T1::elem_type>& actual_out, const OpCube<T1,op_re
 
 //! @}
 
+

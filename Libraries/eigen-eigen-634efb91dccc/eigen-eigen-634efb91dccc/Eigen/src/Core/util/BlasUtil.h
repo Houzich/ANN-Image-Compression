@@ -402,3 +402,4 @@ template<typename T> const typename T::Scalar* extract_data(const T& m)
 
 #endif // EIGEN_BLASUTIL_H
 
+

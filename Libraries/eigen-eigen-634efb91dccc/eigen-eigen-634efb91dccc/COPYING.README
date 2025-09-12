@@ -17,3 +17,4 @@ For example, with most compilers, you could add this to your project CXXFLAGS:
 This will cause a compilation error to be generated if you #include any code that is
 LGPL licensed.
 
+

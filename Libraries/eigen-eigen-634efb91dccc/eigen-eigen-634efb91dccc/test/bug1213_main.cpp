@@ -17,3 +17,4 @@ bool bug1213_2(const Eigen::Matrix<T,dim,1>& )
 
 template bool bug1213_2<float,3>(const Eigen::Vector3f&);
 
+

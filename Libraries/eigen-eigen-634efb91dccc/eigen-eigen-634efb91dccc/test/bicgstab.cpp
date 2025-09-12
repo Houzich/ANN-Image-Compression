@@ -33,3 +33,4 @@ EIGEN_DECLARE_TEST(bicgstab)
   CALL_SUBTEST_3((test_bicgstab_T<double,long int>()));
 }
 
+

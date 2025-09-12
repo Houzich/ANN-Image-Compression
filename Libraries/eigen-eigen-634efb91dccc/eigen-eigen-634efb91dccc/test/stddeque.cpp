@@ -129,3 +129,4 @@ EIGEN_DECLARE_TEST(stddeque)
   CALL_SUBTEST_5(check_stddeque_quaternion(Quaterniond()));
 }
 
+

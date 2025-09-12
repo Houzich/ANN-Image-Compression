@@ -992,3 +992,4 @@ SpMat<eT>::row_iterator::operator--(int)
 
 //! @}
 
+

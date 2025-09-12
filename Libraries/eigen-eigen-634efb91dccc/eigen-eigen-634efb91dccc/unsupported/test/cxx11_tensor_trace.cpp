@@ -170,3 +170,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_trace) {
   CALL_SUBTEST(test_trace_in_expr<RowMajor>());
 }
 
+

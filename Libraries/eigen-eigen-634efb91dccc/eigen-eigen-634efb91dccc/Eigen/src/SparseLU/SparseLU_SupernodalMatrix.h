@@ -300,3 +300,4 @@ void MappedSuperNodalMatrix<Scalar,Index_>::solveInPlace( MatrixBase<Dest>&X) co
 
 #endif // EIGEN_SPARSELU_MATRIX_H
 
+

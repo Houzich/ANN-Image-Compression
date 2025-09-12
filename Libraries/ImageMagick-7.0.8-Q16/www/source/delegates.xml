@@ -121,3 +121,4 @@
   <delegate encode="mpeg:encode" stealth="True" command="&quot;ffmpeg&quot; -nostdin -v -1 -i &quot;%M%%d.jpg&quot; &quot;%u.%m&quot; 2&gt; &quot;%u&quot;"/>
 </delegatemap>
 
+

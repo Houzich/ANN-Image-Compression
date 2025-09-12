@@ -121,3 +121,4 @@ class SparseInnerVectorSet<DynamicSparseMatrix<_Scalar, _Options, _Index>, Size>
 
 #endif // EIGEN_SPARSE_BLOCKFORDYNAMICMATRIX_H
 
+

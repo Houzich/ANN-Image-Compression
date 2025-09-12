@@ -2724,3 +2724,4 @@ gmm_diag<eT>::em_fix_params(const eT var_floor)
 
 //! @}
 
+

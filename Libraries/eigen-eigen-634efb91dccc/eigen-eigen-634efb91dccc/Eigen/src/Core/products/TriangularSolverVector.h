@@ -147,3 +147,4 @@ struct triangular_solve_vector<LhsScalar, RhsScalar, Index, OnTheLeft, Mode, Con
 
 #endif // EIGEN_TRIANGULAR_SOLVER_VECTOR_H
 
+

@@ -12,3 +12,4 @@ int main()
   b.swap(ac.const_cast_derived());
 #endif
 }
+

@@ -321,3 +321,4 @@ EIGEN_GL_FUNC1_SPECIALIZATION_VEC(glUniform,GLint,const,double,       4,4dv_ei)
 
 #endif // EIGEN_OPENGL_MODULE
 
+

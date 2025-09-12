@@ -170,3 +170,4 @@ template<typename PlainObjectType, int MapOptions, typename StrideType> class Ma
 
 #endif // EIGEN_MAP_H
 
+

@@ -207,3 +207,4 @@ zeros(const SizeMat& s, const typename arma_SpMat_SpCol_SpRow_only<sp_obj_type>:
 
 //! @}
 
+

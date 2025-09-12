@@ -102,3 +102,4 @@ template<typename T> struct scalar_quotient_op<std::complex<T>, std::complex<T> 
 
 #endif // EIGEN_COMPLEX_CUDA_H
 
+

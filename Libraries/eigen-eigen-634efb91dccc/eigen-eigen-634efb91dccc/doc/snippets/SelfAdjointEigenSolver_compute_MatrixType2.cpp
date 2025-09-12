@@ -8,3 +8,4 @@ cout << "The eigenvalues of the pencil (A,B) are:" << endl << es.eigenvalues() <
 es.compute(B,A,false);
 cout << "The eigenvalues of the pencil (B,A) are:" << endl << es.eigenvalues() << endl;
 
+

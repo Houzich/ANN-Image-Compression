@@ -173,3 +173,4 @@ struct unwrap_spmat< mtSpOp<out_eT, T1, spop_type> >
 
 //! @}
 
+

@@ -164,3 +164,4 @@ typedef gmm_priv::gmm_full<float>  fgmm_full;
 
 //! @}
 
+

@@ -252,3 +252,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_argmax_gpu)
   CALL_SUBTEST_3(test_gpu_argmin_dim<ColMajor>());
 }
 
+

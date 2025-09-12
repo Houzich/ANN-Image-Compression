@@ -52,3 +52,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_mixed_indices)
   CALL_SUBTEST(test_simple());
 }
 
+

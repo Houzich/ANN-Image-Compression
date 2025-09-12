@@ -10,3 +10,4 @@ RowVectorXd joined(7);
 joined << vec1, vec2;
 std::cout << "joined = " << joined << std::endl;
 
+

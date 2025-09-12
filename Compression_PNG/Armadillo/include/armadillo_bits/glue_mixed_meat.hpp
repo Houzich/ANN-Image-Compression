@@ -557,3 +557,4 @@ glue_mixed_schur::apply(Cube<typename eT_promoter<T1,T2>::eT>& out, const mtGlue
 
 //! @}
 
+

@@ -46,3 +46,4 @@ EIGEN_DECLARE_TEST(sizeof)
   VERIFY(sizeof(std::complex<double>) == 2*sizeof(double));
 }
 
+

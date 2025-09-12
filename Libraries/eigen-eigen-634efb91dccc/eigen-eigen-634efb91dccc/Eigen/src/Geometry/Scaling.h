@@ -187,3 +187,4 @@ UniformScaling<Scalar>::operator* (const Translation<Scalar,Dim>& t) const
 
 #endif // EIGEN_SCALING_H
 
+

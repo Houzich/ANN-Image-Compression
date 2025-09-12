@@ -824,3 +824,4 @@ struct OuterReducer<Self, Op, GpuDevice> {
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_REDUCTION_GPU_H
 
+

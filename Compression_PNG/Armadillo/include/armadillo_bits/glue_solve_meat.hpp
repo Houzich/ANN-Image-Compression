@@ -251,3 +251,4 @@ glue_solve_tri::apply(Mat<eT>& out, const Base<eT,T1>& A_expr, const Base<eT,T2>
 
 //! @}
 
+

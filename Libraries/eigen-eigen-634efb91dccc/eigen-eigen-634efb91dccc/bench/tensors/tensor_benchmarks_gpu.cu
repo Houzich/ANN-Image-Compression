@@ -74,3 +74,4 @@ BM_FuncWithKernelDimsGPU(convolution, 4, 7);
 BM_FuncWithKernelDimsGPU(convolution, 7, 64);
 BM_FuncWithKernelDimsGPU(convolution, 64, 7);
 
+

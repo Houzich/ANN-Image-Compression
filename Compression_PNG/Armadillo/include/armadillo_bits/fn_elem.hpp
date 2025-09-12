@@ -1065,3 +1065,4 @@ template<typename T1> void approx_log(const T1&) { arma_stop_logic_error("unimpl
 
 //! @}
 
+

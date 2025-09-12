@@ -87,3 +87,4 @@ template<std::size_t I, class T> constexpr inline T const& array_get(std::vector
  * kate: space-indent on; indent-width 2; mixedindent off; indent-mode cstyle;
  */
 
+

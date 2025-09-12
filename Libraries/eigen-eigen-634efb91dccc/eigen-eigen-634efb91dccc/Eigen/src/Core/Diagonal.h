@@ -261,3 +261,4 @@ MatrixBase<Derived>::diagonal() const
 
 #endif // EIGEN_DIAGONAL_H
 
+

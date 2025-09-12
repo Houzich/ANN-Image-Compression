@@ -599,3 +599,4 @@ op_dot_mixed::apply(const T1& A, const T2& B)
 
 //! @}
 
+

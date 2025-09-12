@@ -304,3 +304,4 @@ struct evaluator<Map<const SparseMatrix<MatScalar,MatOptions,MatIndex>, Options,
 
 #endif // EIGEN_SPARSE_MAP_H
 
+

@@ -461,3 +461,4 @@ void IncompleteLUT<Scalar,StorageIndex>::factorize(const _MatrixType& amat)
 
 #endif // EIGEN_INCOMPLETE_LUT_H
 
+

@@ -43,3 +43,4 @@ struct general_rank1_update<Scalar,Index,RowMajor,ConjLhs,ConjRhs>
 
 #endif // EIGEN_GENERAL_RANK1UPDATE_H
 
+

@@ -1555,3 +1555,4 @@ namespace Magick
 
 #endif // Magick_Include_header
 
+

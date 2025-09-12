@@ -132,3 +132,4 @@ int EIGEN_CAT(EIGEN_CAT(SCALAR_SUFFIX,REAL_SCALAR_SUFFIX),scal_)(int *n, RealSca
   return 0;
 }
 
+

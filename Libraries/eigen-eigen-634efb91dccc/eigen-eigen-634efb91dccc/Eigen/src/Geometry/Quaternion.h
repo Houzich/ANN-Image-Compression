@@ -834,3 +834,4 @@ struct quaternionbase_assign_impl<Other,4,1>
 
 #endif // EIGEN_QUATERNION_H
 
+

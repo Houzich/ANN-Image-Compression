@@ -833,3 +833,4 @@ arma_ostream::print(std::ostream& o, const SizeCube& S)
 
 //! @}
 
+

@@ -632,3 +632,4 @@ template<> struct AssignmentKind<DenseShape,PermutationShape> { typedef EigenBas
 
 #endif // EIGEN_PERMUTATIONMATRIX_H
 
+

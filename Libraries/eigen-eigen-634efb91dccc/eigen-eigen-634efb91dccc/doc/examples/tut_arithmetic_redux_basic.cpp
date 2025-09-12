@@ -15,3 +15,4 @@ int main()
   cout << "Here is mat.trace():     " << mat.trace()     << endl;
 }
 
+

@@ -5,3 +5,4 @@ Tridiagonalization<Matrix4d> triOfA(A);
 Vector3d hc = triOfA.householderCoefficients();
 cout << "The vector of Householder coefficients is:" << endl << hc << endl;
 
+

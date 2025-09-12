@@ -374,3 +374,4 @@ op_any::apply(Mat<uword>& out, const mtOp<uword, T1, op_any>& X)
 
 //! @}
 
+

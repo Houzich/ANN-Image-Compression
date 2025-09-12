@@ -376,3 +376,4 @@ class AmbiVector<_Scalar,_StorageIndex>::Iterator
 
 #endif // EIGEN_AMBIVECTOR_H
 
+

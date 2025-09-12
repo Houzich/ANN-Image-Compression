@@ -5,3 +5,4 @@ void r_cnjg(complex *r, complex *z) {
     r->i = -(z->i);
 }
 
+

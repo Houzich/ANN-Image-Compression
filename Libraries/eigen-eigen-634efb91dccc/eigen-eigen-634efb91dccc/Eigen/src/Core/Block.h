@@ -451,3 +451,4 @@ class BlockImpl_dense<XprType,BlockRows,BlockCols, InnerPanel,true>
 
 #endif // EIGEN_BLOCK_H
 
+

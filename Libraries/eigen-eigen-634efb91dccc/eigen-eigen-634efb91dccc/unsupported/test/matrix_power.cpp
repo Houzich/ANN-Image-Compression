@@ -203,3 +203,4 @@ EIGEN_DECLARE_TEST(matrix_power)
   CALL_SUBTEST_12(testLogThenExp(Matrix3e(),        1e-13L));
 }
 
+

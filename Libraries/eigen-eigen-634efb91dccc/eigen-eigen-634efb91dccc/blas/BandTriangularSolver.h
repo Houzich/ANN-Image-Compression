@@ -96,3 +96,4 @@ struct band_solve_triangular_selector<Index,Mode,LhsScalar,ConjLhs,RhsScalar,Col
 
 #endif // EIGEN_BAND_TRIANGULARSOLVER_H
 
+

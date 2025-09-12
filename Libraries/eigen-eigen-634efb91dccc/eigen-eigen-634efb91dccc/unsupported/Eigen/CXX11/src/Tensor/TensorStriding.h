@@ -348,3 +348,4 @@ struct TensorEvaluator<TensorStridingOp<Strides, ArgType>, Device>
 
 #endif // EIGEN_CXX11_TENSOR_TENSOR_STRIDING_H
 
+

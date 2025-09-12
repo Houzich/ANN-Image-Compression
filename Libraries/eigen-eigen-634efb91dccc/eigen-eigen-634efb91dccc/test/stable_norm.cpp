@@ -238,3 +238,4 @@ EIGEN_DECLARE_TEST(stable_norm)
   }
 }
 
+

@@ -79,3 +79,4 @@ void SparseLUImpl<Scalar,StorageIndex>::fixupL(const Index n, const IndexVector&
 } // end namespace Eigen
 #endif // EIGEN_SPARSELU_UTILS_H
 
+

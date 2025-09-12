@@ -109,3 +109,4 @@ EIGEN_DECLARE_TEST(inplace_decomposition)
   }
 }
 
+

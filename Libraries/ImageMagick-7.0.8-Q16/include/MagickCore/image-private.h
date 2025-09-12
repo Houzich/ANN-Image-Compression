@@ -89,3 +89,4 @@ static inline unsigned int ScaleColor8to6(const unsigned char color)
 
 #endif
 
+

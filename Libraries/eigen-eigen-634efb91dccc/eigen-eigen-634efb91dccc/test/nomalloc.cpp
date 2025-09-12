@@ -227,3 +227,4 @@ EIGEN_DECLARE_TEST(nomalloc)
   CALL_SUBTEST_8(Ref<MatrixXd> R2 = M1.topRows<2>(); test_reference(R2));
 }
 
+

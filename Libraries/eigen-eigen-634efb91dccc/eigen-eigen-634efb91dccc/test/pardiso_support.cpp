@@ -28,3 +28,4 @@ EIGEN_DECLARE_TEST(pardiso_support)
   CALL_SUBTEST_4(test_pardiso_T< std::complex<double> >());
 }
 
+

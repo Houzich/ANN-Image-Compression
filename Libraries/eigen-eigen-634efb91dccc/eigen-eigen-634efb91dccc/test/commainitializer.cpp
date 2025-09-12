@@ -105,3 +105,4 @@ EIGEN_DECLARE_TEST(commainitializer)
   test_block_recursion<(1<<8) - 1>();
 }
 
+

@@ -235,3 +235,4 @@ class StaticSGroup
  * kate: space-indent on; indent-width 2; mixedindent off; indent-mode cstyle;
  */
 
+

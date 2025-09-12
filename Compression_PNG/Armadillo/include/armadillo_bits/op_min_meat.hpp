@@ -1322,3 +1322,4 @@ op_min::min_with_index(const ProxyCube<T1>& P, uword& index_of_min_val)
 
 //! @}
 
+

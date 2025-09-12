@@ -562,3 +562,4 @@ struct unary_evaluator<Block<const SparseMatrix<_Scalar, _Options, _StorageIndex
 
 #endif // EIGEN_SPARSE_BLOCK_H
 
+

@@ -17,3 +17,4 @@ int main()
        << " == "             << m.rowwise().lpNorm<1>().maxCoeff() << endl;
 }
 
+

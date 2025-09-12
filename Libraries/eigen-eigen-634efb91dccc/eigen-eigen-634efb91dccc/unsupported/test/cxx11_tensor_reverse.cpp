@@ -189,3 +189,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_reverse)
   CALL_SUBTEST(test_expr_reverse<RowMajor>(false));
 }
 
+

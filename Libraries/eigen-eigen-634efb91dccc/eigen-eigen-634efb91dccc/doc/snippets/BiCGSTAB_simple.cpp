@@ -9,3 +9,4 @@
   std::cout << "estimated error: " << solver.error()      << std::endl;
   /* ... update b ... */
   x = solver.solve(b); // solve again
+

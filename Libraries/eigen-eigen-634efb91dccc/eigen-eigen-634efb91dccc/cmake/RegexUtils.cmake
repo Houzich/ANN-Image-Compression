@@ -17,3 +17,4 @@ function(test_escape_string_as_regex)
 	message("Error in the escape_string_for_regex function : \n   ${test1} was escaped as ${test2}, should be ${testRef}")
   endif(NOT test2 STREQUAL testRef)
 endfunction()
+

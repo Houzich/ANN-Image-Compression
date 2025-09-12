@@ -24,3 +24,4 @@ export LD_LIBRARY_PATH={ComputeCpp_ROOT}/lib
 3. Run the benchmark
 ./tensor_benchmark_sycl
 
+

@@ -49,3 +49,4 @@ class mtSpOp : public SpBase<out_eT, mtSpOp<out_eT, T1, op_type> >
 
 //! @}
 
+

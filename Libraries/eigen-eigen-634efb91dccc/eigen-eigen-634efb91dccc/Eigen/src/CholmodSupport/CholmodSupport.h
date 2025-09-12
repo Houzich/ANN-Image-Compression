@@ -681,3 +681,4 @@ class CholmodDecomposition : public CholmodBase<_MatrixType, _UpLo, CholmodDecom
 
 #endif // EIGEN_CHOLMODSUPPORT_H
 
+

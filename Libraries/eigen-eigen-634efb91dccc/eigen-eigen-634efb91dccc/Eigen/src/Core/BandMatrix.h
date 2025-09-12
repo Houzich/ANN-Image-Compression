@@ -352,3 +352,4 @@ template<> struct AssignmentKind<DenseShape,BandShape> { typedef EigenBase2Eigen
 
 #endif // EIGEN_BANDMATRIX_H
 
+

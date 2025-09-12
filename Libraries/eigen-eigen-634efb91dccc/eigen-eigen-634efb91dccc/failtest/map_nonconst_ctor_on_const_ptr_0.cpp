@@ -14,3 +14,4 @@ void foo(CV_QUALIFIER float *ptr){
 
 int main() {}
 
+

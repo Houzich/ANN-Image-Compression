@@ -303,3 +303,4 @@ EIGEN_DECLARE_TEST(cxx11_tensor_fft) {
     test_fft_non_power_of_2_round_trip<float>(7);
 }
 
+

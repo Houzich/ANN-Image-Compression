@@ -482,3 +482,4 @@ void /*EIGEN_DONT_INLINE*/ apply_rotation_in_the_plane(DenseBase<VectorX>& xpr_x
 
 #endif // EIGEN_JACOBI_H
 
+

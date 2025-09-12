@@ -5,3 +5,4 @@ cout << m.topLeftCorner<2,2>() << endl;
 m.topLeftCorner<2,2>().setZero();
 cout << "Now the matrix m is:" << endl << m << endl;
 
+

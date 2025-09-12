@@ -275,3 +275,4 @@ void companion<_Scalar,_Deg>::balance()
 
 #endif // EIGEN_COMPANION_H
 
+

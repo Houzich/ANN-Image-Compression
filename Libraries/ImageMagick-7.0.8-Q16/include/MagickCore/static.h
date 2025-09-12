@@ -365,3 +365,4 @@ extern MagickExport void
 
 #endif
 
+

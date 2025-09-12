@@ -72,3 +72,4 @@ static inline void GetStrokeColor(const DrawInfo *draw_info,const ssize_t x,
 
 #endif
 
+
